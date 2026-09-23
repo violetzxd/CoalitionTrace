@@ -1,0 +1,5375 @@
+{
+  "budget": 48,
+  "selected_counts": {
+    "A": 54,
+    "N": 60,
+    "U": 58
+  },
+  "family_counts": {
+    "a-s2-disjoint": 72,
+    "a-s3-overlap": 6,
+    "u-s2-disjoint": 38,
+    "a-s3-disjoint": 29,
+    "u-s3-disjoint": 15,
+    "n-s2-disjoint": 2,
+    "a-s2-overlap": 10
+  },
+  "difficulty_counts": {
+    "k2-s2-disjoint": 10,
+    "k2-s3-overlap": 7,
+    "k1-s2-disjoint": 50,
+    "k3-s2-overlap": 26,
+    "k5-s3-overlap": 3,
+    "k5-s2-overlap": 3,
+    "k2-s2-overlap": 22,
+    "k1-s1-disjoint": 10,
+    "k1-s3-disjoint": 4,
+    "k2-s1-disjoint": 9,
+    "k4-s2-overlap": 13,
+    "k4-s4-overlap": 1,
+    "k3-s3-overlap": 6,
+    "k2-s4-overlap": 1,
+    "k4-s3-overlap": 2,
+    "k6-s3-overlap": 1,
+    "k3-s4-overlap": 1,
+    "k1-s4-disjoint": 2,
+    "k2-s5-overlap": 1
+  },
+  "cause_size_counts": {
+    "2": 116,
+    "1": 16,
+    "3": 8,
+    "4": 2
+  },
+  "A_cross_path_cases": 47,
+  "A_planted_exact_rate": 0.12962962962962962,
+  "performance": [
+    {
+      "stratum": "A",
+      "method": "AmbiCause",
+      "difficulty_band": "k2-s1-disjoint",
+      "source_queries": 4,
+      "runs": 4,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 9.25,
+      "mask_queries": 19.5
+    },
+    {
+      "stratum": "A",
+      "method": "AmbiCause",
+      "difficulty_band": "k2-s2-disjoint",
+      "source_queries": 6,
+      "runs": 6,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 14.833333333333334,
+      "mask_queries": 36.0
+    },
+    {
+      "stratum": "A",
+      "method": "AmbiCause",
+      "difficulty_band": "k2-s2-overlap",
+      "source_queries": 15,
+      "runs": 15,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 8.6,
+      "mask_queries": 19.8
+    },
+    {
+      "stratum": "A",
+      "method": "AmbiCause",
+      "difficulty_band": "k2-s3-overlap",
+      "source_queries": 2,
+      "runs": 2,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 10.5,
+      "mask_queries": 26.5
+    },
+    {
+      "stratum": "A",
+      "method": "AmbiCause",
+      "difficulty_band": "k2-s4-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 13.0,
+      "mask_queries": 23.0
+    },
+    {
+      "stratum": "A",
+      "method": "AmbiCause",
+      "difficulty_band": "k3-s2-overlap",
+      "source_queries": 16,
+      "runs": 16,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 15.1875,
+      "mask_queries": 38.4375
+    },
+    {
+      "stratum": "A",
+      "method": "AmbiCause",
+      "difficulty_band": "k3-s3-overlap",
+      "source_queries": 2,
+      "runs": 2,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 18.0,
+      "mask_queries": 37.0
+    },
+    {
+      "stratum": "A",
+      "method": "AmbiCause",
+      "difficulty_band": "k4-s2-overlap",
+      "source_queries": 8,
+      "runs": 8,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 16.0,
+      "mask_queries": 42.375
+    },
+    {
+      "stratum": "A",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k2-s1-disjoint",
+      "source_queries": 4,
+      "runs": 4,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 12.5,
+      "mask_queries": 30.5
+    },
+    {
+      "stratum": "A",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k2-s2-disjoint",
+      "source_queries": 6,
+      "runs": 6,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 15.666666666666666,
+      "mask_queries": 46.166666666666664
+    },
+    {
+      "stratum": "A",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k2-s2-overlap",
+      "source_queries": 15,
+      "runs": 15,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 8.6,
+      "mask_queries": 29.666666666666668
+    },
+    {
+      "stratum": "A",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k2-s3-overlap",
+      "source_queries": 2,
+      "runs": 2,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 10.5,
+      "mask_queries": 35.0
+    },
+    {
+      "stratum": "A",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k2-s4-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 13.0,
+      "mask_queries": 28.0
+    },
+    {
+      "stratum": "A",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k3-s2-overlap",
+      "source_queries": 16,
+      "runs": 16,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 16.0,
+      "mask_queries": 52.3125
+    },
+    {
+      "stratum": "A",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k3-s3-overlap",
+      "source_queries": 2,
+      "runs": 2,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 19.5,
+      "mask_queries": 47.5
+    },
+    {
+      "stratum": "A",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k4-s2-overlap",
+      "source_queries": 8,
+      "runs": 8,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 16.0,
+      "mask_queries": 59.0
+    },
+    {
+      "stratum": "A",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k2-s1-disjoint",
+      "source_queries": 4,
+      "runs": 4,
+      "acem": 0.0,
+      "cause_f1": 0.6666666666666666,
+      "prompt_queries": 4.5,
+      "mask_queries": 5.5
+    },
+    {
+      "stratum": "A",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k2-s2-disjoint",
+      "source_queries": 6,
+      "runs": 6,
+      "acem": 0.0,
+      "cause_f1": 0.6666666666666666,
+      "prompt_queries": 6.5,
+      "mask_queries": 10.166666666666666
+    },
+    {
+      "stratum": "A",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k2-s2-overlap",
+      "source_queries": 15,
+      "runs": 15,
+      "acem": 0.0,
+      "cause_f1": 0.6666666666666666,
+      "prompt_queries": 5.0,
+      "mask_queries": 8.533333333333333
+    },
+    {
+      "stratum": "A",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k2-s3-overlap",
+      "source_queries": 2,
+      "runs": 2,
+      "acem": 0.0,
+      "cause_f1": 0.6666666666666666,
+      "prompt_queries": 6.0,
+      "mask_queries": 6.5
+    },
+    {
+      "stratum": "A",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k2-s4-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.6666666666666666,
+      "prompt_queries": 10.0,
+      "mask_queries": 17.0
+    },
+    {
+      "stratum": "A",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k3-s2-overlap",
+      "source_queries": 16,
+      "runs": 16,
+      "acem": 0.0,
+      "cause_f1": 0.5,
+      "prompt_queries": 5.75,
+      "mask_queries": 8.1875
+    },
+    {
+      "stratum": "A",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k3-s3-overlap",
+      "source_queries": 2,
+      "runs": 2,
+      "acem": 0.0,
+      "cause_f1": 0.5,
+      "prompt_queries": 7.5,
+      "mask_queries": 10.5
+    },
+    {
+      "stratum": "A",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k4-s2-overlap",
+      "source_queries": 8,
+      "runs": 8,
+      "acem": 0.0,
+      "cause_f1": 0.4,
+      "prompt_queries": 6.125,
+      "mask_queries": 8.0
+    },
+    {
+      "stratum": "A",
+      "method": "KernelSHAP",
+      "difficulty_band": "k2-s1-disjoint",
+      "source_queries": 4,
+      "runs": 40,
+      "acem": 0.0,
+      "cause_f1": 0.6666666666666666,
+      "prompt_queries": 14.0,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "A",
+      "method": "KernelSHAP",
+      "difficulty_band": "k2-s2-disjoint",
+      "source_queries": 6,
+      "runs": 60,
+      "acem": 0.0,
+      "cause_f1": 0.45555555555555555,
+      "prompt_queries": 16.0,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "A",
+      "method": "KernelSHAP",
+      "difficulty_band": "k2-s2-overlap",
+      "source_queries": 15,
+      "runs": 150,
+      "acem": 0.0,
+      "cause_f1": 0.6666666666666666,
+      "prompt_queries": 11.2,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "A",
+      "method": "KernelSHAP",
+      "difficulty_band": "k2-s3-overlap",
+      "source_queries": 2,
+      "runs": 20,
+      "acem": 0.0,
+      "cause_f1": 0.6666666666666666,
+      "prompt_queries": 16.0,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "A",
+      "method": "KernelSHAP",
+      "difficulty_band": "k2-s4-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.0,
+      "cause_f1": 0.6666666666666666,
+      "prompt_queries": 32.0,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "A",
+      "method": "KernelSHAP",
+      "difficulty_band": "k3-s2-overlap",
+      "source_queries": 16,
+      "runs": 160,
+      "acem": 0.0,
+      "cause_f1": 0.5,
+      "prompt_queries": 16.0,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "A",
+      "method": "KernelSHAP",
+      "difficulty_band": "k3-s3-overlap",
+      "source_queries": 2,
+      "runs": 20,
+      "acem": 0.0,
+      "cause_f1": 0.425,
+      "prompt_queries": 29.8,
+      "mask_queries": 161.95
+    },
+    {
+      "stratum": "A",
+      "method": "KernelSHAP",
+      "difficulty_band": "k4-s2-overlap",
+      "source_queries": 8,
+      "runs": 80,
+      "acem": 0.0,
+      "cause_f1": 0.29000000000000004,
+      "prompt_queries": 16.0,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "A",
+      "method": "LOO",
+      "difficulty_band": "k2-s1-disjoint",
+      "source_queries": 4,
+      "runs": 4,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 5.75,
+      "mask_queries": 10.0
+    },
+    {
+      "stratum": "A",
+      "method": "LOO",
+      "difficulty_band": "k2-s2-disjoint",
+      "source_queries": 6,
+      "runs": 6,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 6.0,
+      "mask_queries": 10.0
+    },
+    {
+      "stratum": "A",
+      "method": "LOO",
+      "difficulty_band": "k2-s2-overlap",
+      "source_queries": 15,
+      "runs": 15,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 5.4,
+      "mask_queries": 10.0
+    },
+    {
+      "stratum": "A",
+      "method": "LOO",
+      "difficulty_band": "k2-s3-overlap",
+      "source_queries": 2,
+      "runs": 2,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 6.0,
+      "mask_queries": 10.0
+    },
+    {
+      "stratum": "A",
+      "method": "LOO",
+      "difficulty_band": "k2-s4-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 7.0,
+      "mask_queries": 10.0
+    },
+    {
+      "stratum": "A",
+      "method": "LOO",
+      "difficulty_band": "k3-s2-overlap",
+      "source_queries": 16,
+      "runs": 16,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 6.0,
+      "mask_queries": 10.0
+    },
+    {
+      "stratum": "A",
+      "method": "LOO",
+      "difficulty_band": "k3-s3-overlap",
+      "source_queries": 2,
+      "runs": 2,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 7.0,
+      "mask_queries": 10.0
+    },
+    {
+      "stratum": "A",
+      "method": "LOO",
+      "difficulty_band": "k4-s2-overlap",
+      "source_queries": 8,
+      "runs": 8,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 6.0,
+      "mask_queries": 10.0
+    },
+    {
+      "stratum": "A",
+      "method": "RandomMasks",
+      "difficulty_band": "k2-s1-disjoint",
+      "source_queries": 4,
+      "runs": 40,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 14.0,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "A",
+      "method": "RandomMasks",
+      "difficulty_band": "k2-s2-disjoint",
+      "source_queries": 6,
+      "runs": 60,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 16.0,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "A",
+      "method": "RandomMasks",
+      "difficulty_band": "k2-s2-overlap",
+      "source_queries": 15,
+      "runs": 150,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 11.2,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "A",
+      "method": "RandomMasks",
+      "difficulty_band": "k2-s3-overlap",
+      "source_queries": 2,
+      "runs": 20,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 16.0,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "A",
+      "method": "RandomMasks",
+      "difficulty_band": "k2-s4-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 32.0,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "A",
+      "method": "RandomMasks",
+      "difficulty_band": "k3-s2-overlap",
+      "source_queries": 16,
+      "runs": 160,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 16.0,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "A",
+      "method": "RandomMasks",
+      "difficulty_band": "k3-s3-overlap",
+      "source_queries": 2,
+      "runs": 20,
+      "acem": 0.5,
+      "cause_f1": 0.64,
+      "prompt_queries": 32.0,
+      "mask_queries": 173.0
+    },
+    {
+      "stratum": "A",
+      "method": "RandomMasks",
+      "difficulty_band": "k4-s2-overlap",
+      "source_queries": 8,
+      "runs": 80,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 16.0,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "A",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k2-s1-disjoint",
+      "source_queries": 4,
+      "runs": 40,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 12.975,
+      "mask_queries": 59.1
+    },
+    {
+      "stratum": "A",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k2-s2-disjoint",
+      "source_queries": 6,
+      "runs": 60,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 14.6,
+      "mask_queries": 60.266666666666666
+    },
+    {
+      "stratum": "A",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k2-s2-overlap",
+      "source_queries": 15,
+      "runs": 150,
+      "acem": 0.9933333333333333,
+      "cause_f1": 0.9977777777777778,
+      "prompt_queries": 9.34,
+      "mask_queries": 56.733333333333334
+    },
+    {
+      "stratum": "A",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k2-s3-overlap",
+      "source_queries": 2,
+      "runs": 20,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 11.35,
+      "mask_queries": 55.35
+    },
+    {
+      "stratum": "A",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k2-s4-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.9,
+      "cause_f1": 0.9666666666666666,
+      "prompt_queries": 12.5,
+      "mask_queries": 47.5
+    },
+    {
+      "stratum": "A",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k3-s2-overlap",
+      "source_queries": 16,
+      "runs": 160,
+      "acem": 0.84375,
+      "cause_f1": 0.96875,
+      "prompt_queries": 14.65625,
+      "mask_queries": 61.14375
+    },
+    {
+      "stratum": "A",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k3-s3-overlap",
+      "source_queries": 2,
+      "runs": 20,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 21.5,
+      "mask_queries": 57.65
+    },
+    {
+      "stratum": "A",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k4-s2-overlap",
+      "source_queries": 8,
+      "runs": 80,
+      "acem": 0.75,
+      "cause_f1": 0.9642857142857142,
+      "prompt_queries": 14.175,
+      "mask_queries": 61.4875
+    },
+    {
+      "stratum": "A",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k2-s1-disjoint",
+      "source_queries": 4,
+      "runs": 4,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 7.25,
+      "mask_queries": 12.5
+    },
+    {
+      "stratum": "A",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k2-s2-disjoint",
+      "source_queries": 6,
+      "runs": 6,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 12.666666666666666,
+      "mask_queries": 29.0
+    },
+    {
+      "stratum": "A",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k2-s2-overlap",
+      "source_queries": 15,
+      "runs": 15,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 8.866666666666667,
+      "mask_queries": 20.2
+    },
+    {
+      "stratum": "A",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k2-s3-overlap",
+      "source_queries": 2,
+      "runs": 2,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 12.0,
+      "mask_queries": 23.0
+    },
+    {
+      "stratum": "A",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k2-s4-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 18.0,
+      "mask_queries": 40.0
+    },
+    {
+      "stratum": "A",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k3-s2-overlap",
+      "source_queries": 16,
+      "runs": 16,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 12.9375,
+      "mask_queries": 31.4375
+    },
+    {
+      "stratum": "A",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k3-s3-overlap",
+      "source_queries": 2,
+      "runs": 2,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 21.0,
+      "mask_queries": 40.0
+    },
+    {
+      "stratum": "A",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k4-s2-overlap",
+      "source_queries": 8,
+      "runs": 8,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 14.25,
+      "mask_queries": 35.375
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCause",
+      "difficulty_band": "k1-s1-disjoint",
+      "source_queries": 3,
+      "runs": 3,
+      "acem": 0.3333333333333333,
+      "cause_f1": 0.3333333333333333,
+      "prompt_queries": 6.666666666666667,
+      "mask_queries": 12.666666666666666
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCause",
+      "difficulty_band": "k1-s2-disjoint",
+      "source_queries": 4,
+      "runs": 4,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 8.75,
+      "mask_queries": 13.75
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCause",
+      "difficulty_band": "k1-s4-disjoint",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 7.0,
+      "mask_queries": 16.0
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCause",
+      "difficulty_band": "k2-s1-disjoint",
+      "source_queries": 5,
+      "runs": 5,
+      "acem": 0.4,
+      "cause_f1": 0.8,
+      "prompt_queries": 10.2,
+      "mask_queries": 17.6
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCause",
+      "difficulty_band": "k2-s2-disjoint",
+      "source_queries": 4,
+      "runs": 4,
+      "acem": 0.0,
+      "cause_f1": 0.3333333333333333,
+      "prompt_queries": 9.25,
+      "mask_queries": 18.5
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCause",
+      "difficulty_band": "k2-s2-overlap",
+      "source_queries": 7,
+      "runs": 7,
+      "acem": 0.0,
+      "cause_f1": 0.47619047619047616,
+      "prompt_queries": 8.142857142857142,
+      "mask_queries": 12.571428571428571
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCause",
+      "difficulty_band": "k2-s3-overlap",
+      "source_queries": 5,
+      "runs": 5,
+      "acem": 0.0,
+      "cause_f1": 0.26666666666666666,
+      "prompt_queries": 8.4,
+      "mask_queries": 14.0
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCause",
+      "difficulty_band": "k2-s5-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 14.0,
+      "mask_queries": 18.0
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCause",
+      "difficulty_band": "k3-s2-overlap",
+      "source_queries": 10,
+      "runs": 10,
+      "acem": 0.5,
+      "cause_f1": 0.8099999999999999,
+      "prompt_queries": 16.6,
+      "mask_queries": 26.7
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCause",
+      "difficulty_band": "k3-s3-overlap",
+      "source_queries": 4,
+      "runs": 4,
+      "acem": 0.25,
+      "cause_f1": 0.65,
+      "prompt_queries": 18.5,
+      "mask_queries": 26.5
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCause",
+      "difficulty_band": "k3-s4-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 10.0,
+      "mask_queries": 13.0
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCause",
+      "difficulty_band": "k4-s2-overlap",
+      "source_queries": 5,
+      "runs": 5,
+      "acem": 0.8,
+      "cause_f1": 0.8,
+      "prompt_queries": 28.0,
+      "mask_queries": 38.6
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCause",
+      "difficulty_band": "k4-s3-overlap",
+      "source_queries": 2,
+      "runs": 2,
+      "acem": 0.0,
+      "cause_f1": 0.7619047619047619,
+      "prompt_queries": 21.0,
+      "mask_queries": 27.0
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCause",
+      "difficulty_band": "k4-s4-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 30.0,
+      "mask_queries": 43.0
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCause",
+      "difficulty_band": "k5-s2-overlap",
+      "source_queries": 3,
+      "runs": 3,
+      "acem": 0.0,
+      "cause_f1": 0.7962962962962963,
+      "prompt_queries": 23.0,
+      "mask_queries": 36.333333333333336
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCause",
+      "difficulty_band": "k5-s3-overlap",
+      "source_queries": 3,
+      "runs": 3,
+      "acem": 0.0,
+      "cause_f1": 0.7367724867724869,
+      "prompt_queries": 25.0,
+      "mask_queries": 37.0
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCause",
+      "difficulty_band": "k6-s3-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 13.0,
+      "mask_queries": 16.0
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k1-s1-disjoint",
+      "source_queries": 3,
+      "runs": 3,
+      "acem": 0.3333333333333333,
+      "cause_f1": 0.3333333333333333,
+      "prompt_queries": 7.0,
+      "mask_queries": 13.333333333333334
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k1-s2-disjoint",
+      "source_queries": 4,
+      "runs": 4,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 8.75,
+      "mask_queries": 13.75
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k1-s4-disjoint",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 7.0,
+      "mask_queries": 16.0
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k2-s1-disjoint",
+      "source_queries": 5,
+      "runs": 5,
+      "acem": 0.2,
+      "cause_f1": 0.7333333333333333,
+      "prompt_queries": 10.4,
+      "mask_queries": 18.6
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k2-s2-disjoint",
+      "source_queries": 4,
+      "runs": 4,
+      "acem": 0.0,
+      "cause_f1": 0.3333333333333333,
+      "prompt_queries": 9.25,
+      "mask_queries": 21.0
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k2-s2-overlap",
+      "source_queries": 7,
+      "runs": 7,
+      "acem": 0.0,
+      "cause_f1": 0.47619047619047616,
+      "prompt_queries": 9.142857142857142,
+      "mask_queries": 16.857142857142858
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k2-s3-overlap",
+      "source_queries": 5,
+      "runs": 5,
+      "acem": 0.0,
+      "cause_f1": 0.26666666666666666,
+      "prompt_queries": 9.2,
+      "mask_queries": 16.2
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k2-s5-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 14.0,
+      "mask_queries": 18.0
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k3-s2-overlap",
+      "source_queries": 10,
+      "runs": 10,
+      "acem": 0.1,
+      "cause_f1": 0.64,
+      "prompt_queries": 15.9,
+      "mask_queries": 27.2
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k3-s3-overlap",
+      "source_queries": 4,
+      "runs": 4,
+      "acem": 0.0,
+      "cause_f1": 0.525,
+      "prompt_queries": 13.25,
+      "mask_queries": 26.0
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k3-s4-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 10.0,
+      "mask_queries": 13.0
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k4-s2-overlap",
+      "source_queries": 5,
+      "runs": 5,
+      "acem": 0.6,
+      "cause_f1": 0.6799999999999999,
+      "prompt_queries": 29.6,
+      "mask_queries": 43.2
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k4-s3-overlap",
+      "source_queries": 2,
+      "runs": 2,
+      "acem": 0.0,
+      "cause_f1": 0.7619047619047619,
+      "prompt_queries": 26.0,
+      "mask_queries": 37.5
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k4-s4-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.8571428571428571,
+      "prompt_queries": 28.0,
+      "mask_queries": 41.0
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k5-s2-overlap",
+      "source_queries": 3,
+      "runs": 3,
+      "acem": 0.0,
+      "cause_f1": 0.7962962962962963,
+      "prompt_queries": 29.666666666666668,
+      "mask_queries": 51.666666666666664
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k5-s3-overlap",
+      "source_queries": 3,
+      "runs": 3,
+      "acem": 0.0,
+      "cause_f1": 0.7367724867724869,
+      "prompt_queries": 31.666666666666668,
+      "mask_queries": 49.0
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k6-s3-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 13.0,
+      "mask_queries": 16.0
+    },
+    {
+      "stratum": "N",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k1-s1-disjoint",
+      "source_queries": 3,
+      "runs": 3,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 4.666666666666667,
+      "mask_queries": 6.0
+    },
+    {
+      "stratum": "N",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k1-s2-disjoint",
+      "source_queries": 4,
+      "runs": 4,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 10.75,
+      "mask_queries": 14.25
+    },
+    {
+      "stratum": "N",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k1-s4-disjoint",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 11.0,
+      "mask_queries": 17.0
+    },
+    {
+      "stratum": "N",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k2-s1-disjoint",
+      "source_queries": 5,
+      "runs": 5,
+      "acem": 0.0,
+      "cause_f1": 0.6666666666666666,
+      "prompt_queries": 4.0,
+      "mask_queries": 5.6
+    },
+    {
+      "stratum": "N",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k2-s2-disjoint",
+      "source_queries": 4,
+      "runs": 4,
+      "acem": 0.0,
+      "cause_f1": 0.6666666666666666,
+      "prompt_queries": 5.5,
+      "mask_queries": 8.75
+    },
+    {
+      "stratum": "N",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k2-s2-overlap",
+      "source_queries": 7,
+      "runs": 7,
+      "acem": 0.0,
+      "cause_f1": 0.6666666666666666,
+      "prompt_queries": 5.571428571428571,
+      "mask_queries": 8.0
+    },
+    {
+      "stratum": "N",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k2-s3-overlap",
+      "source_queries": 5,
+      "runs": 5,
+      "acem": 0.0,
+      "cause_f1": 0.6666666666666666,
+      "prompt_queries": 9.0,
+      "mask_queries": 12.6
+    },
+    {
+      "stratum": "N",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k2-s5-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.6666666666666666,
+      "prompt_queries": 11.0,
+      "mask_queries": 11.0
+    },
+    {
+      "stratum": "N",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k3-s2-overlap",
+      "source_queries": 10,
+      "runs": 10,
+      "acem": 0.0,
+      "cause_f1": 0.5,
+      "prompt_queries": 5.8,
+      "mask_queries": 8.1
+    },
+    {
+      "stratum": "N",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k3-s3-overlap",
+      "source_queries": 4,
+      "runs": 4,
+      "acem": 0.0,
+      "cause_f1": 0.5,
+      "prompt_queries": 7.5,
+      "mask_queries": 9.25
+    },
+    {
+      "stratum": "N",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k3-s4-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.5,
+      "prompt_queries": 6.0,
+      "mask_queries": 6.0
+    },
+    {
+      "stratum": "N",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k4-s2-overlap",
+      "source_queries": 5,
+      "runs": 5,
+      "acem": 0.0,
+      "cause_f1": 0.4,
+      "prompt_queries": 6.0,
+      "mask_queries": 7.4
+    },
+    {
+      "stratum": "N",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k4-s3-overlap",
+      "source_queries": 2,
+      "runs": 2,
+      "acem": 0.0,
+      "cause_f1": 0.4,
+      "prompt_queries": 7.5,
+      "mask_queries": 9.0
+    },
+    {
+      "stratum": "N",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k4-s4-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.4,
+      "prompt_queries": 5.0,
+      "mask_queries": 6.0
+    },
+    {
+      "stratum": "N",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k5-s2-overlap",
+      "source_queries": 3,
+      "runs": 3,
+      "acem": 0.0,
+      "cause_f1": 0.3333333333333333,
+      "prompt_queries": 6.0,
+      "mask_queries": 6.0
+    },
+    {
+      "stratum": "N",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k5-s3-overlap",
+      "source_queries": 3,
+      "runs": 3,
+      "acem": 0.0,
+      "cause_f1": 0.3333333333333333,
+      "prompt_queries": 8.666666666666666,
+      "mask_queries": 10.333333333333334
+    },
+    {
+      "stratum": "N",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k6-s3-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.2857142857142857,
+      "prompt_queries": 6.0,
+      "mask_queries": 6.0
+    },
+    {
+      "stratum": "N",
+      "method": "KernelSHAP",
+      "difficulty_band": "k1-s1-disjoint",
+      "source_queries": 3,
+      "runs": 30,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 13.333333333333334,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "N",
+      "method": "KernelSHAP",
+      "difficulty_band": "k1-s2-disjoint",
+      "source_queries": 4,
+      "runs": 40,
+      "acem": 0.825,
+      "cause_f1": 0.825,
+      "prompt_queries": 33.175,
+      "mask_queries": 163.275
+    },
+    {
+      "stratum": "N",
+      "method": "KernelSHAP",
+      "difficulty_band": "k1-s4-disjoint",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.3,
+      "cause_f1": 0.3,
+      "prompt_queries": 42.6,
+      "mask_queries": 71.4
+    },
+    {
+      "stratum": "N",
+      "method": "KernelSHAP",
+      "difficulty_band": "k2-s1-disjoint",
+      "source_queries": 5,
+      "runs": 50,
+      "acem": 0.0,
+      "cause_f1": 0.6666666666666665,
+      "prompt_queries": 16.0,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "N",
+      "method": "KernelSHAP",
+      "difficulty_band": "k2-s2-disjoint",
+      "source_queries": 4,
+      "runs": 40,
+      "acem": 0.0,
+      "cause_f1": 0.3833333333333333,
+      "prompt_queries": 18.0,
+      "mask_queries": 207.225
+    },
+    {
+      "stratum": "N",
+      "method": "KernelSHAP",
+      "difficulty_band": "k2-s2-overlap",
+      "source_queries": 7,
+      "runs": 70,
+      "acem": 0.0,
+      "cause_f1": 0.6666666666666666,
+      "prompt_queries": 21.771428571428572,
+      "mask_queries": 228.27142857142857
+    },
+    {
+      "stratum": "N",
+      "method": "KernelSHAP",
+      "difficulty_band": "k2-s3-overlap",
+      "source_queries": 5,
+      "runs": 50,
+      "acem": 0.0,
+      "cause_f1": 0.4,
+      "prompt_queries": 27.26,
+      "mask_queries": 217.02
+    },
+    {
+      "stratum": "N",
+      "method": "KernelSHAP",
+      "difficulty_band": "k2-s5-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 46.2,
+      "mask_queries": 82.2
+    },
+    {
+      "stratum": "N",
+      "method": "KernelSHAP",
+      "difficulty_band": "k3-s2-overlap",
+      "source_queries": 10,
+      "runs": 100,
+      "acem": 0.0,
+      "cause_f1": 0.42,
+      "prompt_queries": 26.57,
+      "mask_queries": 181.12
+    },
+    {
+      "stratum": "N",
+      "method": "KernelSHAP",
+      "difficulty_band": "k3-s3-overlap",
+      "source_queries": 4,
+      "runs": 40,
+      "acem": 0.0,
+      "cause_f1": 0.3,
+      "prompt_queries": 30.225,
+      "mask_queries": 167.025
+    },
+    {
+      "stratum": "N",
+      "method": "KernelSHAP",
+      "difficulty_band": "k3-s4-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.0,
+      "cause_f1": 0.5,
+      "prompt_queries": 40.0,
+      "mask_queries": 61.3
+    },
+    {
+      "stratum": "N",
+      "method": "KernelSHAP",
+      "difficulty_band": "k4-s2-overlap",
+      "source_queries": 5,
+      "runs": 50,
+      "acem": 0.0,
+      "cause_f1": 0.336,
+      "prompt_queries": 41.06,
+      "mask_queries": 65.02
+    },
+    {
+      "stratum": "N",
+      "method": "KernelSHAP",
+      "difficulty_band": "k4-s3-overlap",
+      "source_queries": 2,
+      "runs": 20,
+      "acem": 0.0,
+      "cause_f1": 0.16,
+      "prompt_queries": 44.0,
+      "mask_queries": 76.0
+    },
+    {
+      "stratum": "N",
+      "method": "KernelSHAP",
+      "difficulty_band": "k4-s4-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.0,
+      "cause_f1": 0.32,
+      "prompt_queries": 41.5,
+      "mask_queries": 67.7
+    },
+    {
+      "stratum": "N",
+      "method": "KernelSHAP",
+      "difficulty_band": "k5-s2-overlap",
+      "source_queries": 3,
+      "runs": 30,
+      "acem": 0.0,
+      "cause_f1": 0.2777777777777778,
+      "prompt_queries": 33.06666666666667,
+      "mask_queries": 130.86666666666667
+    },
+    {
+      "stratum": "N",
+      "method": "KernelSHAP",
+      "difficulty_band": "k5-s3-overlap",
+      "source_queries": 3,
+      "runs": 30,
+      "acem": 0.0,
+      "cause_f1": 0.1888888888888889,
+      "prompt_queries": 42.4,
+      "mask_queries": 71.26666666666667
+    },
+    {
+      "stratum": "N",
+      "method": "KernelSHAP",
+      "difficulty_band": "k6-s3-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 45.8,
+      "mask_queries": 82.7
+    },
+    {
+      "stratum": "N",
+      "method": "LOO",
+      "difficulty_band": "k1-s1-disjoint",
+      "source_queries": 3,
+      "runs": 3,
+      "acem": 0.3333333333333333,
+      "cause_f1": 0.3333333333333333,
+      "prompt_queries": 6.666666666666667,
+      "mask_queries": 11.333333333333334
+    },
+    {
+      "stratum": "N",
+      "method": "LOO",
+      "difficulty_band": "k1-s2-disjoint",
+      "source_queries": 4,
+      "runs": 4,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 7.75,
+      "mask_queries": 11.25
+    },
+    {
+      "stratum": "N",
+      "method": "LOO",
+      "difficulty_band": "k1-s4-disjoint",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 7.0,
+      "mask_queries": 16.0
+    },
+    {
+      "stratum": "N",
+      "method": "LOO",
+      "difficulty_band": "k2-s1-disjoint",
+      "source_queries": 5,
+      "runs": 5,
+      "acem": 0.0,
+      "cause_f1": 0.26666666666666666,
+      "prompt_queries": 6.4,
+      "mask_queries": 10.4
+    },
+    {
+      "stratum": "N",
+      "method": "LOO",
+      "difficulty_band": "k2-s2-disjoint",
+      "source_queries": 4,
+      "runs": 4,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 6.0,
+      "mask_queries": 10.0
+    },
+    {
+      "stratum": "N",
+      "method": "LOO",
+      "difficulty_band": "k2-s2-overlap",
+      "source_queries": 7,
+      "runs": 7,
+      "acem": 0.0,
+      "cause_f1": 0.47619047619047616,
+      "prompt_queries": 8.142857142857142,
+      "mask_queries": 12.0
+    },
+    {
+      "stratum": "N",
+      "method": "LOO",
+      "difficulty_band": "k2-s3-overlap",
+      "source_queries": 5,
+      "runs": 5,
+      "acem": 0.0,
+      "cause_f1": 0.26666666666666666,
+      "prompt_queries": 7.8,
+      "mask_queries": 11.2
+    },
+    {
+      "stratum": "N",
+      "method": "LOO",
+      "difficulty_band": "k2-s5-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 8.0,
+      "mask_queries": 10.0
+    },
+    {
+      "stratum": "N",
+      "method": "LOO",
+      "difficulty_band": "k3-s2-overlap",
+      "source_queries": 10,
+      "runs": 10,
+      "acem": 0.0,
+      "cause_f1": 0.1,
+      "prompt_queries": 7.2,
+      "mask_queries": 10.4
+    },
+    {
+      "stratum": "N",
+      "method": "LOO",
+      "difficulty_band": "k3-s3-overlap",
+      "source_queries": 4,
+      "runs": 4,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 7.0,
+      "mask_queries": 10.0
+    },
+    {
+      "stratum": "N",
+      "method": "LOO",
+      "difficulty_band": "k3-s4-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 8.0,
+      "mask_queries": 10.0
+    },
+    {
+      "stratum": "N",
+      "method": "LOO",
+      "difficulty_band": "k4-s2-overlap",
+      "source_queries": 5,
+      "runs": 5,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 8.2,
+      "mask_queries": 10.2
+    },
+    {
+      "stratum": "N",
+      "method": "LOO",
+      "difficulty_band": "k4-s3-overlap",
+      "source_queries": 2,
+      "runs": 2,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 8.0,
+      "mask_queries": 10.0
+    },
+    {
+      "stratum": "N",
+      "method": "LOO",
+      "difficulty_band": "k4-s4-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 8.0,
+      "mask_queries": 10.0
+    },
+    {
+      "stratum": "N",
+      "method": "LOO",
+      "difficulty_band": "k5-s2-overlap",
+      "source_queries": 3,
+      "runs": 3,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 7.333333333333333,
+      "mask_queries": 10.0
+    },
+    {
+      "stratum": "N",
+      "method": "LOO",
+      "difficulty_band": "k5-s3-overlap",
+      "source_queries": 3,
+      "runs": 3,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 8.0,
+      "mask_queries": 10.0
+    },
+    {
+      "stratum": "N",
+      "method": "LOO",
+      "difficulty_band": "k6-s3-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 8.0,
+      "mask_queries": 10.0
+    },
+    {
+      "stratum": "N",
+      "method": "RandomMasks",
+      "difficulty_band": "k1-s1-disjoint",
+      "source_queries": 3,
+      "runs": 30,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 13.333333333333334,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "N",
+      "method": "RandomMasks",
+      "difficulty_band": "k1-s2-disjoint",
+      "source_queries": 4,
+      "runs": 40,
+      "acem": 0.675,
+      "cause_f1": 0.675,
+      "prompt_queries": 36.0,
+      "mask_queries": 177.725
+    },
+    {
+      "stratum": "N",
+      "method": "RandomMasks",
+      "difficulty_band": "k1-s4-disjoint",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.1,
+      "cause_f1": 0.1,
+      "prompt_queries": 48.0,
+      "mask_queries": 88.4
+    },
+    {
+      "stratum": "N",
+      "method": "RandomMasks",
+      "difficulty_band": "k2-s1-disjoint",
+      "source_queries": 5,
+      "runs": 50,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 16.0,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "N",
+      "method": "RandomMasks",
+      "difficulty_band": "k2-s2-disjoint",
+      "source_queries": 4,
+      "runs": 40,
+      "acem": 0.775,
+      "cause_f1": 0.825,
+      "prompt_queries": 20.0,
+      "mask_queries": 221.15
+    },
+    {
+      "stratum": "N",
+      "method": "RandomMasks",
+      "difficulty_band": "k2-s2-overlap",
+      "source_queries": 7,
+      "runs": 70,
+      "acem": 0.8571428571428571,
+      "cause_f1": 0.8761904761904762,
+      "prompt_queries": 22.857142857142858,
+      "mask_queries": 231.88571428571427
+    },
+    {
+      "stratum": "N",
+      "method": "RandomMasks",
+      "difficulty_band": "k2-s3-overlap",
+      "source_queries": 5,
+      "runs": 50,
+      "acem": 0.8,
+      "cause_f1": 0.8266666666666667,
+      "prompt_queries": 28.8,
+      "mask_queries": 222.0
+    },
+    {
+      "stratum": "N",
+      "method": "RandomMasks",
+      "difficulty_band": "k2-s5-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.0,
+      "cause_f1": 0.13333333333333333,
+      "prompt_queries": 48.0,
+      "mask_queries": 96.9
+    },
+    {
+      "stratum": "N",
+      "method": "RandomMasks",
+      "difficulty_band": "k3-s2-overlap",
+      "source_queries": 10,
+      "runs": 100,
+      "acem": 0.61,
+      "cause_f1": 0.725,
+      "prompt_queries": 28.8,
+      "mask_queries": 189.55
+    },
+    {
+      "stratum": "N",
+      "method": "RandomMasks",
+      "difficulty_band": "k3-s3-overlap",
+      "source_queries": 4,
+      "runs": 40,
+      "acem": 0.5,
+      "cause_f1": 0.6275000000000001,
+      "prompt_queries": 32.0,
+      "mask_queries": 166.325
+    },
+    {
+      "stratum": "N",
+      "method": "RandomMasks",
+      "difficulty_band": "k3-s4-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.0,
+      "cause_f1": 0.3,
+      "prompt_queries": 48.0,
+      "mask_queries": 87.0
+    },
+    {
+      "stratum": "N",
+      "method": "RandomMasks",
+      "difficulty_band": "k4-s2-overlap",
+      "source_queries": 5,
+      "runs": 50,
+      "acem": 0.0,
+      "cause_f1": 0.2784761904761905,
+      "prompt_queries": 48.0,
+      "mask_queries": 100.88
+    },
+    {
+      "stratum": "N",
+      "method": "RandomMasks",
+      "difficulty_band": "k4-s3-overlap",
+      "source_queries": 2,
+      "runs": 20,
+      "acem": 0.0,
+      "cause_f1": 0.14666666666666667,
+      "prompt_queries": 48.0,
+      "mask_queries": 105.4
+    },
+    {
+      "stratum": "N",
+      "method": "RandomMasks",
+      "difficulty_band": "k4-s4-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.0,
+      "cause_f1": 0.22666666666666666,
+      "prompt_queries": 48.0,
+      "mask_queries": 104.6
+    },
+    {
+      "stratum": "N",
+      "method": "RandomMasks",
+      "difficulty_band": "k5-s2-overlap",
+      "source_queries": 3,
+      "runs": 30,
+      "acem": 0.3333333333333333,
+      "cause_f1": 0.523015873015873,
+      "prompt_queries": 37.333333333333336,
+      "mask_queries": 142.3
+    },
+    {
+      "stratum": "N",
+      "method": "RandomMasks",
+      "difficulty_band": "k5-s3-overlap",
+      "source_queries": 3,
+      "runs": 30,
+      "acem": 0.0,
+      "cause_f1": 0.28095238095238095,
+      "prompt_queries": 48.0,
+      "mask_queries": 96.5
+    },
+    {
+      "stratum": "N",
+      "method": "RandomMasks",
+      "difficulty_band": "k6-s3-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.0,
+      "cause_f1": 0.33238095238095233,
+      "prompt_queries": 48.0,
+      "mask_queries": 95.5
+    },
+    {
+      "stratum": "N",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k1-s1-disjoint",
+      "source_queries": 3,
+      "runs": 30,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 10.933333333333334,
+      "mask_queries": 54.733333333333334
+    },
+    {
+      "stratum": "N",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k1-s2-disjoint",
+      "source_queries": 4,
+      "runs": 40,
+      "acem": 0.7,
+      "cause_f1": 0.85,
+      "prompt_queries": 18.975,
+      "mask_queries": 48.5
+    },
+    {
+      "stratum": "N",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k1-s4-disjoint",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 7.0,
+      "mask_queries": 25.8
+    },
+    {
+      "stratum": "N",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k2-s1-disjoint",
+      "source_queries": 5,
+      "runs": 50,
+      "acem": 0.9,
+      "cause_f1": 0.9666666666666667,
+      "prompt_queries": 14.26,
+      "mask_queries": 58.74
+    },
+    {
+      "stratum": "N",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k2-s2-disjoint",
+      "source_queries": 4,
+      "runs": 40,
+      "acem": 0.875,
+      "cause_f1": 0.9583333333333334,
+      "prompt_queries": 16.45,
+      "mask_queries": 58.525
+    },
+    {
+      "stratum": "N",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k2-s2-overlap",
+      "source_queries": 7,
+      "runs": 70,
+      "acem": 0.7571428571428571,
+      "cause_f1": 0.919047619047619,
+      "prompt_queries": 15.271428571428572,
+      "mask_queries": 53.75714285714286
+    },
+    {
+      "stratum": "N",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k2-s3-overlap",
+      "source_queries": 5,
+      "runs": 50,
+      "acem": 0.78,
+      "cause_f1": 0.9266666666666667,
+      "prompt_queries": 16.96,
+      "mask_queries": 53.06
+    },
+    {
+      "stratum": "N",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k2-s5-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.9,
+      "cause_f1": 0.9666666666666666,
+      "prompt_queries": 29.4,
+      "mask_queries": 57.4
+    },
+    {
+      "stratum": "N",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k3-s2-overlap",
+      "source_queries": 10,
+      "runs": 100,
+      "acem": 0.65,
+      "cause_f1": 0.924,
+      "prompt_queries": 22.16,
+      "mask_queries": 60.35
+    },
+    {
+      "stratum": "N",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k3-s3-overlap",
+      "source_queries": 4,
+      "runs": 40,
+      "acem": 0.525,
+      "cause_f1": 0.905,
+      "prompt_queries": 23.2,
+      "mask_queries": 58.85
+    },
+    {
+      "stratum": "N",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k3-s4-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.3,
+      "cause_f1": 0.8300000000000001,
+      "prompt_queries": 36.0,
+      "mask_queries": 62.5
+    },
+    {
+      "stratum": "N",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k4-s2-overlap",
+      "source_queries": 5,
+      "runs": 50,
+      "acem": 0.5,
+      "cause_f1": 0.917142857142857,
+      "prompt_queries": 35.62,
+      "mask_queries": 60.9
+    },
+    {
+      "stratum": "N",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k4-s3-overlap",
+      "source_queries": 2,
+      "runs": 20,
+      "acem": 0.2,
+      "cause_f1": 0.8571428571428571,
+      "prompt_queries": 33.7,
+      "mask_queries": 59.5
+    },
+    {
+      "stratum": "N",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k4-s4-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.2,
+      "cause_f1": 0.8476190476190476,
+      "prompt_queries": 35.5,
+      "mask_queries": 62.8
+    },
+    {
+      "stratum": "N",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k5-s2-overlap",
+      "source_queries": 3,
+      "runs": 30,
+      "acem": 0.13333333333333333,
+      "cause_f1": 0.8851851851851852,
+      "prompt_queries": 28.533333333333335,
+      "mask_queries": 61.13333333333333
+    },
+    {
+      "stratum": "N",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k5-s3-overlap",
+      "source_queries": 3,
+      "runs": 30,
+      "acem": 0.06666666666666667,
+      "cause_f1": 0.8394179894179895,
+      "prompt_queries": 35.56666666666667,
+      "mask_queries": 62.46666666666667
+    },
+    {
+      "stratum": "N",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k6-s3-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.0,
+      "cause_f1": 0.8545454545454545,
+      "prompt_queries": 38.3,
+      "mask_queries": 67.2
+    },
+    {
+      "stratum": "N",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k1-s1-disjoint",
+      "source_queries": 3,
+      "runs": 3,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 5.666666666666667,
+      "mask_queries": 7.0
+    },
+    {
+      "stratum": "N",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k1-s2-disjoint",
+      "source_queries": 4,
+      "runs": 4,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 12.25,
+      "mask_queries": 16.25
+    },
+    {
+      "stratum": "N",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k1-s4-disjoint",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 11.0,
+      "mask_queries": 23.0
+    },
+    {
+      "stratum": "N",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k2-s1-disjoint",
+      "source_queries": 5,
+      "runs": 5,
+      "acem": 0.6,
+      "cause_f1": 0.8666666666666666,
+      "prompt_queries": 7.8,
+      "mask_queries": 11.8
+    },
+    {
+      "stratum": "N",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k2-s2-disjoint",
+      "source_queries": 4,
+      "runs": 4,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 12.25,
+      "mask_queries": 21.25
+    },
+    {
+      "stratum": "N",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k2-s2-overlap",
+      "source_queries": 7,
+      "runs": 7,
+      "acem": 0.2857142857142857,
+      "cause_f1": 0.7619047619047619,
+      "prompt_queries": 8.428571428571429,
+      "mask_queries": 12.285714285714286
+    },
+    {
+      "stratum": "N",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k2-s3-overlap",
+      "source_queries": 5,
+      "runs": 5,
+      "acem": 0.6,
+      "cause_f1": 0.8666666666666666,
+      "prompt_queries": 13.6,
+      "mask_queries": 23.8
+    },
+    {
+      "stratum": "N",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k2-s5-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 19.0,
+      "mask_queries": 32.0
+    },
+    {
+      "stratum": "N",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k3-s2-overlap",
+      "source_queries": 10,
+      "runs": 10,
+      "acem": 0.5,
+      "cause_f1": 0.8400000000000001,
+      "prompt_queries": 14.4,
+      "mask_queries": 23.7
+    },
+    {
+      "stratum": "N",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k3-s3-overlap",
+      "source_queries": 4,
+      "runs": 4,
+      "acem": 0.75,
+      "cause_f1": 0.95,
+      "prompt_queries": 21.25,
+      "mask_queries": 32.0
+    },
+    {
+      "stratum": "N",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k3-s4-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 20.0,
+      "mask_queries": 34.0
+    },
+    {
+      "stratum": "N",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k4-s2-overlap",
+      "source_queries": 5,
+      "runs": 5,
+      "acem": 0.8,
+      "cause_f1": 0.8800000000000001,
+      "prompt_queries": 23.6,
+      "mask_queries": 32.6
+    },
+    {
+      "stratum": "N",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k4-s3-overlap",
+      "source_queries": 2,
+      "runs": 2,
+      "acem": 0.0,
+      "cause_f1": 0.7619047619047619,
+      "prompt_queries": 22.5,
+      "mask_queries": 29.0
+    },
+    {
+      "stratum": "N",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k4-s4-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 25.0,
+      "mask_queries": 36.0
+    },
+    {
+      "stratum": "N",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k5-s2-overlap",
+      "source_queries": 3,
+      "runs": 3,
+      "acem": 0.0,
+      "cause_f1": 0.8425925925925926,
+      "prompt_queries": 19.666666666666668,
+      "mask_queries": 33.333333333333336
+    },
+    {
+      "stratum": "N",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k5-s3-overlap",
+      "source_queries": 3,
+      "runs": 3,
+      "acem": 0.0,
+      "cause_f1": 0.7962962962962963,
+      "prompt_queries": 24.666666666666668,
+      "mask_queries": 40.333333333333336
+    },
+    {
+      "stratum": "N",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k6-s3-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 41.0,
+      "mask_queries": 79.0
+    },
+    {
+      "stratum": "U",
+      "method": "AmbiCause",
+      "difficulty_band": "k1-s1-disjoint",
+      "source_queries": 7,
+      "runs": 7,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 4.285714285714286,
+      "mask_queries": 11.0
+    },
+    {
+      "stratum": "U",
+      "method": "AmbiCause",
+      "difficulty_band": "k1-s2-disjoint",
+      "source_queries": 46,
+      "runs": 46,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 4.239130434782608,
+      "mask_queries": 12.0
+    },
+    {
+      "stratum": "U",
+      "method": "AmbiCause",
+      "difficulty_band": "k1-s3-disjoint",
+      "source_queries": 4,
+      "runs": 4,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 4.0,
+      "mask_queries": 13.0
+    },
+    {
+      "stratum": "U",
+      "method": "AmbiCause",
+      "difficulty_band": "k1-s4-disjoint",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 5.0,
+      "mask_queries": 14.0
+    },
+    {
+      "stratum": "U",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k1-s1-disjoint",
+      "source_queries": 7,
+      "runs": 7,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 4.285714285714286,
+      "mask_queries": 18.0
+    },
+    {
+      "stratum": "U",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k1-s2-disjoint",
+      "source_queries": 46,
+      "runs": 46,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 4.304347826086956,
+      "mask_queries": 18.0
+    },
+    {
+      "stratum": "U",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k1-s3-disjoint",
+      "source_queries": 4,
+      "runs": 4,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 4.0,
+      "mask_queries": 18.0
+    },
+    {
+      "stratum": "U",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k1-s4-disjoint",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 5.0,
+      "mask_queries": 18.0
+    },
+    {
+      "stratum": "U",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k1-s1-disjoint",
+      "source_queries": 7,
+      "runs": 7,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 3.4285714285714284,
+      "mask_queries": 5.857142857142857
+    },
+    {
+      "stratum": "U",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k1-s2-disjoint",
+      "source_queries": 46,
+      "runs": 46,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 4.021739130434782,
+      "mask_queries": 10.130434782608695
+    },
+    {
+      "stratum": "U",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k1-s3-disjoint",
+      "source_queries": 4,
+      "runs": 4,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 5.0,
+      "mask_queries": 15.0
+    },
+    {
+      "stratum": "U",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k1-s4-disjoint",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 7.0,
+      "mask_queries": 21.0
+    },
+    {
+      "stratum": "U",
+      "method": "KernelSHAP",
+      "difficulty_band": "k1-s1-disjoint",
+      "source_queries": 7,
+      "runs": 70,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 4.571428571428571,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "U",
+      "method": "KernelSHAP",
+      "difficulty_band": "k1-s2-disjoint",
+      "source_queries": 46,
+      "runs": 460,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 6.782608695652174,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "U",
+      "method": "KernelSHAP",
+      "difficulty_band": "k1-s3-disjoint",
+      "source_queries": 4,
+      "runs": 40,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 8.0,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "U",
+      "method": "KernelSHAP",
+      "difficulty_band": "k1-s4-disjoint",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 16.0,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "U",
+      "method": "LOO",
+      "difficulty_band": "k1-s1-disjoint",
+      "source_queries": 7,
+      "runs": 7,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 4.285714285714286,
+      "mask_queries": 11.0
+    },
+    {
+      "stratum": "U",
+      "method": "LOO",
+      "difficulty_band": "k1-s2-disjoint",
+      "source_queries": 46,
+      "runs": 46,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 4.239130434782608,
+      "mask_queries": 12.0
+    },
+    {
+      "stratum": "U",
+      "method": "LOO",
+      "difficulty_band": "k1-s3-disjoint",
+      "source_queries": 4,
+      "runs": 4,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 4.0,
+      "mask_queries": 13.0
+    },
+    {
+      "stratum": "U",
+      "method": "LOO",
+      "difficulty_band": "k1-s4-disjoint",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 5.0,
+      "mask_queries": 14.0
+    },
+    {
+      "stratum": "U",
+      "method": "RandomMasks",
+      "difficulty_band": "k1-s1-disjoint",
+      "source_queries": 7,
+      "runs": 70,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 4.571428571428571,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "U",
+      "method": "RandomMasks",
+      "difficulty_band": "k1-s2-disjoint",
+      "source_queries": 46,
+      "runs": 460,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 6.782608695652174,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "U",
+      "method": "RandomMasks",
+      "difficulty_band": "k1-s3-disjoint",
+      "source_queries": 4,
+      "runs": 40,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 8.0,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "U",
+      "method": "RandomMasks",
+      "difficulty_band": "k1-s4-disjoint",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 16.0,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "U",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k1-s1-disjoint",
+      "source_queries": 7,
+      "runs": 70,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 4.557142857142857,
+      "mask_queries": 55.8
+    },
+    {
+      "stratum": "U",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k1-s2-disjoint",
+      "source_queries": 46,
+      "runs": 460,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 4.878260869565217,
+      "mask_queries": 51.78478260869565
+    },
+    {
+      "stratum": "U",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k1-s3-disjoint",
+      "source_queries": 4,
+      "runs": 40,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 4.0,
+      "mask_queries": 47.975
+    },
+    {
+      "stratum": "U",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k1-s4-disjoint",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 5.0,
+      "mask_queries": 41.2
+    },
+    {
+      "stratum": "U",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k1-s1-disjoint",
+      "source_queries": 7,
+      "runs": 7,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 4.285714285714286,
+      "mask_queries": 6.857142857142857
+    },
+    {
+      "stratum": "U",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k1-s2-disjoint",
+      "source_queries": 46,
+      "runs": 46,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 4.5,
+      "mask_queries": 12.130434782608695
+    },
+    {
+      "stratum": "U",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k1-s3-disjoint",
+      "source_queries": 4,
+      "runs": 4,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 5.0,
+      "mask_queries": 18.0
+    },
+    {
+      "stratum": "U",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k1-s4-disjoint",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 7.0,
+      "mask_queries": 25.0
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5ae4a3265542995ad6573de5",
+      "source_id": "hotpotqa:5ae4a3265542995ad6573de5",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s2-disjoint",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.0,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s3-overlap:v6:hotpotqa:5ae4a3265542995ad6573de5",
+      "source_id": "hotpotqa:5ae4a3265542995ad6573de5",
+      "stratum": "N",
+      "family": "a-s3-overlap",
+      "difficulty_band": "k2-s3-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        3,
+        3
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": 0.5,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s3-overlap:v6:hotpotqa:5abc0a5d5542993f40c73c64",
+      "source_id": "hotpotqa:5abc0a5d5542993f40c73c64",
+      "stratum": "U",
+      "family": "a-s3-overlap",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:hotpotqa:5ae224da554299234fd043ee",
+      "source_id": "hotpotqa:5ae224da554299234fd043ee",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5ae224da554299234fd043ee",
+      "source_id": "hotpotqa:5ae224da554299234fd043ee",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s2-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5ae224da554299234fd043ee",
+      "source_id": "hotpotqa:5ae224da554299234fd043ee",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k3-s2-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 3
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:hotpotqa:5ae2dd2055429928c423950d",
+      "source_id": "hotpotqa:5ae2dd2055429928c423950d",
+      "stratum": "U",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5ae2dd2055429928c423950d",
+      "source_id": "hotpotqa:5ae2dd2055429928c423950d",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s2-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5ae2dd2055429928c423950d",
+      "source_id": "hotpotqa:5ae2dd2055429928c423950d",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k5-s3-overlap",
+      "cause_count": 5,
+      "cause_sizes": [
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.18333333333333332,
+      "planted_exact": false,
+      "cross_path_causes": 5
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:hotpotqa:5adf65555542992d7e9f9334",
+      "source_id": "hotpotqa:5adf65555542992d7e9f9334",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5adf65555542992d7e9f9334",
+      "source_id": "hotpotqa:5adf65555542992d7e9f9334",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s2-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        1,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.1111111111111111,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:hotpotqa:5adf65555542992d7e9f9334",
+      "source_id": "hotpotqa:5adf65555542992d7e9f9334",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k5-s2-overlap",
+      "cause_count": 5,
+      "cause_sizes": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.26666666666666666,
+      "planted_exact": false,
+      "cross_path_causes": 3
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:hotpotqa:5a7a0e1e5542990783324e1a",
+      "source_id": "hotpotqa:5a7a0e1e5542990783324e1a",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:hotpotqa:5a7a0e1e5542990783324e1a",
+      "source_id": "hotpotqa:5a7a0e1e5542990783324e1a",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s3-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        3,
+        3
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": 0.5,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5a7a0e1e5542990783324e1a",
+      "source_id": "hotpotqa:5a7a0e1e5542990783324e1a",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s2-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        1,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.1111111111111111,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:u-s3-disjoint:v1:hotpotqa:5ac289ff5542996366519a02",
+      "source_id": "hotpotqa:5ac289ff5542996366519a02",
+      "stratum": "A",
+      "family": "u-s3-disjoint",
+      "difficulty_band": "k2-s2-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.3333333333333333,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5ac289ff5542996366519a02",
+      "source_id": "hotpotqa:5ac289ff5542996366519a02",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s3-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        3
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.25,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:u-s3-disjoint:v1:hotpotqa:5a7be2595542997c3ec972ac",
+      "source_id": "hotpotqa:5a7be2595542997c3ec972ac",
+      "stratum": "U",
+      "family": "u-s3-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:n-s2-disjoint:v7:hotpotqa:5a7be2595542997c3ec972ac",
+      "source_id": "hotpotqa:5a7be2595542997c3ec972ac",
+      "stratum": "A",
+      "family": "n-s2-disjoint",
+      "difficulty_band": "k2-s2-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.3333333333333333,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:hotpotqa:5a7be2595542997c3ec972ac",
+      "source_id": "hotpotqa:5a7be2595542997c3ec972ac",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s2-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.3333333333333333,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:hotpotqa:5a8574945542997b5ce3fffb",
+      "source_id": "hotpotqa:5a8574945542997b5ce3fffb",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s1-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        1
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:u-s3-disjoint:v1:hotpotqa:5a8574945542997b5ce3fffb",
+      "source_id": "hotpotqa:5a8574945542997b5ce3fffb",
+      "stratum": "A",
+      "family": "u-s3-disjoint",
+      "difficulty_band": "k2-s2-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.3333333333333333,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5a8574945542997b5ce3fffb",
+      "source_id": "hotpotqa:5a8574945542997b5ce3fffb",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s2-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        1,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.1111111111111111,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:hotpotqa:5a87d8215542994775f60800",
+      "source_id": "hotpotqa:5a87d8215542994775f60800",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:u-s3-disjoint:v1:hotpotqa:5a87d8215542994775f60800",
+      "source_id": "hotpotqa:5a87d8215542994775f60800",
+      "stratum": "A",
+      "family": "u-s3-disjoint",
+      "difficulty_band": "k2-s2-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.3333333333333333,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5a87d8215542994775f60800",
+      "source_id": "hotpotqa:5a87d8215542994775f60800",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k3-s2-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 3
+    },
+    {
+      "case_id": "uan:u-s3-disjoint:v1:hotpotqa:5a78bd9b554299078472774a",
+      "source_id": "hotpotqa:5a78bd9b554299078472774a",
+      "stratum": "U",
+      "family": "u-s3-disjoint",
+      "difficulty_band": "k1-s3-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        3
+      ],
+      "backbone_size": 3,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:hotpotqa:5a78bd9b554299078472774a",
+      "source_id": "hotpotqa:5a78bd9b554299078472774a",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s2-disjoint",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.0,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5add11935542994734353827",
+      "source_id": "hotpotqa:5add11935542994734353827",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:hotpotqa:5a80840f554299485f59863b",
+      "source_id": "hotpotqa:5a80840f554299485f59863b",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s1-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        1
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:u-s3-disjoint:v1:hotpotqa:5a80840f554299485f59863b",
+      "source_id": "hotpotqa:5a80840f554299485f59863b",
+      "stratum": "A",
+      "family": "u-s3-disjoint",
+      "difficulty_band": "k2-s2-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.3333333333333333,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:hotpotqa:5a80840f554299485f59863b",
+      "source_id": "hotpotqa:5a80840f554299485f59863b",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s1-disjoint",
+      "cause_count": 2,
+      "cause_sizes": [
+        1,
+        1
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.0,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:hotpotqa:5ae2dfd155429928c423951b",
+      "source_id": "hotpotqa:5ae2dfd155429928c423951b",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5ae2dfd155429928c423951b",
+      "source_id": "hotpotqa:5ae2dfd155429928c423951b",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k4-s2-overlap",
+      "cause_count": 4,
+      "cause_sizes": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5ae2dfd155429928c423951b",
+      "source_id": "hotpotqa:5ae2dfd155429928c423951b",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k4-s4-overlap",
+      "cause_count": 4,
+      "cause_sizes": [
+        2,
+        2,
+        4,
+        4
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2888888888888889,
+      "planted_exact": false,
+      "cross_path_causes": 4
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:hotpotqa:5a80721b554299485f5985ef",
+      "source_id": "hotpotqa:5a80721b554299485f5985ef",
+      "stratum": "U",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5a80721b554299485f5985ef",
+      "source_id": "hotpotqa:5a80721b554299485f5985ef",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s3-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        3,
+        3
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.3333333333333333,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5a80721b554299485f5985ef",
+      "source_id": "hotpotqa:5a80721b554299485f5985ef",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k3-s3-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        3,
+        3
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.25,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:hotpotqa:5a77cb335542997042120b3a",
+      "source_id": "hotpotqa:5a77cb335542997042120b3a",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s2-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5a77cb335542997042120b3a",
+      "source_id": "hotpotqa:5a77cb335542997042120b3a",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s3-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        2,
+        3
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.27777777777777773,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5ab69c25554299110f219a39",
+      "source_id": "hotpotqa:5ab69c25554299110f219a39",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:hotpotqa:5ae53b545542990ba0bbb23c",
+      "source_id": "hotpotqa:5ae53b545542990ba0bbb23c",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s3-overlap:v6:hotpotqa:5ae53b545542990ba0bbb23c",
+      "source_id": "hotpotqa:5ae53b545542990ba0bbb23c",
+      "stratum": "A",
+      "family": "a-s3-overlap",
+      "difficulty_band": "k2-s4-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        4,
+        4
+      ],
+      "backbone_size": 3,
+      "mean_pairwise_jaccard": 0.6,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5ae53b545542990ba0bbb23c",
+      "source_id": "hotpotqa:5ae53b545542990ba0bbb23c",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k1-s1-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        1
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:u-s3-disjoint:v1:hotpotqa:5ac2659b55429963665199a1",
+      "source_id": "hotpotqa:5ac2659b55429963665199a1",
+      "stratum": "U",
+      "family": "u-s3-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:hotpotqa:5ac2659b55429963665199a1",
+      "source_id": "hotpotqa:5ac2659b55429963665199a1",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s2-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s3-overlap:v6:hotpotqa:5ac2659b55429963665199a1",
+      "source_id": "hotpotqa:5ac2659b55429963665199a1",
+      "stratum": "N",
+      "family": "a-s3-overlap",
+      "difficulty_band": "k2-s3-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        3
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.25,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:hotpotqa:5ab7e4dc5542995dae37e9df",
+      "source_id": "hotpotqa:5ab7e4dc5542995dae37e9df",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s1-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        1
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5ab7e4dc5542995dae37e9df",
+      "source_id": "hotpotqa:5ab7e4dc5542995dae37e9df",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s2-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        1,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.1111111111111111,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:hotpotqa:5ab7e4dc5542995dae37e9df",
+      "source_id": "hotpotqa:5ab7e4dc5542995dae37e9df",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k1-s1-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        1
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:hotpotqa:5ab5ed505542997d4ad1f255",
+      "source_id": "hotpotqa:5ab5ed505542997d4ad1f255",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5ab5ed505542997d4ad1f255",
+      "source_id": "hotpotqa:5ab5ed505542997d4ad1f255",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k4-s2-overlap",
+      "cause_count": 4,
+      "cause_sizes": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:hotpotqa:5ab5ed505542997d4ad1f255",
+      "source_id": "hotpotqa:5ab5ed505542997d4ad1f255",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s1-disjoint",
+      "cause_count": 2,
+      "cause_sizes": [
+        1,
+        1
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.0,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5a84c4135542994c784dda31",
+      "source_id": "hotpotqa:5a84c4135542994c784dda31",
+      "stratum": "U",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:u-s3-disjoint:v1:hotpotqa:5a83880e554299123d8c214e",
+      "source_id": "hotpotqa:5a83880e554299123d8c214e",
+      "stratum": "U",
+      "family": "u-s3-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s3-overlap:v6:hotpotqa:5a83880e554299123d8c214e",
+      "source_id": "hotpotqa:5a83880e554299123d8c214e",
+      "stratum": "N",
+      "family": "a-s3-overlap",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:hotpotqa:5a722b8655429971e9dc9329",
+      "source_id": "hotpotqa:5a722b8655429971e9dc9329",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-overlap:v4:hotpotqa:5a722b8655429971e9dc9329",
+      "source_id": "hotpotqa:5a722b8655429971e9dc9329",
+      "stratum": "A",
+      "family": "a-s2-overlap",
+      "difficulty_band": "k2-s2-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.3333333333333333,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5a722b8655429971e9dc9329",
+      "source_id": "hotpotqa:5a722b8655429971e9dc9329",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s2-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.3333333333333333,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:hotpotqa:5a88d745554299206df2b378",
+      "source_id": "hotpotqa:5a88d745554299206df2b378",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:hotpotqa:5a88d745554299206df2b378",
+      "source_id": "hotpotqa:5a88d745554299206df2b378",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s3-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        3
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.25,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5a88d745554299206df2b378",
+      "source_id": "hotpotqa:5a88d745554299206df2b378",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k4-s3-overlap",
+      "cause_count": 4,
+      "cause_sizes": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.45,
+      "planted_exact": false,
+      "cross_path_causes": 4
+    },
+    {
+      "case_id": "uan:a-s2-overlap:v4:hotpotqa:5aba7cfe554299232ef4a2fd",
+      "source_id": "hotpotqa:5aba7cfe554299232ef4a2fd",
+      "stratum": "U",
+      "family": "a-s2-overlap",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:hotpotqa:5aba7cfe554299232ef4a2fd",
+      "source_id": "hotpotqa:5aba7cfe554299232ef4a2fd",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s2-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5aba7cfe554299232ef4a2fd",
+      "source_id": "hotpotqa:5aba7cfe554299232ef4a2fd",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s2-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        1,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.1111111111111111,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:hotpotqa:5ae4f2c75542993aec5ec0fb",
+      "source_id": "hotpotqa:5ae4f2c75542993aec5ec0fb",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-overlap:v4:hotpotqa:5ae4f2c75542993aec5ec0fb",
+      "source_id": "hotpotqa:5ae4f2c75542993aec5ec0fb",
+      "stratum": "A",
+      "family": "a-s2-overlap",
+      "difficulty_band": "k2-s1-disjoint",
+      "cause_count": 2,
+      "cause_sizes": [
+        1,
+        1
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.0,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5ae4f2c75542993aec5ec0fb",
+      "source_id": "hotpotqa:5ae4f2c75542993aec5ec0fb",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s1-disjoint",
+      "cause_count": 2,
+      "cause_sizes": [
+        1,
+        1
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.0,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:u-s3-disjoint:v1:hotpotqa:5abf63f15542997ec76fd3ea",
+      "source_id": "hotpotqa:5abf63f15542997ec76fd3ea",
+      "stratum": "U",
+      "family": "u-s3-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:hotpotqa:5abf63f15542997ec76fd3ea",
+      "source_id": "hotpotqa:5abf63f15542997ec76fd3ea",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s2-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:hotpotqa:5ae37c765542992f92d822d4",
+      "source_id": "hotpotqa:5ae37c765542992f92d822d4",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:hotpotqa:5ae37c765542992f92d822d4",
+      "source_id": "hotpotqa:5ae37c765542992f92d822d4",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s2-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.3333333333333333,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5ae37c765542992f92d822d4",
+      "source_id": "hotpotqa:5ae37c765542992f92d822d4",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s3-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        2,
+        3
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.27777777777777773,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5ab6ba245542995eadef007f",
+      "source_id": "hotpotqa:5ab6ba245542995eadef007f",
+      "stratum": "U",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:u-s3-disjoint:v1:hotpotqa:5a7b7ff75542995eb53be93d",
+      "source_id": "hotpotqa:5a7b7ff75542995eb53be93d",
+      "stratum": "U",
+      "family": "u-s3-disjoint",
+      "difficulty_band": "k1-s1-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        1
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5a7b7ff75542995eb53be93d",
+      "source_id": "hotpotqa:5a7b7ff75542995eb53be93d",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k4-s2-overlap",
+      "cause_count": 4,
+      "cause_sizes": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5a7b7ff75542995eb53be93d",
+      "source_id": "hotpotqa:5a7b7ff75542995eb53be93d",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k4-s2-overlap",
+      "cause_count": 4,
+      "cause_sizes": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 4
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:hotpotqa:5ab2c5e255429916697740ba",
+      "source_id": "hotpotqa:5ab2c5e255429916697740ba",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:hotpotqa:5ab2c5e255429916697740ba",
+      "source_id": "hotpotqa:5ab2c5e255429916697740ba",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s2-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.3333333333333333,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:hotpotqa:5ac2d1d755429921a00ab053",
+      "source_id": "hotpotqa:5ac2d1d755429921a00ab053",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5ac2d1d755429921a00ab053",
+      "source_id": "hotpotqa:5ac2d1d755429921a00ab053",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s2-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5ac2d1d755429921a00ab053",
+      "source_id": "hotpotqa:5ac2d1d755429921a00ab053",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k4-s2-overlap",
+      "cause_count": 4,
+      "cause_sizes": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 4
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5ac2ffbd554299677310267b",
+      "source_id": "hotpotqa:5ac2ffbd554299677310267b",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s2-disjoint",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.0,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5ac2ffbd554299677310267b",
+      "source_id": "hotpotqa:5ac2ffbd554299677310267b",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k4-s3-overlap",
+      "cause_count": 4,
+      "cause_sizes": [
+        2,
+        2,
+        3,
+        3
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.19999999999999998,
+      "planted_exact": false,
+      "cross_path_causes": 4
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:hotpotqa:5adef80b5542993a75d263c4",
+      "source_id": "hotpotqa:5adef80b5542993a75d263c4",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:u-s3-disjoint:v1:hotpotqa:5adef80b5542993a75d263c4",
+      "source_id": "hotpotqa:5adef80b5542993a75d263c4",
+      "stratum": "A",
+      "family": "u-s3-disjoint",
+      "difficulty_band": "k2-s2-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.3333333333333333,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5a8cb288554299585d9e3726",
+      "source_id": "hotpotqa:5a8cb288554299585d9e3726",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s2-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5a8cb288554299585d9e3726",
+      "source_id": "hotpotqa:5a8cb288554299585d9e3726",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k5-s3-overlap",
+      "cause_count": 5,
+      "cause_sizes": [
+        2,
+        2,
+        3,
+        3,
+        3
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.22000000000000003,
+      "planted_exact": false,
+      "cross_path_causes": 5
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:hotpotqa:5ab1d7ac554299449642c7e6",
+      "source_id": "hotpotqa:5ab1d7ac554299449642c7e6",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s1-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        1
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5ab1d7ac554299449642c7e6",
+      "source_id": "hotpotqa:5ab1d7ac554299449642c7e6",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s2-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        1,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.1111111111111111,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:u-s3-disjoint:v1:hotpotqa:5ab1d7ac554299449642c7e6",
+      "source_id": "hotpotqa:5ab1d7ac554299449642c7e6",
+      "stratum": "N",
+      "family": "u-s3-disjoint",
+      "difficulty_band": "k1-s1-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        1
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:hotpotqa:5a77724455429972597f153e",
+      "source_id": "hotpotqa:5a77724455429972597f153e",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5a77724455429972597f153e",
+      "source_id": "hotpotqa:5a77724455429972597f153e",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s1-disjoint",
+      "cause_count": 2,
+      "cause_sizes": [
+        1,
+        1
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.0,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:n-s2-disjoint:v7:hotpotqa:5a77724455429972597f153e",
+      "source_id": "hotpotqa:5a77724455429972597f153e",
+      "stratum": "N",
+      "family": "n-s2-disjoint",
+      "difficulty_band": "k2-s1-disjoint",
+      "cause_count": 2,
+      "cause_sizes": [
+        1,
+        1
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.0,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:hotpotqa:5a8d5fc6554299585d9e37c6",
+      "source_id": "hotpotqa:5a8d5fc6554299585d9e37c6",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5a8d5fc6554299585d9e37c6",
+      "source_id": "hotpotqa:5a8d5fc6554299585d9e37c6",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s2-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        1,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.1111111111111111,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5a8d5fc6554299585d9e37c6",
+      "source_id": "hotpotqa:5a8d5fc6554299585d9e37c6",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k3-s3-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        3,
+        3
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2333333333333333,
+      "planted_exact": false,
+      "cross_path_causes": 3
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5adbf0a255429947ff17385a",
+      "source_id": "hotpotqa:5adbf0a255429947ff17385a",
+      "stratum": "A",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k3-s3-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        3,
+        3,
+        3
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": 0.5,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:hotpotqa:5adf3e355542993a75d26440",
+      "source_id": "hotpotqa:5adf3e355542993a75d26440",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5adf3e355542993a75d26440",
+      "source_id": "hotpotqa:5adf3e355542993a75d26440",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k4-s2-overlap",
+      "cause_count": 4,
+      "cause_sizes": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:hotpotqa:5adf3e355542993a75d26440",
+      "source_id": "hotpotqa:5adf3e355542993a75d26440",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s3-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        3
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.25,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:hotpotqa:5ae6050f55429929b0807a5e",
+      "source_id": "hotpotqa:5ae6050f55429929b0807a5e",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5ae6050f55429929b0807a5e",
+      "source_id": "hotpotqa:5ae6050f55429929b0807a5e",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k4-s2-overlap",
+      "cause_count": 4,
+      "cause_sizes": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5ae6050f55429929b0807a5e",
+      "source_id": "hotpotqa:5ae6050f55429929b0807a5e",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k6-s3-overlap",
+      "cause_count": 6,
+      "cause_sizes": [
+        2,
+        2,
+        3,
+        3,
+        3,
+        3
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2688888888888889,
+      "planted_exact": false,
+      "cross_path_causes": 5
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:hotpotqa:5ac3e0f7554299194317388b",
+      "source_id": "hotpotqa:5ac3e0f7554299194317388b",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5ac3e0f7554299194317388b",
+      "source_id": "hotpotqa:5ac3e0f7554299194317388b",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s2-disjoint",
+      "cause_count": 2,
+      "cause_sizes": [
+        1,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.0,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5ac3e0f7554299194317388b",
+      "source_id": "hotpotqa:5ac3e0f7554299194317388b",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k5-s2-overlap",
+      "cause_count": 5,
+      "cause_sizes": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2333333333333333,
+      "planted_exact": false,
+      "cross_path_causes": 5
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:hotpotqa:5ae2b770554299495565db0f",
+      "source_id": "hotpotqa:5ae2b770554299495565db0f",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5ae2b770554299495565db0f",
+      "source_id": "hotpotqa:5ae2b770554299495565db0f",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s2-disjoint",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.0,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5ae2b770554299495565db0f",
+      "source_id": "hotpotqa:5ae2b770554299495565db0f",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k3-s2-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 3
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5a7759fc5542993569682d60",
+      "source_id": "hotpotqa:5a7759fc5542993569682d60",
+      "stratum": "U",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:u-s3-disjoint:v1:hotpotqa:5a7320565542991f9a20c61d",
+      "source_id": "hotpotqa:5a7320565542991f9a20c61d",
+      "stratum": "U",
+      "family": "u-s3-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5a7320565542991f9a20c61d",
+      "source_id": "hotpotqa:5a7320565542991f9a20c61d",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k4-s2-overlap",
+      "cause_count": 4,
+      "cause_sizes": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5a7320565542991f9a20c61d",
+      "source_id": "hotpotqa:5a7320565542991f9a20c61d",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k3-s4-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        1,
+        2,
+        4
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.06666666666666667,
+      "planted_exact": false,
+      "cross_path_causes": 3
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:hotpotqa:5abc8d75554299700f9d7900",
+      "source_id": "hotpotqa:5abc8d75554299700f9d7900",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s1-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        1
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5abc8d75554299700f9d7900",
+      "source_id": "hotpotqa:5abc8d75554299700f9d7900",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s1-disjoint",
+      "cause_count": 2,
+      "cause_sizes": [
+        1,
+        1
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.0,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:hotpotqa:5abc8d75554299700f9d7900",
+      "source_id": "hotpotqa:5abc8d75554299700f9d7900",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s1-disjoint",
+      "cause_count": 2,
+      "cause_sizes": [
+        1,
+        1
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.0,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5a7a1cd85542990783324e65",
+      "source_id": "hotpotqa:5a7a1cd85542990783324e65",
+      "stratum": "U",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5a7a1cd85542990783324e65",
+      "source_id": "hotpotqa:5a7a1cd85542990783324e65",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k3-s2-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 3
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:hotpotqa:5ae0361155429925eb1afc2c",
+      "source_id": "hotpotqa:5ae0361155429925eb1afc2c",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5ae0361155429925eb1afc2c",
+      "source_id": "hotpotqa:5ae0361155429925eb1afc2c",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s2-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        1,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.1111111111111111,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5ae0361155429925eb1afc2c",
+      "source_id": "hotpotqa:5ae0361155429925eb1afc2c",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k4-s2-overlap",
+      "cause_count": 4,
+      "cause_sizes": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.16666666666666666,
+      "planted_exact": false,
+      "cross_path_causes": 4
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5ab56e32554299637185c594",
+      "source_id": "hotpotqa:5ab56e32554299637185c594",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:hotpotqa:5ac0d83a554299294b219038",
+      "source_id": "hotpotqa:5ac0d83a554299294b219038",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s1-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        1
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-overlap:v4:hotpotqa:5ac0d83a554299294b219038",
+      "source_id": "hotpotqa:5ac0d83a554299294b219038",
+      "stratum": "A",
+      "family": "a-s2-overlap",
+      "difficulty_band": "k2-s2-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.3333333333333333,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5ac0d83a554299294b219038",
+      "source_id": "hotpotqa:5ac0d83a554299294b219038",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s2-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.3333333333333333,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:u-s3-disjoint:v1:hotpotqa:5a7c960655429935c91b5244",
+      "source_id": "hotpotqa:5a7c960655429935c91b5244",
+      "stratum": "U",
+      "family": "u-s3-disjoint",
+      "difficulty_band": "k1-s3-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        3
+      ],
+      "backbone_size": 3,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:hotpotqa:5a7c960655429935c91b5244",
+      "source_id": "hotpotqa:5a7c960655429935c91b5244",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s2-disjoint",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.0,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5a7c960655429935c91b5244",
+      "source_id": "hotpotqa:5a7c960655429935c91b5244",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k5-s3-overlap",
+      "cause_count": 5,
+      "cause_sizes": [
+        2,
+        3,
+        3,
+        3,
+        3
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.34500000000000003,
+      "planted_exact": false,
+      "cross_path_causes": 4
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:hotpotqa:5abd2eab5542992ac4f38210",
+      "source_id": "hotpotqa:5abd2eab5542992ac4f38210",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:hotpotqa:5abd2eab5542992ac4f38210",
+      "source_id": "hotpotqa:5abd2eab5542992ac4f38210",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s2-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        1,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.1111111111111111,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s2-overlap:v4:hotpotqa:5abd2eab5542992ac4f38210",
+      "source_id": "hotpotqa:5abd2eab5542992ac4f38210",
+      "stratum": "N",
+      "family": "a-s2-overlap",
+      "difficulty_band": "k2-s2-disjoint",
+      "cause_count": 2,
+      "cause_sizes": [
+        1,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.0,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:hotpotqa:5ae7ba7a5542993210983f12",
+      "source_id": "hotpotqa:5ae7ba7a5542993210983f12",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5ae7ba7a5542993210983f12",
+      "source_id": "hotpotqa:5ae7ba7a5542993210983f12",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k4-s2-overlap",
+      "cause_count": 4,
+      "cause_sizes": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s2-overlap:v4:hotpotqa:5ae7ba7a5542993210983f12",
+      "source_id": "hotpotqa:5ae7ba7a5542993210983f12",
+      "stratum": "N",
+      "family": "a-s2-overlap",
+      "difficulty_band": "k2-s2-disjoint",
+      "cause_count": 2,
+      "cause_sizes": [
+        1,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.0,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:hotpotqa:5abd01205542992ac4f3819b",
+      "source_id": "hotpotqa:5abd01205542992ac4f3819b",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5abd01205542992ac4f3819b",
+      "source_id": "hotpotqa:5abd01205542992ac4f3819b",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s1-disjoint",
+      "cause_count": 2,
+      "cause_sizes": [
+        1,
+        1
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.0,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s3-overlap:v6:hotpotqa:5abd01205542992ac4f3819b",
+      "source_id": "hotpotqa:5abd01205542992ac4f3819b",
+      "stratum": "N",
+      "family": "a-s3-overlap",
+      "difficulty_band": "k2-s2-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.3333333333333333,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:hotpotqa:5adf37a95542995ec70e8f97",
+      "source_id": "hotpotqa:5adf37a95542995ec70e8f97",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5adf37a95542995ec70e8f97",
+      "source_id": "hotpotqa:5adf37a95542995ec70e8f97",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s2-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.3333333333333333,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5adf37a95542995ec70e8f97",
+      "source_id": "hotpotqa:5adf37a95542995ec70e8f97",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k4-s2-overlap",
+      "cause_count": 4,
+      "cause_sizes": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 4
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:hotpotqa:5a80b3a9554299485f5986cc",
+      "source_id": "hotpotqa:5a80b3a9554299485f5986cc",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5a80b3a9554299485f5986cc",
+      "source_id": "hotpotqa:5a80b3a9554299485f5986cc",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s2-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5a80b3a9554299485f5986cc",
+      "source_id": "hotpotqa:5a80b3a9554299485f5986cc",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k2-s3-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        3
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.25,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s2-overlap:v4:hotpotqa:5ae33c4d5542992f92d82262",
+      "source_id": "hotpotqa:5ae33c4d5542992f92d82262",
+      "stratum": "U",
+      "family": "a-s2-overlap",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5ae33c4d5542992f92d82262",
+      "source_id": "hotpotqa:5ae33c4d5542992f92d82262",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s2-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.3333333333333333,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5ae33c4d5542992f92d82262",
+      "source_id": "hotpotqa:5ae33c4d5542992f92d82262",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k4-s2-overlap",
+      "cause_count": 4,
+      "cause_sizes": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 4
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:hotpotqa:5ae819ac55429952e35eaa16",
+      "source_id": "hotpotqa:5ae819ac55429952e35eaa16",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5ae819ac55429952e35eaa16",
+      "source_id": "hotpotqa:5ae819ac55429952e35eaa16",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k4-s2-overlap",
+      "cause_count": 4,
+      "cause_sizes": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:hotpotqa:5a713a5a5542994082a3e6a9",
+      "source_id": "hotpotqa:5a713a5a5542994082a3e6a9",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-overlap:v4:hotpotqa:5a713a5a5542994082a3e6a9",
+      "source_id": "hotpotqa:5a713a5a5542994082a3e6a9",
+      "stratum": "A",
+      "family": "a-s2-overlap",
+      "difficulty_band": "k2-s2-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.3333333333333333,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5a713a5a5542994082a3e6a9",
+      "source_id": "hotpotqa:5a713a5a5542994082a3e6a9",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s2-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:hotpotqa:5ab9b29c554299743d22ebae",
+      "source_id": "hotpotqa:5ab9b29c554299743d22ebae",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5ab9b29c554299743d22ebae",
+      "source_id": "hotpotqa:5ab9b29c554299743d22ebae",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s2-disjoint",
+      "cause_count": 2,
+      "cause_sizes": [
+        1,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.0,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5ab9b29c554299743d22ebae",
+      "source_id": "hotpotqa:5ab9b29c554299743d22ebae",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k2-s2-disjoint",
+      "cause_count": 2,
+      "cause_sizes": [
+        1,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.0,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:hotpotqa:5aba5d2e55429901930fa799",
+      "source_id": "hotpotqa:5aba5d2e55429901930fa799",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5aba5d2e55429901930fa799",
+      "source_id": "hotpotqa:5aba5d2e55429901930fa799",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s2-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5aba5d2e55429901930fa799",
+      "source_id": "hotpotqa:5aba5d2e55429901930fa799",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k5-s2-overlap",
+      "cause_count": 5,
+      "cause_sizes": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2,
+      "planted_exact": false,
+      "cross_path_causes": 5
+    },
+    {
+      "case_id": "uan:a-s2-overlap:v4:hotpotqa:5aba749055429901930fa7d8",
+      "source_id": "hotpotqa:5aba749055429901930fa7d8",
+      "stratum": "U",
+      "family": "a-s2-overlap",
+      "difficulty_band": "k1-s3-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        3
+      ],
+      "backbone_size": 3,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5aba749055429901930fa7d8",
+      "source_id": "hotpotqa:5aba749055429901930fa7d8",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s2-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.3333333333333333,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5add673e5542992ae4cec54d",
+      "source_id": "hotpotqa:5add673e5542992ae4cec54d",
+      "stratum": "U",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k1-s4-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        4
+      ],
+      "backbone_size": 4,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5add673e5542992ae4cec54d",
+      "source_id": "hotpotqa:5add673e5542992ae4cec54d",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k1-s4-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        4
+      ],
+      "backbone_size": 4,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:hotpotqa:5a7d19d85542995ed0d165e8",
+      "source_id": "hotpotqa:5a7d19d85542995ed0d165e8",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5a7d19d85542995ed0d165e8",
+      "source_id": "hotpotqa:5a7d19d85542995ed0d165e8",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s2-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5a7d19d85542995ed0d165e8",
+      "source_id": "hotpotqa:5a7d19d85542995ed0d165e8",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k2-s5-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        5
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.16666666666666666,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:u-s3-disjoint:v1:hotpotqa:5ac298f9554299657fa28fc9",
+      "source_id": "hotpotqa:5ac298f9554299657fa28fc9",
+      "stratum": "A",
+      "family": "u-s3-disjoint",
+      "difficulty_band": "k2-s2-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.3333333333333333,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5ac298f9554299657fa28fc9",
+      "source_id": "hotpotqa:5ac298f9554299657fa28fc9",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k2-s2-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.3333333333333333,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s2-overlap:v4:hotpotqa:5a7cc50e554299452d57ba3e",
+      "source_id": "hotpotqa:5a7cc50e554299452d57ba3e",
+      "stratum": "U",
+      "family": "a-s2-overlap",
+      "difficulty_band": "k1-s3-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        3
+      ],
+      "backbone_size": 3,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5a7cc50e554299452d57ba3e",
+      "source_id": "hotpotqa:5a7cc50e554299452d57ba3e",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s2-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.3333333333333333,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:hotpotqa:5a7633ad5542992db9473741",
+      "source_id": "hotpotqa:5a7633ad5542992db9473741",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:hotpotqa:5a7633ad5542992db9473741",
+      "source_id": "hotpotqa:5a7633ad5542992db9473741",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s2-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.3333333333333333,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5a7633ad5542992db9473741",
+      "source_id": "hotpotqa:5a7633ad5542992db9473741",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s2-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    }
+  ]
+}

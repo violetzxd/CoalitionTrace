@@ -1,0 +1,17 @@
+{
+  "source_queries": 40,
+  "candidate_cases": 200,
+  "complete_oracle_cases": 200,
+  "selected": {
+    "N": 37,
+    "A": 3
+  },
+  "planted_to_realized": {
+    "A->A": 4,
+    "A->N": 131,
+    "A->OOS": 65
+  },
+  "cases_sha256": "e50e0d415bcba59b0048d4450578476e51a920bd1caebc6abd6663fa9ca605a0",
+  "analysis_sha256": "9d141baea824b221abcf9809cea5e9f71bd78e7867b7bd91bf86aa9475095073",
+  "rule": "first candidate in frozen file order with requested oracle stratum; method-blind"
+}

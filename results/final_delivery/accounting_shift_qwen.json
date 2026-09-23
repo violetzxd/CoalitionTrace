@@ -1,0 +1,118 @@
+{
+  "cells": [
+    {
+      "cell": "hotpot-qwen",
+      "budget": 48,
+      "old_budget_unit": "syntactic masks",
+      "fair_budget_unit": "unique complete-prompt hashes",
+      "old": {
+        "AmbiCause": {
+          "sources": 58,
+          "acem": 1.0,
+          "queries": 31.82758620689655,
+          "input_tokens": 0.0,
+          "output_tokens": 0.0
+        },
+        "RepeatedGreedy": {
+          "sources": 58,
+          "acem": 0.7948275862068965,
+          "queries": 47.98620689655172,
+          "input_tokens": 0.0,
+          "output_tokens": 0.0
+        },
+        "RandomMasks": {
+          "sources": 58,
+          "acem": 0.0,
+          "queries": 48.0,
+          "input_tokens": 0.0,
+          "output_tokens": 0.0
+        }
+      },
+      "fair": {
+        "AmbiCause": {
+          "sources": 58,
+          "acem": 1.0,
+          "queries": 12.96551724137931,
+          "input_tokens": 10011.310344827587,
+          "output_tokens": 76.82758620689656
+        },
+        "RepeatedGreedy": {
+          "sources": 58,
+          "acem": 0.9051724137931034,
+          "queries": 12.93448275862069,
+          "input_tokens": 9979.994827586206,
+          "output_tokens": 75.27413793103447
+        },
+        "RandomMasks": {
+          "sources": 58,
+          "acem": 1.0,
+          "queries": 15.724137931034482,
+          "input_tokens": 12237.448275862069,
+          "output_tokens": 90.89655172413794
+        }
+      },
+      "oracle_prompt_fraction_mean": 0.061422413793103446,
+      "oracle_prompt_fraction_min": 0.03125,
+      "oracle_prompt_fraction_max": 0.125,
+      "adapt_minus_repeated_old": 0.20517241379310347,
+      "adapt_minus_repeated_fair": 0.09482758620689657
+    },
+    {
+      "cell": "nq-qwen",
+      "budget": 48,
+      "old_budget_unit": "syntactic masks",
+      "fair_budget_unit": "unique complete-prompt hashes",
+      "old": {
+        "AmbiCause": {
+          "sources": 49,
+          "acem": 0.9591836734693877,
+          "queries": 34.89795918367347,
+          "input_tokens": 0.0,
+          "output_tokens": 0.0
+        },
+        "RepeatedGreedy": {
+          "sources": 49,
+          "acem": 0.7571428571428571,
+          "queries": 47.92448979591837,
+          "input_tokens": 0.0,
+          "output_tokens": 0.0
+        },
+        "RandomMasks": {
+          "sources": 49,
+          "acem": 0.0,
+          "queries": 48.0,
+          "input_tokens": 0.0,
+          "output_tokens": 0.0
+        }
+      },
+      "fair": {
+        "AmbiCause": {
+          "sources": 49,
+          "acem": 1.0,
+          "queries": 14.591836734693878,
+          "input_tokens": 9672.959183673469,
+          "output_tokens": 100.73469387755102
+        },
+        "RepeatedGreedy": {
+          "sources": 49,
+          "acem": 0.9040816326530612,
+          "queries": 14.17142857142857,
+          "input_tokens": 9284.855102040818,
+          "output_tokens": 96.13469387755103
+        },
+        "RandomMasks": {
+          "sources": 49,
+          "acem": 0.9204081632653062,
+          "queries": 18.448979591836736,
+          "input_tokens": 11815.371428571427,
+          "output_tokens": 125.56326530612246
+        }
+      },
+      "oracle_prompt_fraction_mean": 0.07716836734693877,
+      "oracle_prompt_fraction_min": 0.03125,
+      "oracle_prompt_fraction_max": 0.25,
+      "adapt_minus_repeated_old": 0.2020408163265306,
+      "adapt_minus_repeated_fair": 0.09591836734693882
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "stable_model_cases": 20,
+  "source_clusters": 19,
+  "ten_seed_mean_recall": 0.9684210526315788,
+  "source_cluster_bootstrap95": [
+    0.9210526315789473,
+    1.0
+  ],
+  "cases": [
+    {
+      "cell": "hotpot_qwen",
+      "case_id": "uan:a-s2-disjoint:v3:hotpotqa:5a7be2595542997c3ec972ac",
+      "seed_runs": 10,
+      "detection_probability": 1.0
+    },
+    {
+      "cell": "hotpot_qwen",
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5a7a8a9c554299042af8f666",
+      "seed_runs": 10,
+      "detection_probability": 1.0
+    },
+    {
+      "cell": "hotpot_qwen",
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5a7c960655429935c91b5244",
+      "seed_runs": 10,
+      "detection_probability": 1.0
+    },
+    {
+      "cell": "hotpot_qwen",
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5ab642845542995eadeeff8e",
+      "seed_runs": 10,
+      "detection_probability": 1.0
+    },
+    {
+      "cell": "hotpot_qwen",
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5aba5d2e55429901930fa799",
+      "seed_runs": 10,
+      "detection_probability": 0.9
+    },
+    {
+      "cell": "hotpot_qwen",
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5aba7cfe554299232ef4a2fd",
+      "seed_runs": 10,
+      "detection_probability": 1.0
+    },
+    {
+      "cell": "hotpot_qwen",
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5ae4a3265542995ad6573de5",
+      "seed_runs": 10,
+      "detection_probability": 1.0
+    },
+    {
+      "cell": "hotpot_qwen",
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5ae4f2c75542993aec5ec0fb",
+      "seed_runs": 10,
+      "detection_probability": 1.0
+    },
+    {
+      "cell": "hotpot_qwen",
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5ae819ac55429952e35eaa16",
+      "seed_runs": 10,
+      "detection_probability": 0.9
+    },
+    {
+      "cell": "hotpot_qwen",
+      "case_id": "uan:n-s2-disjoint:v7:hotpotqa:5adef80b5542993a75d263c4",
+      "seed_runs": 10,
+      "detection_probability": 1.0
+    },
+    {
+      "cell": "nq_qwen",
+      "case_id": "uan:a-s2-disjoint:v3:nq:test412",
+      "seed_runs": 10,
+      "detection_probability": 1.0
+    },
+    {
+      "cell": "hotpot_mistral",
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5a7b7ff75542995eb53be93d",
+      "seed_runs": 10,
+      "detection_probability": 1.0
+    },
+    {
+      "cell": "hotpot_mistral",
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5a80b3a9554299485f5986cc",
+      "seed_runs": 10,
+      "detection_probability": 0.6
+    },
+    {
+      "cell": "hotpot_mistral",
+      "case_id": "uan:n-s2-disjoint:v7:hotpotqa:5a77724455429972597f153e",
+      "seed_runs": 10,
+      "detection_probability": 1.0
+    },
+    {
+      "cell": "nq_mistral",
+      "case_id": "uan:a-s2-disjoint:v2:nq:test408",
+      "seed_runs": 10,
+      "detection_probability": 1.0
+    },
+    {
+      "cell": "nq_mistral",
+      "case_id": "uan:a-s2-disjoint:v3:nq:test166",
+      "seed_runs": 10,
+      "detection_probability": 1.0
+    },
+    {
+      "cell": "nq_mistral",
+      "case_id": "uan:a-s2-disjoint:v3:nq:test412",
+      "seed_runs": 10,
+      "detection_probability": 1.0
+    },
+    {
+      "cell": "nq_mistral",
+      "case_id": "uan:a-s3-disjoint:v5:nq:test226",
+      "seed_runs": 10,
+      "detection_probability": 1.0
+    },
+    {
+      "cell": "nq_mistral",
+      "case_id": "uan:a-s3-disjoint:v5:nq:test294",
+      "seed_runs": 10,
+      "detection_probability": 1.0
+    },
+    {
+      "cell": "nq_mistral",
+      "case_id": "uan:a-s3-disjoint:v5:nq:test417",
+      "seed_runs": 10,
+      "detection_probability": 1.0
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "registry": {
+    "RandomResidualAudit": {
+      "sources": 130,
+      "detection_recall": 0.9519230769230769,
+      "source_bootstrap95": [
+        0.9303846153846154,
+        0.9715384615384615
+      ],
+      "mean_queries": 21.096153846153847,
+      "mean_audit_queries": 4.665384615384616,
+      "mean_witness_audit_query_detected": 4.046972625757455
+    },
+    "StandardEnumerator": {
+      "sources": 130,
+      "detection_recall": 0.38846153846153847,
+      "source_bootstrap95": [
+        0.3192307692307692,
+        0.4576923076923077
+      ],
+      "mean_queries": 16.43076923076923,
+      "mean_audit_queries": 0.0,
+      "mean_witness_audit_query_detected": 0.0
+    },
+    "SafeEnumerator": {
+      "sources": 130,
+      "detection_recall": 0.9346153846153846,
+      "source_bootstrap95": [
+        0.9,
+        0.9653846153846154
+      ],
+      "mean_queries": 22.46153846153846,
+      "mean_audit_queries": 6.030769230769231,
+      "mean_witness_audit_query_detected": 4.8671875
+    },
+    "UpwardAudit": {
+      "sources": 130,
+      "detection_recall": 0.8076923076923077,
+      "source_bootstrap95": [
+        0.75,
+        0.8615384615384616
+      ],
+      "mean_queries": 19.369230769230768,
+      "mean_audit_queries": 2.9384615384615387,
+      "mean_witness_audit_query_detected": 1.73109243697479
+    },
+    "DownwardAudit": {
+      "sources": 130,
+      "detection_recall": 0.6653846153846154,
+      "source_bootstrap95": [
+        0.6,
+        0.7307692307692307
+      ],
+      "mean_queries": 22.588461538461537,
+      "mean_audit_queries": 6.157692307692308,
+      "mean_witness_audit_query_detected": 4.080188679245283
+    },
+    "ShuffledSafeAudit": {
+      "sources": 130,
+      "detection_recall": 0.9480769230769232,
+      "source_bootstrap95": [
+        0.9230769230769231,
+        0.9692307692307692
+      ],
+      "mean_queries": 21.16769230769231,
+      "mean_audit_queries": 4.736923076923077,
+      "mean_witness_audit_query_detected": 4.034126595368856
+    },
+    "uniform_minus_standard": {
+      "sources": 130,
+      "mean": 0.5634615384615385,
+      "source_bootstrap95": [
+        0.49500000000000005,
+        0.6303846153846153
+      ]
+    }
+  },
+  "news": {
+    "RandomResidualAudit": {
+      "sources": 123,
+      "detection_recall": 0.9495934959349595,
+      "source_bootstrap95": [
+        0.9288617886178862,
+        0.9682926829268294
+      ],
+      "mean_queries": 20.330894308943087,
+      "mean_audit_queries": 4.322764227642277,
+      "mean_witness_audit_query_detected": 3.6820416107520613
+    },
+    "StandardEnumerator": {
+      "sources": 123,
+      "detection_recall": 0.3617886178861789,
+      "source_bootstrap95": [
+        0.2926829268292683,
+        0.43089430894308944
+      ],
+      "mean_queries": 16.008130081300813,
+      "mean_audit_queries": 0.0,
+      "mean_witness_audit_query_detected": 0.0
+    },
+    "SafeEnumerator": {
+      "sources": 123,
+      "detection_recall": 0.9471544715447154,
+      "source_bootstrap95": [
+        0.9105691056910569,
+        0.975609756097561
+      ],
+      "mean_queries": 20.727642276422763,
+      "mean_audit_queries": 4.719512195121951,
+      "mean_witness_audit_query_detected": 3.995833333333333
+    },
+    "UpwardAudit": {
+      "sources": 123,
+      "detection_recall": 0.7845528455284553,
+      "source_bootstrap95": [
+        0.7235772357723578,
+        0.8414634146341463
+      ],
+      "mean_queries": 18.29268292682927,
+      "mean_audit_queries": 2.2845528455284554,
+      "mean_witness_audit_query_detected": 1.5694444444444444
+    },
+    "DownwardAudit": {
+      "sources": 123,
+      "detection_recall": 0.6504065040650406,
+      "source_bootstrap95": [
+        0.5813008130081301,
+        0.7154471544715447
+      ],
+      "mean_queries": 21.13821138211382,
+      "mean_audit_queries": 5.130081300813008,
+      "mean_witness_audit_query_detected": 2.8069306930693068
+    },
+    "ShuffledSafeAudit": {
+      "sources": 123,
+      "detection_recall": 0.9577235772357725,
+      "source_bootstrap95": [
+        0.9365853658536586,
+        0.975619918699187
+      ],
+      "mean_queries": 19.9239837398374,
+      "mean_audit_queries": 3.9158536585365855,
+      "mean_witness_audit_query_detected": 3.4447074015742367
+    },
+    "uniform_minus_standard": {
+      "sources": 123,
+      "mean": 0.5878048780487805,
+      "source_bootstrap95": [
+        0.5219512195121951,
+        0.6548780487804878
+      ]
+    }
+  },
+  "active": {
+    "RandomResidualAudit": {
+      "sources": 75,
+      "detection_recall": 0.814,
+      "source_bootstrap95": [
+        0.7533333333333334,
+        0.8686666666666666
+      ],
+      "mean_queries": 34.339999999999996,
+      "mean_audit_queries": 4.3,
+      "mean_witness_audit_query_detected": 3.245566627191696
+    },
+    "StandardEnumerator": {
+      "sources": 75,
+      "detection_recall": 0.48,
+      "source_bootstrap95": [
+        0.3933333333333333,
+        0.5666666666666667
+      ],
+      "mean_queries": 30.04,
+      "mean_audit_queries": 0.0,
+      "mean_witness_audit_query_detected": 0.0
+    },
+    "SafeEnumerator": {
+      "sources": 75,
+      "detection_recall": 0.7666666666666667,
+      "source_bootstrap95": [
+        0.6933333333333334,
+        0.8333333333333334
+      ],
+      "mean_queries": 36.75333333333333,
+      "mean_audit_queries": 6.713333333333333,
+      "mean_witness_audit_query_detected": 5.028169014084507
+    },
+    "UpwardAudit": {
+      "sources": 75,
+      "detection_recall": 0.7133333333333334,
+      "source_bootstrap95": [
+        0.6333333333333333,
+        0.7866666666666666
+      ],
+      "mean_queries": 37.25333333333333,
+      "mean_audit_queries": 7.213333333333333,
+      "mean_witness_audit_query_detected": 2.746268656716418
+    },
+    "DownwardAudit": {
+      "sources": 75,
+      "detection_recall": 0.7533333333333333,
+      "source_bootstrap95": [
+        0.6733333333333333,
+        0.8266666666666667
+      ],
+      "mean_queries": 36.52,
+      "mean_audit_queries": 6.48,
+      "mean_witness_audit_query_detected": 4.3088235294117645
+    },
+    "ShuffledSafeAudit": {
+      "sources": 75,
+      "detection_recall": 0.8093333333333332,
+      "source_bootstrap95": [
+        0.748,
+        0.8646666666666666
+      ],
+      "mean_queries": 34.903333333333336,
+      "mean_audit_queries": 4.863333333333333,
+      "mean_witness_audit_query_detected": 3.957938629184759
+    },
+    "uniform_minus_standard": {
+      "sources": 75,
+      "mean": 0.334,
+      "source_bootstrap95": [
+        0.25400000000000006,
+        0.41800000000000004
+      ]
+    }
+  }
+}

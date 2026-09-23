@@ -1,0 +1,136 @@
+{
+  "cells": [
+    {
+      "file": "safe_hotpot_active_mistral.json",
+      "regime": "active",
+      "n_detected": 29,
+      "n_total": 37,
+      "n_recall": 0.7837837837837838,
+      "n_wilson95": [
+        0.6280485160803084,
+        0.8861348800661442
+      ],
+      "a_total": 3,
+      "a_acem": 1.0,
+      "mean_unique_prompts": 40.875
+    },
+    {
+      "file": "safe_hotpot_active_qwen.json",
+      "regime": "active",
+      "n_detected": 30,
+      "n_total": 36,
+      "n_recall": 0.8333333333333334,
+      "n_wilson95": [
+        0.6810920568872054,
+        0.9212955240498188
+      ],
+      "a_total": 6,
+      "a_acem": 1.0,
+      "mean_unique_prompts": 35.26190476190476
+    },
+    {
+      "file": "safe_hotpot_news_mistral.json",
+      "regime": "news",
+      "n_detected": 45,
+      "n_total": 49,
+      "n_recall": 0.9183673469387755,
+      "n_wilson95": [
+        0.808108724034287,
+        0.9677971823322362
+      ],
+      "a_total": 45,
+      "a_acem": 1.0,
+      "mean_unique_prompts": 14.83108108108108
+    },
+    {
+      "file": "safe_hotpot_news_qwen.json",
+      "regime": "news",
+      "n_detected": 50,
+      "n_total": 55,
+      "n_recall": 0.9090909090909091,
+      "n_wilson95": [
+        0.8042250541602005,
+        0.9605418449258196
+      ],
+      "a_total": 53,
+      "a_acem": 1.0,
+      "mean_unique_prompts": 15.19277108433735
+    },
+    {
+      "file": "safe_nq_active_mistral.json",
+      "regime": "active",
+      "n_detected": 25,
+      "n_total": 35,
+      "n_recall": 0.7142857142857143,
+      "n_wilson95": [
+        0.5494506513681738,
+        0.836734637635653
+      ],
+      "a_total": 4,
+      "a_acem": 1.0,
+      "mean_unique_prompts": 38.717948717948715
+    },
+    {
+      "file": "safe_nq_active_qwen.json",
+      "regime": "active",
+      "n_detected": 24,
+      "n_total": 34,
+      "n_recall": 0.7058823529411765,
+      "n_wilson95": [
+        0.5383109020528557,
+        0.8316536932957758
+      ],
+      "a_total": 5,
+      "a_acem": 1.0,
+      "mean_unique_prompts": 38.07692307692308
+    },
+    {
+      "file": "safe_nq_news_mistral.json",
+      "regime": "news",
+      "n_detected": 50,
+      "n_total": 53,
+      "n_recall": 0.9433962264150944,
+      "n_wilson95": [
+        0.8462979168981911,
+        0.9805633385150642
+      ],
+      "a_total": 38,
+      "a_acem": 1.0,
+      "mean_unique_prompts": 15.632352941176471
+    },
+    {
+      "file": "safe_nq_news_qwen.json",
+      "regime": "news",
+      "n_detected": 47,
+      "n_total": 50,
+      "n_recall": 0.94,
+      "n_wilson95": [
+        0.8378290831116182,
+        0.979385029651026
+      ],
+      "a_total": 40,
+      "a_acem": 1.0,
+      "mean_unique_prompts": 15.136690647482014
+    }
+  ],
+  "pooled": {
+    "active": {
+      "n_detected": 108,
+      "n_total": 142,
+      "n_recall": 0.7605633802816901,
+      "n_wilson95": [
+        0.684102818572847,
+        0.8232974817147403
+      ]
+    },
+    "news": {
+      "n_detected": 192,
+      "n_total": 207,
+      "n_recall": 0.927536231884058,
+      "n_wilson95": [
+        0.8838959947010271,
+        0.9555973430420307
+      ]
+    }
+  }
+}

@@ -1,0 +1,5100 @@
+{
+  "budget": 48,
+  "selected_counts": {
+    "U": 49,
+    "A": 49,
+    "N": 45
+  },
+  "family_counts": {
+    "a-s3-overlap": 8,
+    "a-s2-disjoint": 78,
+    "u-s2-disjoint": 15,
+    "u-s3-disjoint": 14,
+    "a-s3-disjoint": 22,
+    "a-s2-overlap": 4,
+    "n-s2-disjoint": 2
+  },
+  "difficulty_counts": {
+    "k1-s5-disjoint": 1,
+    "k2-s3-overlap": 15,
+    "k1-s2-disjoint": 31,
+    "k4-s2-overlap": 11,
+    "k3-s2-overlap": 18,
+    "k2-s2-overlap": 14,
+    "k1-s3-disjoint": 14,
+    "k7-s3-overlap": 2,
+    "k2-s2-disjoint": 7,
+    "k3-s3-overlap": 12,
+    "k3-s4-overlap": 1,
+    "k2-s5-overlap": 2,
+    "k1-s4-disjoint": 5,
+    "k2-s1-disjoint": 1,
+    "k4-s3-overlap": 1,
+    "k5-s2-overlap": 2,
+    "k5-s4-overlap": 1,
+    "k2-s4-overlap": 1,
+    "k5-s3-overlap": 2,
+    "k1-s1-disjoint": 1,
+    "k6-s4-overlap": 1
+  },
+  "cause_size_counts": {
+    "3": 38,
+    "2": 101,
+    "4": 2,
+    "5": 1
+  },
+  "A_cross_path_cases": 47,
+  "A_planted_exact_rate": 0.04081632653061224,
+  "performance": [
+    {
+      "stratum": "A",
+      "method": "AmbiCause",
+      "difficulty_band": "k2-s2-disjoint",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 16.0,
+      "mask_queries": 33.0
+    },
+    {
+      "stratum": "A",
+      "method": "AmbiCause",
+      "difficulty_band": "k2-s2-overlap",
+      "source_queries": 7,
+      "runs": 7,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 9.285714285714286,
+      "mask_queries": 20.857142857142858
+    },
+    {
+      "stratum": "A",
+      "method": "AmbiCause",
+      "difficulty_band": "k2-s3-overlap",
+      "source_queries": 10,
+      "runs": 10,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 12.1,
+      "mask_queries": 24.9
+    },
+    {
+      "stratum": "A",
+      "method": "AmbiCause",
+      "difficulty_band": "k2-s4-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 14.0,
+      "mask_queries": 26.0
+    },
+    {
+      "stratum": "A",
+      "method": "AmbiCause",
+      "difficulty_band": "k2-s5-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 17.0,
+      "mask_queries": 26.0
+    },
+    {
+      "stratum": "A",
+      "method": "AmbiCause",
+      "difficulty_band": "k3-s2-overlap",
+      "source_queries": 9,
+      "runs": 9,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 16.0,
+      "mask_queries": 41.666666666666664
+    },
+    {
+      "stratum": "A",
+      "method": "AmbiCause",
+      "difficulty_band": "k3-s3-overlap",
+      "source_queries": 9,
+      "runs": 9,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 14.666666666666666,
+      "mask_queries": 41.888888888888886
+    },
+    {
+      "stratum": "A",
+      "method": "AmbiCause",
+      "difficulty_band": "k4-s2-overlap",
+      "source_queries": 9,
+      "runs": 9,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 16.0,
+      "mask_queries": 46.44444444444444
+    },
+    {
+      "stratum": "A",
+      "method": "AmbiCause",
+      "difficulty_band": "k5-s2-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 16.0,
+      "mask_queries": 41.0
+    },
+    {
+      "stratum": "A",
+      "method": "AmbiCause",
+      "difficulty_band": "k7-s3-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 46.0,
+      "mask_queries": 66.0
+    },
+    {
+      "stratum": "A",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k2-s2-disjoint",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 16.0,
+      "mask_queries": 44.0
+    },
+    {
+      "stratum": "A",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k2-s2-overlap",
+      "source_queries": 7,
+      "runs": 7,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 9.285714285714286,
+      "mask_queries": 30.571428571428573
+    },
+    {
+      "stratum": "A",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k2-s3-overlap",
+      "source_queries": 10,
+      "runs": 10,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 13.0,
+      "mask_queries": 33.2
+    },
+    {
+      "stratum": "A",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k2-s4-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 14.0,
+      "mask_queries": 33.0
+    },
+    {
+      "stratum": "A",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k2-s5-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 17.0,
+      "mask_queries": 32.0
+    },
+    {
+      "stratum": "A",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k3-s2-overlap",
+      "source_queries": 9,
+      "runs": 9,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 16.0,
+      "mask_queries": 54.55555555555556
+    },
+    {
+      "stratum": "A",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k3-s3-overlap",
+      "source_queries": 9,
+      "runs": 9,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 14.666666666666666,
+      "mask_queries": 54.22222222222222
+    },
+    {
+      "stratum": "A",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k4-s2-overlap",
+      "source_queries": 9,
+      "runs": 9,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 16.0,
+      "mask_queries": 62.888888888888886
+    },
+    {
+      "stratum": "A",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k5-s2-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 16.0,
+      "mask_queries": 60.0
+    },
+    {
+      "stratum": "A",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k7-s3-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.923076923076923,
+      "prompt_queries": 48.0,
+      "mask_queries": 69.0
+    },
+    {
+      "stratum": "A",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k2-s2-disjoint",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.6666666666666666,
+      "prompt_queries": 6.0,
+      "mask_queries": 6.0
+    },
+    {
+      "stratum": "A",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k2-s2-overlap",
+      "source_queries": 7,
+      "runs": 7,
+      "acem": 0.0,
+      "cause_f1": 0.6666666666666666,
+      "prompt_queries": 4.857142857142857,
+      "mask_queries": 10.142857142857142
+    },
+    {
+      "stratum": "A",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k2-s3-overlap",
+      "source_queries": 10,
+      "runs": 10,
+      "acem": 0.0,
+      "cause_f1": 0.6666666666666666,
+      "prompt_queries": 8.2,
+      "mask_queries": 13.3
+    },
+    {
+      "stratum": "A",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k2-s4-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.6666666666666666,
+      "prompt_queries": 8.0,
+      "mask_queries": 16.0
+    },
+    {
+      "stratum": "A",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k2-s5-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.6666666666666666,
+      "prompt_queries": 12.0,
+      "mask_queries": 17.0
+    },
+    {
+      "stratum": "A",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k3-s2-overlap",
+      "source_queries": 9,
+      "runs": 9,
+      "acem": 0.0,
+      "cause_f1": 0.5,
+      "prompt_queries": 5.777777777777778,
+      "mask_queries": 8.0
+    },
+    {
+      "stratum": "A",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k3-s3-overlap",
+      "source_queries": 9,
+      "runs": 9,
+      "acem": 0.0,
+      "cause_f1": 0.5,
+      "prompt_queries": 5.777777777777778,
+      "mask_queries": 9.555555555555555
+    },
+    {
+      "stratum": "A",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k4-s2-overlap",
+      "source_queries": 9,
+      "runs": 9,
+      "acem": 0.0,
+      "cause_f1": 0.4,
+      "prompt_queries": 6.0,
+      "mask_queries": 10.0
+    },
+    {
+      "stratum": "A",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k5-s2-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.33333333333333337,
+      "prompt_queries": 6.0,
+      "mask_queries": 6.0
+    },
+    {
+      "stratum": "A",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k7-s3-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.25,
+      "prompt_queries": 7.0,
+      "mask_queries": 7.0
+    },
+    {
+      "stratum": "A",
+      "method": "KernelSHAP",
+      "difficulty_band": "k2-s2-disjoint",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.0,
+      "cause_f1": 0.2,
+      "prompt_queries": 16.0,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "A",
+      "method": "KernelSHAP",
+      "difficulty_band": "k2-s2-overlap",
+      "source_queries": 7,
+      "runs": 70,
+      "acem": 0.0,
+      "cause_f1": 0.6666666666666666,
+      "prompt_queries": 12.571428571428571,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "A",
+      "method": "KernelSHAP",
+      "difficulty_band": "k2-s3-overlap",
+      "source_queries": 10,
+      "runs": 100,
+      "acem": 0.0,
+      "cause_f1": 0.64,
+      "prompt_queries": 21.21,
+      "mask_queries": 218.23
+    },
+    {
+      "stratum": "A",
+      "method": "KernelSHAP",
+      "difficulty_band": "k2-s4-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.0,
+      "cause_f1": 0.6666666666666666,
+      "prompt_queries": 32.0,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "A",
+      "method": "KernelSHAP",
+      "difficulty_band": "k2-s5-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.0,
+      "cause_f1": 0.4666666666666666,
+      "prompt_queries": 43.4,
+      "mask_queries": 71.9
+    },
+    {
+      "stratum": "A",
+      "method": "KernelSHAP",
+      "difficulty_band": "k3-s2-overlap",
+      "source_queries": 9,
+      "runs": 90,
+      "acem": 0.0,
+      "cause_f1": 0.5,
+      "prompt_queries": 16.0,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "A",
+      "method": "KernelSHAP",
+      "difficulty_band": "k3-s3-overlap",
+      "source_queries": 9,
+      "runs": 90,
+      "acem": 0.0,
+      "cause_f1": 0.5,
+      "prompt_queries": 16.0,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "A",
+      "method": "KernelSHAP",
+      "difficulty_band": "k4-s2-overlap",
+      "source_queries": 9,
+      "runs": 90,
+      "acem": 0.0,
+      "cause_f1": 0.3022222222222223,
+      "prompt_queries": 16.0,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "A",
+      "method": "KernelSHAP",
+      "difficulty_band": "k5-s2-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.0,
+      "cause_f1": 0.33333333333333337,
+      "prompt_queries": 16.0,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "A",
+      "method": "KernelSHAP",
+      "difficulty_band": "k7-s3-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.0,
+      "cause_f1": 0.225,
+      "prompt_queries": 41.4,
+      "mask_queries": 66.9
+    },
+    {
+      "stratum": "A",
+      "method": "LOO",
+      "difficulty_band": "k2-s2-disjoint",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 6.0,
+      "mask_queries": 10.0
+    },
+    {
+      "stratum": "A",
+      "method": "LOO",
+      "difficulty_band": "k2-s2-overlap",
+      "source_queries": 7,
+      "runs": 7,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 5.571428571428571,
+      "mask_queries": 10.0
+    },
+    {
+      "stratum": "A",
+      "method": "LOO",
+      "difficulty_band": "k2-s3-overlap",
+      "source_queries": 10,
+      "runs": 10,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 6.4,
+      "mask_queries": 10.0
+    },
+    {
+      "stratum": "A",
+      "method": "LOO",
+      "difficulty_band": "k2-s4-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 7.0,
+      "mask_queries": 10.0
+    },
+    {
+      "stratum": "A",
+      "method": "LOO",
+      "difficulty_band": "k2-s5-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 8.0,
+      "mask_queries": 10.0
+    },
+    {
+      "stratum": "A",
+      "method": "LOO",
+      "difficulty_band": "k3-s2-overlap",
+      "source_queries": 9,
+      "runs": 9,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 6.0,
+      "mask_queries": 10.0
+    },
+    {
+      "stratum": "A",
+      "method": "LOO",
+      "difficulty_band": "k3-s3-overlap",
+      "source_queries": 9,
+      "runs": 9,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 6.0,
+      "mask_queries": 10.0
+    },
+    {
+      "stratum": "A",
+      "method": "LOO",
+      "difficulty_band": "k4-s2-overlap",
+      "source_queries": 9,
+      "runs": 9,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 6.0,
+      "mask_queries": 10.0
+    },
+    {
+      "stratum": "A",
+      "method": "LOO",
+      "difficulty_band": "k5-s2-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 6.0,
+      "mask_queries": 10.0
+    },
+    {
+      "stratum": "A",
+      "method": "LOO",
+      "difficulty_band": "k7-s3-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 8.0,
+      "mask_queries": 10.0
+    },
+    {
+      "stratum": "A",
+      "method": "RandomMasks",
+      "difficulty_band": "k2-s2-disjoint",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 16.0,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "A",
+      "method": "RandomMasks",
+      "difficulty_band": "k2-s2-overlap",
+      "source_queries": 7,
+      "runs": 70,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 12.571428571428571,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "A",
+      "method": "RandomMasks",
+      "difficulty_band": "k2-s3-overlap",
+      "source_queries": 10,
+      "runs": 100,
+      "acem": 0.81,
+      "cause_f1": 0.87,
+      "prompt_queries": 22.4,
+      "mask_queries": 221.45
+    },
+    {
+      "stratum": "A",
+      "method": "RandomMasks",
+      "difficulty_band": "k2-s4-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 32.0,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "A",
+      "method": "RandomMasks",
+      "difficulty_band": "k2-s5-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.0,
+      "cause_f1": 0.26666666666666666,
+      "prompt_queries": 48.0,
+      "mask_queries": 82.9
+    },
+    {
+      "stratum": "A",
+      "method": "RandomMasks",
+      "difficulty_band": "k3-s2-overlap",
+      "source_queries": 9,
+      "runs": 90,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 16.0,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "A",
+      "method": "RandomMasks",
+      "difficulty_band": "k3-s3-overlap",
+      "source_queries": 9,
+      "runs": 90,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 16.0,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "A",
+      "method": "RandomMasks",
+      "difficulty_band": "k4-s2-overlap",
+      "source_queries": 9,
+      "runs": 90,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 16.0,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "A",
+      "method": "RandomMasks",
+      "difficulty_band": "k5-s2-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 16.0,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "A",
+      "method": "RandomMasks",
+      "difficulty_band": "k7-s3-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.0,
+      "cause_f1": 0.25833333333333336,
+      "prompt_queries": 48.0,
+      "mask_queries": 131.9
+    },
+    {
+      "stratum": "A",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k2-s2-disjoint",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 14.7,
+      "mask_queries": 60.6
+    },
+    {
+      "stratum": "A",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k2-s2-overlap",
+      "source_queries": 7,
+      "runs": 70,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 10.357142857142858,
+      "mask_queries": 57.4
+    },
+    {
+      "stratum": "A",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k2-s3-overlap",
+      "source_queries": 10,
+      "runs": 100,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 14.72,
+      "mask_queries": 54.07
+    },
+    {
+      "stratum": "A",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k2-s4-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 16.5,
+      "mask_queries": 51.5
+    },
+    {
+      "stratum": "A",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k2-s5-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 21.1,
+      "mask_queries": 47.0
+    },
+    {
+      "stratum": "A",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k3-s2-overlap",
+      "source_queries": 9,
+      "runs": 90,
+      "acem": 0.9,
+      "cause_f1": 0.98,
+      "prompt_queries": 14.133333333333333,
+      "mask_queries": 60.71111111111111
+    },
+    {
+      "stratum": "A",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k3-s3-overlap",
+      "source_queries": 9,
+      "runs": 90,
+      "acem": 0.9111111111111111,
+      "cause_f1": 0.9822222222222223,
+      "prompt_queries": 12.855555555555556,
+      "mask_queries": 60.144444444444446
+    },
+    {
+      "stratum": "A",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k4-s2-overlap",
+      "source_queries": 9,
+      "runs": 90,
+      "acem": 0.8222222222222222,
+      "cause_f1": 0.9703703703703703,
+      "prompt_queries": 14.21111111111111,
+      "mask_queries": 61.08888888888889
+    },
+    {
+      "stratum": "A",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k5-s2-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.6,
+      "cause_f1": 0.9555555555555555,
+      "prompt_queries": 14.4,
+      "mask_queries": 62.6
+    },
+    {
+      "stratum": "A",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k7-s3-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.0,
+      "cause_f1": 0.7961305361305361,
+      "prompt_queries": 37.2,
+      "mask_queries": 64.0
+    },
+    {
+      "stratum": "A",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k2-s2-disjoint",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 14.0,
+      "mask_queries": 26.0
+    },
+    {
+      "stratum": "A",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k2-s2-overlap",
+      "source_queries": 7,
+      "runs": 7,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 9.142857142857142,
+      "mask_queries": 23.142857142857142
+    },
+    {
+      "stratum": "A",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k2-s3-overlap",
+      "source_queries": 10,
+      "runs": 10,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 13.8,
+      "mask_queries": 31.8
+    },
+    {
+      "stratum": "A",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k2-s4-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 21.0,
+      "mask_queries": 38.0
+    },
+    {
+      "stratum": "A",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k2-s5-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 31.0,
+      "mask_queries": 61.0
+    },
+    {
+      "stratum": "A",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k3-s2-overlap",
+      "source_queries": 9,
+      "runs": 9,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 13.777777777777779,
+      "mask_queries": 34.666666666666664
+    },
+    {
+      "stratum": "A",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k3-s3-overlap",
+      "source_queries": 9,
+      "runs": 9,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 13.222222222222221,
+      "mask_queries": 36.77777777777778
+    },
+    {
+      "stratum": "A",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k4-s2-overlap",
+      "source_queries": 9,
+      "runs": 9,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 14.11111111111111,
+      "mask_queries": 39.44444444444444
+    },
+    {
+      "stratum": "A",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k5-s2-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 15.0,
+      "mask_queries": 34.0
+    },
+    {
+      "stratum": "A",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k7-s3-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 42.0,
+      "mask_queries": 60.0
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCause",
+      "difficulty_band": "k1-s2-disjoint",
+      "source_queries": 3,
+      "runs": 3,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 9.0,
+      "mask_queries": 14.0
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCause",
+      "difficulty_band": "k2-s1-disjoint",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.6666666666666666,
+      "prompt_queries": 14.0,
+      "mask_queries": 20.0
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCause",
+      "difficulty_band": "k2-s2-disjoint",
+      "source_queries": 6,
+      "runs": 6,
+      "acem": 0.0,
+      "cause_f1": 0.5555555555555555,
+      "prompt_queries": 11.333333333333334,
+      "mask_queries": 23.0
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCause",
+      "difficulty_band": "k2-s2-overlap",
+      "source_queries": 7,
+      "runs": 7,
+      "acem": 0.0,
+      "cause_f1": 0.47619047619047616,
+      "prompt_queries": 8.857142857142858,
+      "mask_queries": 14.0
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCause",
+      "difficulty_band": "k2-s3-overlap",
+      "source_queries": 5,
+      "runs": 5,
+      "acem": 0.2,
+      "cause_f1": 0.4666666666666666,
+      "prompt_queries": 10.6,
+      "mask_queries": 19.6
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCause",
+      "difficulty_band": "k2-s5-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 12.0,
+      "mask_queries": 16.0
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCause",
+      "difficulty_band": "k3-s2-overlap",
+      "source_queries": 9,
+      "runs": 9,
+      "acem": 0.2222222222222222,
+      "cause_f1": 0.8444444444444446,
+      "prompt_queries": 13.444444444444445,
+      "mask_queries": 25.333333333333332
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCause",
+      "difficulty_band": "k3-s3-overlap",
+      "source_queries": 3,
+      "runs": 3,
+      "acem": 0.0,
+      "cause_f1": 0.16666666666666666,
+      "prompt_queries": 13.333333333333334,
+      "mask_queries": 16.666666666666668
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCause",
+      "difficulty_band": "k3-s4-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.8,
+      "prompt_queries": 16.0,
+      "mask_queries": 19.0
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCause",
+      "difficulty_band": "k4-s2-overlap",
+      "source_queries": 2,
+      "runs": 2,
+      "acem": 0.5,
+      "cause_f1": 0.8333333333333333,
+      "prompt_queries": 26.0,
+      "mask_queries": 33.5
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCause",
+      "difficulty_band": "k4-s3-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 29.0,
+      "mask_queries": 53.0
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCause",
+      "difficulty_band": "k5-s2-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.7499999999999999,
+      "prompt_queries": 16.0,
+      "mask_queries": 27.0
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCause",
+      "difficulty_band": "k5-s3-overlap",
+      "source_queries": 2,
+      "runs": 2,
+      "acem": 0.0,
+      "cause_f1": 0.8194444444444444,
+      "prompt_queries": 32.0,
+      "mask_queries": 50.5
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCause",
+      "difficulty_band": "k5-s4-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.33333333333333337,
+      "prompt_queries": 18.0,
+      "mask_queries": 21.0
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCause",
+      "difficulty_band": "k6-s4-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.9090909090909091,
+      "prompt_queries": 48.0,
+      "mask_queries": 68.0
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCause",
+      "difficulty_band": "k7-s3-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 11.0,
+      "mask_queries": 13.0
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k1-s2-disjoint",
+      "source_queries": 3,
+      "runs": 3,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 9.0,
+      "mask_queries": 14.0
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k2-s1-disjoint",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.6666666666666666,
+      "prompt_queries": 17.0,
+      "mask_queries": 26.0
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k2-s2-disjoint",
+      "source_queries": 6,
+      "runs": 6,
+      "acem": 0.0,
+      "cause_f1": 0.5555555555555555,
+      "prompt_queries": 11.333333333333334,
+      "mask_queries": 27.166666666666668
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k2-s2-overlap",
+      "source_queries": 7,
+      "runs": 7,
+      "acem": 0.0,
+      "cause_f1": 0.47619047619047616,
+      "prompt_queries": 9.0,
+      "mask_queries": 16.714285714285715
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k2-s3-overlap",
+      "source_queries": 5,
+      "runs": 5,
+      "acem": 0.0,
+      "cause_f1": 0.4,
+      "prompt_queries": 9.6,
+      "mask_queries": 20.0
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k2-s5-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 12.0,
+      "mask_queries": 16.0
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k3-s2-overlap",
+      "source_queries": 9,
+      "runs": 9,
+      "acem": 0.0,
+      "cause_f1": 0.7333333333333334,
+      "prompt_queries": 11.88888888888889,
+      "mask_queries": 28.666666666666668
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k3-s3-overlap",
+      "source_queries": 3,
+      "runs": 3,
+      "acem": 0.0,
+      "cause_f1": 0.16666666666666666,
+      "prompt_queries": 14.333333333333334,
+      "mask_queries": 18.333333333333332
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k3-s4-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.8,
+      "prompt_queries": 20.0,
+      "mask_queries": 27.0
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k4-s2-overlap",
+      "source_queries": 2,
+      "runs": 2,
+      "acem": 0.0,
+      "cause_f1": 0.6666666666666666,
+      "prompt_queries": 21.0,
+      "mask_queries": 27.5
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k4-s3-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.8571428571428571,
+      "prompt_queries": 28.0,
+      "mask_queries": 44.0
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k5-s2-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.7499999999999999,
+      "prompt_queries": 20.0,
+      "mask_queries": 40.0
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k5-s3-overlap",
+      "source_queries": 2,
+      "runs": 2,
+      "acem": 0.0,
+      "cause_f1": 0.5416666666666666,
+      "prompt_queries": 26.5,
+      "mask_queries": 38.0
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k5-s4-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.33333333333333337,
+      "prompt_queries": 18.0,
+      "mask_queries": 24.0
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k6-s4-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.8,
+      "prompt_queries": 48.0,
+      "mask_queries": 70.0
+    },
+    {
+      "stratum": "N",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k7-s3-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 11.0,
+      "mask_queries": 13.0
+    },
+    {
+      "stratum": "N",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k1-s2-disjoint",
+      "source_queries": 3,
+      "runs": 3,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 9.0,
+      "mask_queries": 11.666666666666666
+    },
+    {
+      "stratum": "N",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k2-s1-disjoint",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.6666666666666666,
+      "prompt_queries": 7.0,
+      "mask_queries": 7.0
+    },
+    {
+      "stratum": "N",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k2-s2-disjoint",
+      "source_queries": 6,
+      "runs": 6,
+      "acem": 0.0,
+      "cause_f1": 0.6666666666666666,
+      "prompt_queries": 8.0,
+      "mask_queries": 10.166666666666666
+    },
+    {
+      "stratum": "N",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k2-s2-overlap",
+      "source_queries": 7,
+      "runs": 7,
+      "acem": 0.0,
+      "cause_f1": 0.6666666666666666,
+      "prompt_queries": 6.285714285714286,
+      "mask_queries": 8.714285714285714
+    },
+    {
+      "stratum": "N",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k2-s3-overlap",
+      "source_queries": 5,
+      "runs": 5,
+      "acem": 0.0,
+      "cause_f1": 0.6666666666666666,
+      "prompt_queries": 7.6,
+      "mask_queries": 12.2
+    },
+    {
+      "stratum": "N",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k2-s5-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.6666666666666666,
+      "prompt_queries": 12.0,
+      "mask_queries": 12.0
+    },
+    {
+      "stratum": "N",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k3-s2-overlap",
+      "source_queries": 9,
+      "runs": 9,
+      "acem": 0.0,
+      "cause_f1": 0.5,
+      "prompt_queries": 6.222222222222222,
+      "mask_queries": 8.444444444444445
+    },
+    {
+      "stratum": "N",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k3-s3-overlap",
+      "source_queries": 3,
+      "runs": 3,
+      "acem": 0.0,
+      "cause_f1": 0.5,
+      "prompt_queries": 10.0,
+      "mask_queries": 11.666666666666666
+    },
+    {
+      "stratum": "N",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k3-s4-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.5,
+      "prompt_queries": 14.0,
+      "mask_queries": 16.0
+    },
+    {
+      "stratum": "N",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k4-s2-overlap",
+      "source_queries": 2,
+      "runs": 2,
+      "acem": 0.0,
+      "cause_f1": 0.4,
+      "prompt_queries": 6.0,
+      "mask_queries": 7.0
+    },
+    {
+      "stratum": "N",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k4-s3-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.4,
+      "prompt_queries": 4.0,
+      "mask_queries": 9.0
+    },
+    {
+      "stratum": "N",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k5-s2-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.33333333333333337,
+      "prompt_queries": 7.0,
+      "mask_queries": 10.0
+    },
+    {
+      "stratum": "N",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k5-s3-overlap",
+      "source_queries": 2,
+      "runs": 2,
+      "acem": 0.0,
+      "cause_f1": 0.33333333333333337,
+      "prompt_queries": 9.0,
+      "mask_queries": 11.5
+    },
+    {
+      "stratum": "N",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k5-s4-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.33333333333333337,
+      "prompt_queries": 9.0,
+      "mask_queries": 11.0
+    },
+    {
+      "stratum": "N",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k6-s4-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.2857142857142857,
+      "prompt_queries": 14.0,
+      "mask_queries": 15.0
+    },
+    {
+      "stratum": "N",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k7-s3-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.25,
+      "prompt_queries": 6.0,
+      "mask_queries": 9.0
+    },
+    {
+      "stratum": "N",
+      "method": "KernelSHAP",
+      "difficulty_band": "k1-s2-disjoint",
+      "source_queries": 3,
+      "runs": 30,
+      "acem": 0.9,
+      "cause_f1": 0.9,
+      "prompt_queries": 30.1,
+      "mask_queries": 194.03333333333333
+    },
+    {
+      "stratum": "N",
+      "method": "KernelSHAP",
+      "difficulty_band": "k2-s1-disjoint",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.0,
+      "cause_f1": 0.6666666666666666,
+      "prompt_queries": 32.0,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "N",
+      "method": "KernelSHAP",
+      "difficulty_band": "k2-s2-disjoint",
+      "source_queries": 6,
+      "runs": 60,
+      "acem": 0.0,
+      "cause_f1": 0.15555555555555553,
+      "prompt_queries": 20.883333333333333,
+      "mask_queries": 226.26666666666668
+    },
+    {
+      "stratum": "N",
+      "method": "KernelSHAP",
+      "difficulty_band": "k2-s2-overlap",
+      "source_queries": 7,
+      "runs": 70,
+      "acem": 0.0,
+      "cause_f1": 0.6476190476190475,
+      "prompt_queries": 21.957142857142856,
+      "mask_queries": 229.28571428571428
+    },
+    {
+      "stratum": "N",
+      "method": "KernelSHAP",
+      "difficulty_band": "k2-s3-overlap",
+      "source_queries": 5,
+      "runs": 50,
+      "acem": 0.0,
+      "cause_f1": 0.13333333333333333,
+      "prompt_queries": 20.9,
+      "mask_queries": 217.18
+    },
+    {
+      "stratum": "N",
+      "method": "KernelSHAP",
+      "difficulty_band": "k2-s5-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 45.6,
+      "mask_queries": 81.8
+    },
+    {
+      "stratum": "N",
+      "method": "KernelSHAP",
+      "difficulty_band": "k3-s2-overlap",
+      "source_queries": 9,
+      "runs": 90,
+      "acem": 0.0,
+      "cause_f1": 0.48333333333333334,
+      "prompt_queries": 18.88888888888889,
+      "mask_queries": 235.12222222222223
+    },
+    {
+      "stratum": "N",
+      "method": "KernelSHAP",
+      "difficulty_band": "k3-s3-overlap",
+      "source_queries": 3,
+      "runs": 30,
+      "acem": 0.0,
+      "cause_f1": 0.3333333333333333,
+      "prompt_queries": 42.43333333333333,
+      "mask_queries": 68.23333333333333
+    },
+    {
+      "stratum": "N",
+      "method": "KernelSHAP",
+      "difficulty_band": "k3-s4-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.0,
+      "cause_f1": 0.25,
+      "prompt_queries": 44.0,
+      "mask_queries": 71.0
+    },
+    {
+      "stratum": "N",
+      "method": "KernelSHAP",
+      "difficulty_band": "k4-s2-overlap",
+      "source_queries": 2,
+      "runs": 20,
+      "acem": 0.0,
+      "cause_f1": 0.3,
+      "prompt_queries": 41.6,
+      "mask_queries": 68.75
+    },
+    {
+      "stratum": "N",
+      "method": "KernelSHAP",
+      "difficulty_band": "k4-s3-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.0,
+      "cause_f1": 0.24000000000000005,
+      "prompt_queries": 42.5,
+      "mask_queries": 69.6
+    },
+    {
+      "stratum": "N",
+      "method": "KernelSHAP",
+      "difficulty_band": "k5-s2-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.0,
+      "cause_f1": 0.33333333333333337,
+      "prompt_queries": 32.0,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "N",
+      "method": "KernelSHAP",
+      "difficulty_band": "k5-s3-overlap",
+      "source_queries": 2,
+      "runs": 20,
+      "acem": 0.0,
+      "cause_f1": 0.30000000000000004,
+      "prompt_queries": 40.85,
+      "mask_queries": 61.55
+    },
+    {
+      "stratum": "N",
+      "method": "KernelSHAP",
+      "difficulty_band": "k5-s4-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.0,
+      "cause_f1": 0.1,
+      "prompt_queries": 44.9,
+      "mask_queries": 73.9
+    },
+    {
+      "stratum": "N",
+      "method": "KernelSHAP",
+      "difficulty_band": "k6-s4-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.0,
+      "cause_f1": 0.17142857142857143,
+      "prompt_queries": 42.2,
+      "mask_queries": 71.3
+    },
+    {
+      "stratum": "N",
+      "method": "KernelSHAP",
+      "difficulty_band": "k7-s3-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.0,
+      "cause_f1": 0.075,
+      "prompt_queries": 44.2,
+      "mask_queries": 74.6
+    },
+    {
+      "stratum": "N",
+      "method": "LOO",
+      "difficulty_band": "k1-s2-disjoint",
+      "source_queries": 3,
+      "runs": 3,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 8.666666666666666,
+      "mask_queries": 12.0
+    },
+    {
+      "stratum": "N",
+      "method": "LOO",
+      "difficulty_band": "k2-s1-disjoint",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 7.0,
+      "mask_queries": 10.0
+    },
+    {
+      "stratum": "N",
+      "method": "LOO",
+      "difficulty_band": "k2-s2-disjoint",
+      "source_queries": 6,
+      "runs": 6,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 6.333333333333333,
+      "mask_queries": 10.0
+    },
+    {
+      "stratum": "N",
+      "method": "LOO",
+      "difficulty_band": "k2-s2-overlap",
+      "source_queries": 7,
+      "runs": 7,
+      "acem": 0.0,
+      "cause_f1": 0.38095238095238093,
+      "prompt_queries": 7.571428571428571,
+      "mask_queries": 11.428571428571429
+    },
+    {
+      "stratum": "N",
+      "method": "LOO",
+      "difficulty_band": "k2-s3-overlap",
+      "source_queries": 5,
+      "runs": 5,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 6.4,
+      "mask_queries": 10.0
+    },
+    {
+      "stratum": "N",
+      "method": "LOO",
+      "difficulty_band": "k2-s5-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 8.0,
+      "mask_queries": 10.0
+    },
+    {
+      "stratum": "N",
+      "method": "LOO",
+      "difficulty_band": "k3-s2-overlap",
+      "source_queries": 9,
+      "runs": 9,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 6.222222222222222,
+      "mask_queries": 10.0
+    },
+    {
+      "stratum": "N",
+      "method": "LOO",
+      "difficulty_band": "k3-s3-overlap",
+      "source_queries": 3,
+      "runs": 3,
+      "acem": 0.0,
+      "cause_f1": 0.16666666666666666,
+      "prompt_queries": 9.0,
+      "mask_queries": 11.0
+    },
+    {
+      "stratum": "N",
+      "method": "LOO",
+      "difficulty_band": "k3-s4-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 8.0,
+      "mask_queries": 10.0
+    },
+    {
+      "stratum": "N",
+      "method": "LOO",
+      "difficulty_band": "k4-s2-overlap",
+      "source_queries": 2,
+      "runs": 2,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 8.0,
+      "mask_queries": 10.0
+    },
+    {
+      "stratum": "N",
+      "method": "LOO",
+      "difficulty_band": "k4-s3-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 8.0,
+      "mask_queries": 10.0
+    },
+    {
+      "stratum": "N",
+      "method": "LOO",
+      "difficulty_band": "k5-s2-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 7.0,
+      "mask_queries": 10.0
+    },
+    {
+      "stratum": "N",
+      "method": "LOO",
+      "difficulty_band": "k5-s3-overlap",
+      "source_queries": 2,
+      "runs": 2,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 8.0,
+      "mask_queries": 10.0
+    },
+    {
+      "stratum": "N",
+      "method": "LOO",
+      "difficulty_band": "k5-s4-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 8.0,
+      "mask_queries": 10.0
+    },
+    {
+      "stratum": "N",
+      "method": "LOO",
+      "difficulty_band": "k6-s4-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 8.0,
+      "mask_queries": 10.0
+    },
+    {
+      "stratum": "N",
+      "method": "LOO",
+      "difficulty_band": "k7-s3-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.0,
+      "prompt_queries": 8.0,
+      "mask_queries": 10.0
+    },
+    {
+      "stratum": "N",
+      "method": "RandomMasks",
+      "difficulty_band": "k1-s2-disjoint",
+      "source_queries": 3,
+      "runs": 30,
+      "acem": 0.7333333333333333,
+      "cause_f1": 0.7333333333333333,
+      "prompt_queries": 32.0,
+      "mask_queries": 210.76666666666668
+    },
+    {
+      "stratum": "N",
+      "method": "RandomMasks",
+      "difficulty_band": "k2-s1-disjoint",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 32.0,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "N",
+      "method": "RandomMasks",
+      "difficulty_band": "k2-s2-disjoint",
+      "source_queries": 6,
+      "runs": 60,
+      "acem": 0.85,
+      "cause_f1": 0.9166666666666666,
+      "prompt_queries": 21.333333333333332,
+      "mask_queries": 226.56666666666666
+    },
+    {
+      "stratum": "N",
+      "method": "RandomMasks",
+      "difficulty_band": "k2-s2-overlap",
+      "source_queries": 7,
+      "runs": 70,
+      "acem": 0.8571428571428571,
+      "cause_f1": 0.8952380952380952,
+      "prompt_queries": 22.857142857142858,
+      "mask_queries": 236.32857142857142
+    },
+    {
+      "stratum": "N",
+      "method": "RandomMasks",
+      "difficulty_band": "k2-s3-overlap",
+      "source_queries": 5,
+      "runs": 50,
+      "acem": 0.8,
+      "cause_f1": 0.84,
+      "prompt_queries": 22.4,
+      "mask_queries": 221.7
+    },
+    {
+      "stratum": "N",
+      "method": "RandomMasks",
+      "difficulty_band": "k2-s5-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.0,
+      "cause_f1": 0.2,
+      "prompt_queries": 48.0,
+      "mask_queries": 100.6
+    },
+    {
+      "stratum": "N",
+      "method": "RandomMasks",
+      "difficulty_band": "k3-s2-overlap",
+      "source_queries": 9,
+      "runs": 90,
+      "acem": 0.8888888888888888,
+      "cause_f1": 0.9222222222222223,
+      "prompt_queries": 19.555555555555557,
+      "mask_queries": 235.83333333333334
+    },
+    {
+      "stratum": "N",
+      "method": "RandomMasks",
+      "difficulty_band": "k3-s3-overlap",
+      "source_queries": 3,
+      "runs": 30,
+      "acem": 0.0,
+      "cause_f1": 0.24666666666666667,
+      "prompt_queries": 48.0,
+      "mask_queries": 88.23333333333333
+    },
+    {
+      "stratum": "N",
+      "method": "RandomMasks",
+      "difficulty_band": "k3-s4-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.0,
+      "cause_f1": 0.22999999999999998,
+      "prompt_queries": 48.0,
+      "mask_queries": 113.8
+    },
+    {
+      "stratum": "N",
+      "method": "RandomMasks",
+      "difficulty_band": "k4-s2-overlap",
+      "source_queries": 2,
+      "runs": 20,
+      "acem": 0.0,
+      "cause_f1": 0.3219047619047619,
+      "prompt_queries": 48.0,
+      "mask_queries": 109.2
+    },
+    {
+      "stratum": "N",
+      "method": "RandomMasks",
+      "difficulty_band": "k4-s3-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.0,
+      "cause_f1": 0.2533333333333333,
+      "prompt_queries": 48.0,
+      "mask_queries": 85.0
+    },
+    {
+      "stratum": "N",
+      "method": "RandomMasks",
+      "difficulty_band": "k5-s2-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 32.0,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "N",
+      "method": "RandomMasks",
+      "difficulty_band": "k5-s3-overlap",
+      "source_queries": 2,
+      "runs": 20,
+      "acem": 0.0,
+      "cause_f1": 0.36428571428571427,
+      "prompt_queries": 48.0,
+      "mask_queries": 98.95
+    },
+    {
+      "stratum": "N",
+      "method": "RandomMasks",
+      "difficulty_band": "k5-s4-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.0,
+      "cause_f1": 0.255952380952381,
+      "prompt_queries": 48.0,
+      "mask_queries": 116.9
+    },
+    {
+      "stratum": "N",
+      "method": "RandomMasks",
+      "difficulty_band": "k6-s4-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.0,
+      "cause_f1": 0.2642857142857143,
+      "prompt_queries": 48.0,
+      "mask_queries": 137.4
+    },
+    {
+      "stratum": "N",
+      "method": "RandomMasks",
+      "difficulty_band": "k7-s3-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.0,
+      "cause_f1": 0.32222222222222224,
+      "prompt_queries": 48.0,
+      "mask_queries": 119.1
+    },
+    {
+      "stratum": "N",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k1-s2-disjoint",
+      "source_queries": 3,
+      "runs": 30,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 17.8,
+      "mask_queries": 50.266666666666666
+    },
+    {
+      "stratum": "N",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k2-s1-disjoint",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.9,
+      "cause_f1": 0.9666666666666666,
+      "prompt_queries": 23.5,
+      "mask_queries": 59.6
+    },
+    {
+      "stratum": "N",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k2-s2-disjoint",
+      "source_queries": 6,
+      "runs": 60,
+      "acem": 0.8833333333333333,
+      "cause_f1": 0.961111111111111,
+      "prompt_queries": 17.833333333333332,
+      "mask_queries": 58.81666666666667
+    },
+    {
+      "stratum": "N",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k2-s2-overlap",
+      "source_queries": 7,
+      "runs": 70,
+      "acem": 0.9,
+      "cause_f1": 0.9666666666666668,
+      "prompt_queries": 15.842857142857143,
+      "mask_queries": 54.05714285714286
+    },
+    {
+      "stratum": "N",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k2-s3-overlap",
+      "source_queries": 5,
+      "runs": 50,
+      "acem": 0.98,
+      "cause_f1": 0.9933333333333333,
+      "prompt_queries": 16.14,
+      "mask_queries": 56.12
+    },
+    {
+      "stratum": "N",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k2-s5-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.9,
+      "cause_f1": 0.9666666666666666,
+      "prompt_queries": 30.0,
+      "mask_queries": 55.3
+    },
+    {
+      "stratum": "N",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k3-s2-overlap",
+      "source_queries": 9,
+      "runs": 90,
+      "acem": 0.6777777777777778,
+      "cause_f1": 0.9355555555555556,
+      "prompt_queries": 16.166666666666668,
+      "mask_queries": 58.644444444444446
+    },
+    {
+      "stratum": "N",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k3-s3-overlap",
+      "source_queries": 3,
+      "runs": 30,
+      "acem": 0.5,
+      "cause_f1": 0.8800000000000001,
+      "prompt_queries": 31.466666666666665,
+      "mask_queries": 57.0
+    },
+    {
+      "stratum": "N",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k3-s4-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.2,
+      "cause_f1": 0.8400000000000001,
+      "prompt_queries": 27.2,
+      "mask_queries": 53.3
+    },
+    {
+      "stratum": "N",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k4-s2-overlap",
+      "source_queries": 2,
+      "runs": 20,
+      "acem": 0.5,
+      "cause_f1": 0.919047619047619,
+      "prompt_queries": 35.65,
+      "mask_queries": 62.25
+    },
+    {
+      "stratum": "N",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k4-s3-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.8,
+      "cause_f1": 0.9714285714285713,
+      "prompt_queries": 38.4,
+      "mask_queries": 65.4
+    },
+    {
+      "stratum": "N",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k5-s2-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.2,
+      "cause_f1": 0.8833333333333334,
+      "prompt_queries": 24.7,
+      "mask_queries": 61.0
+    },
+    {
+      "stratum": "N",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k5-s3-overlap",
+      "source_queries": 2,
+      "runs": 20,
+      "acem": 0.1,
+      "cause_f1": 0.8424603174603174,
+      "prompt_queries": 36.6,
+      "mask_queries": 62.0
+    },
+    {
+      "stratum": "N",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k5-s4-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.1,
+      "cause_f1": 0.8305555555555555,
+      "prompt_queries": 32.4,
+      "mask_queries": 61.1
+    },
+    {
+      "stratum": "N",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k6-s4-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.0,
+      "cause_f1": 0.7869696969696969,
+      "prompt_queries": 34.6,
+      "mask_queries": 64.3
+    },
+    {
+      "stratum": "N",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k7-s3-overlap",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 0.0,
+      "cause_f1": 0.8104895104895105,
+      "prompt_queries": 35.1,
+      "mask_queries": 62.8
+    },
+    {
+      "stratum": "N",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k1-s2-disjoint",
+      "source_queries": 3,
+      "runs": 3,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 10.666666666666666,
+      "mask_queries": 13.666666666666666
+    },
+    {
+      "stratum": "N",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k2-s1-disjoint",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 12.0,
+      "mask_queries": 14.0
+    },
+    {
+      "stratum": "N",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k2-s2-disjoint",
+      "source_queries": 6,
+      "runs": 6,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 14.333333333333334,
+      "mask_queries": 25.166666666666668
+    },
+    {
+      "stratum": "N",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k2-s2-overlap",
+      "source_queries": 7,
+      "runs": 7,
+      "acem": 0.5714285714285714,
+      "cause_f1": 0.8571428571428571,
+      "prompt_queries": 10.571428571428571,
+      "mask_queries": 16.857142857142858
+    },
+    {
+      "stratum": "N",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k2-s3-overlap",
+      "source_queries": 5,
+      "runs": 5,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 14.2,
+      "mask_queries": 29.2
+    },
+    {
+      "stratum": "N",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k2-s5-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 22.0,
+      "mask_queries": 34.0
+    },
+    {
+      "stratum": "N",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k3-s2-overlap",
+      "source_queries": 9,
+      "runs": 9,
+      "acem": 0.6666666666666666,
+      "cause_f1": 0.9333333333333333,
+      "prompt_queries": 13.11111111111111,
+      "mask_queries": 27.666666666666668
+    },
+    {
+      "stratum": "N",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k3-s3-overlap",
+      "source_queries": 3,
+      "runs": 3,
+      "acem": 0.0,
+      "cause_f1": 0.7000000000000001,
+      "prompt_queries": 19.0,
+      "mask_queries": 26.333333333333332
+    },
+    {
+      "stratum": "N",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k3-s4-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.8,
+      "prompt_queries": 26.0,
+      "mask_queries": 32.0
+    },
+    {
+      "stratum": "N",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k4-s2-overlap",
+      "source_queries": 2,
+      "runs": 2,
+      "acem": 0.5,
+      "cause_f1": 0.9285714285714286,
+      "prompt_queries": 24.0,
+      "mask_queries": 31.0
+    },
+    {
+      "stratum": "N",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k4-s3-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 24.0,
+      "mask_queries": 46.0
+    },
+    {
+      "stratum": "N",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k5-s2-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.7499999999999999,
+      "prompt_queries": 18.0,
+      "mask_queries": 28.0
+    },
+    {
+      "stratum": "N",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k5-s3-overlap",
+      "source_queries": 2,
+      "runs": 2,
+      "acem": 0.0,
+      "cause_f1": 0.8194444444444444,
+      "prompt_queries": 27.5,
+      "mask_queries": 43.5
+    },
+    {
+      "stratum": "N",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k5-s4-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.7499999999999999,
+      "prompt_queries": 32.0,
+      "mask_queries": 40.0
+    },
+    {
+      "stratum": "N",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k6-s4-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.9090909090909091,
+      "prompt_queries": 45.0,
+      "mask_queries": 62.0
+    },
+    {
+      "stratum": "N",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k7-s3-overlap",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 0.0,
+      "cause_f1": 0.4444444444444445,
+      "prompt_queries": 16.0,
+      "mask_queries": 26.0
+    },
+    {
+      "stratum": "U",
+      "method": "AmbiCause",
+      "difficulty_band": "k1-s1-disjoint",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 4.0,
+      "mask_queries": 11.0
+    },
+    {
+      "stratum": "U",
+      "method": "AmbiCause",
+      "difficulty_band": "k1-s2-disjoint",
+      "source_queries": 28,
+      "runs": 28,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 4.892857142857143,
+      "mask_queries": 12.0
+    },
+    {
+      "stratum": "U",
+      "method": "AmbiCause",
+      "difficulty_band": "k1-s3-disjoint",
+      "source_queries": 14,
+      "runs": 14,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 6.285714285714286,
+      "mask_queries": 13.0
+    },
+    {
+      "stratum": "U",
+      "method": "AmbiCause",
+      "difficulty_band": "k1-s4-disjoint",
+      "source_queries": 5,
+      "runs": 5,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 6.0,
+      "mask_queries": 14.0
+    },
+    {
+      "stratum": "U",
+      "method": "AmbiCause",
+      "difficulty_band": "k1-s5-disjoint",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 6.0,
+      "mask_queries": 15.0
+    },
+    {
+      "stratum": "U",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k1-s1-disjoint",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 4.0,
+      "mask_queries": 18.0
+    },
+    {
+      "stratum": "U",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k1-s2-disjoint",
+      "source_queries": 28,
+      "runs": 28,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 5.0,
+      "mask_queries": 18.0
+    },
+    {
+      "stratum": "U",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k1-s3-disjoint",
+      "source_queries": 14,
+      "runs": 14,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 6.285714285714286,
+      "mask_queries": 18.0
+    },
+    {
+      "stratum": "U",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k1-s4-disjoint",
+      "source_queries": 5,
+      "runs": 5,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 6.0,
+      "mask_queries": 18.0
+    },
+    {
+      "stratum": "U",
+      "method": "AmbiCauseAudit",
+      "difficulty_band": "k1-s5-disjoint",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 6.0,
+      "mask_queries": 18.0
+    },
+    {
+      "stratum": "U",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k1-s1-disjoint",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 3.0,
+      "mask_queries": 6.0
+    },
+    {
+      "stratum": "U",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k1-s2-disjoint",
+      "source_queries": 28,
+      "runs": 28,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 4.75,
+      "mask_queries": 10.857142857142858
+    },
+    {
+      "stratum": "U",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k1-s3-disjoint",
+      "source_queries": 14,
+      "runs": 14,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 6.357142857142857,
+      "mask_queries": 12.214285714285714
+    },
+    {
+      "stratum": "U",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k1-s4-disjoint",
+      "source_queries": 5,
+      "runs": 5,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 7.8,
+      "mask_queries": 17.4
+    },
+    {
+      "stratum": "U",
+      "method": "HierarchicalDeletion",
+      "difficulty_band": "k1-s5-disjoint",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 9.0,
+      "mask_queries": 16.0
+    },
+    {
+      "stratum": "U",
+      "method": "KernelSHAP",
+      "difficulty_band": "k1-s1-disjoint",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 4.0,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "U",
+      "method": "KernelSHAP",
+      "difficulty_band": "k1-s2-disjoint",
+      "source_queries": 28,
+      "runs": 280,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 8.0,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "U",
+      "method": "KernelSHAP",
+      "difficulty_band": "k1-s3-disjoint",
+      "source_queries": 14,
+      "runs": 140,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 12.571428571428571,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "U",
+      "method": "KernelSHAP",
+      "difficulty_band": "k1-s4-disjoint",
+      "source_queries": 5,
+      "runs": 50,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 19.2,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "U",
+      "method": "KernelSHAP",
+      "difficulty_band": "k1-s5-disjoint",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 32.0,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "U",
+      "method": "LOO",
+      "difficulty_band": "k1-s1-disjoint",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 4.0,
+      "mask_queries": 11.0
+    },
+    {
+      "stratum": "U",
+      "method": "LOO",
+      "difficulty_band": "k1-s2-disjoint",
+      "source_queries": 28,
+      "runs": 28,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 4.892857142857143,
+      "mask_queries": 12.0
+    },
+    {
+      "stratum": "U",
+      "method": "LOO",
+      "difficulty_band": "k1-s3-disjoint",
+      "source_queries": 14,
+      "runs": 14,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 6.285714285714286,
+      "mask_queries": 13.0
+    },
+    {
+      "stratum": "U",
+      "method": "LOO",
+      "difficulty_band": "k1-s4-disjoint",
+      "source_queries": 5,
+      "runs": 5,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 6.0,
+      "mask_queries": 14.0
+    },
+    {
+      "stratum": "U",
+      "method": "LOO",
+      "difficulty_band": "k1-s5-disjoint",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 6.0,
+      "mask_queries": 15.0
+    },
+    {
+      "stratum": "U",
+      "method": "RandomMasks",
+      "difficulty_band": "k1-s1-disjoint",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 4.0,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "U",
+      "method": "RandomMasks",
+      "difficulty_band": "k1-s2-disjoint",
+      "source_queries": 28,
+      "runs": 280,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 8.0,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "U",
+      "method": "RandomMasks",
+      "difficulty_band": "k1-s3-disjoint",
+      "source_queries": 14,
+      "runs": 140,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 12.571428571428571,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "U",
+      "method": "RandomMasks",
+      "difficulty_band": "k1-s4-disjoint",
+      "source_queries": 5,
+      "runs": 50,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 19.2,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "U",
+      "method": "RandomMasks",
+      "difficulty_band": "k1-s5-disjoint",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 32.0,
+      "mask_queries": 256.0
+    },
+    {
+      "stratum": "U",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k1-s1-disjoint",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 4.0,
+      "mask_queries": 55.1
+    },
+    {
+      "stratum": "U",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k1-s2-disjoint",
+      "source_queries": 28,
+      "runs": 280,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 5.7,
+      "mask_queries": 51.67857142857143
+    },
+    {
+      "stratum": "U",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k1-s3-disjoint",
+      "source_queries": 14,
+      "runs": 140,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 6.2785714285714285,
+      "mask_queries": 46.84285714285714
+    },
+    {
+      "stratum": "U",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k1-s4-disjoint",
+      "source_queries": 5,
+      "runs": 50,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 6.0,
+      "mask_queries": 40.94
+    },
+    {
+      "stratum": "U",
+      "method": "RepeatedGreedy",
+      "difficulty_band": "k1-s5-disjoint",
+      "source_queries": 1,
+      "runs": 10,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 6.0,
+      "mask_queries": 33.4
+    },
+    {
+      "stratum": "U",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k1-s1-disjoint",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 4.0,
+      "mask_queries": 7.0
+    },
+    {
+      "stratum": "U",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k1-s2-disjoint",
+      "source_queries": 28,
+      "runs": 28,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 5.5,
+      "mask_queries": 12.857142857142858
+    },
+    {
+      "stratum": "U",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k1-s3-disjoint",
+      "source_queries": 14,
+      "runs": 14,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 7.714285714285714,
+      "mask_queries": 15.214285714285714
+    },
+    {
+      "stratum": "U",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k1-s4-disjoint",
+      "source_queries": 5,
+      "runs": 5,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 8.2,
+      "mask_queries": 21.4
+    },
+    {
+      "stratum": "U",
+      "method": "StandardEnumerator",
+      "difficulty_band": "k1-s5-disjoint",
+      "source_queries": 1,
+      "runs": 1,
+      "acem": 1.0,
+      "cause_f1": 1.0,
+      "prompt_queries": 9.0,
+      "mask_queries": 21.0
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "uan:a-s3-overlap:v6:nq:test70",
+      "source_id": "nq:test70",
+      "stratum": "U",
+      "family": "a-s3-overlap",
+      "difficulty_band": "k1-s5-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        5
+      ],
+      "backbone_size": 5,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:nq:test70",
+      "source_id": "nq:test70",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s3-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        3,
+        3
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": 0.5,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:nq:test369",
+      "source_id": "nq:test369",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test369",
+      "source_id": "nq:test369",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k4-s2-overlap",
+      "cause_count": 4,
+      "cause_sizes": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:nq:test369",
+      "source_id": "nq:test369",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s2-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:nq:test58",
+      "source_id": "nq:test58",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k4-s2-overlap",
+      "cause_count": 4,
+      "cause_sizes": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s3-overlap:v6:nq:test58",
+      "source_id": "nq:test58",
+      "stratum": "N",
+      "family": "a-s3-overlap",
+      "difficulty_band": "k2-s2-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.3333333333333333,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:u-s3-disjoint:v1:nq:test454",
+      "source_id": "nq:test454",
+      "stratum": "U",
+      "family": "u-s3-disjoint",
+      "difficulty_band": "k1-s3-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        3
+      ],
+      "backbone_size": 3,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:nq:test454",
+      "source_id": "nq:test454",
+      "stratum": "A",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k7-s3-overlap",
+      "cause_count": 7,
+      "cause_sizes": [
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.3476190476190476,
+      "planted_exact": false,
+      "cross_path_causes": 6
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test454",
+      "source_id": "nq:test454",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s2-disjoint",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.0,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:nq:test156",
+      "source_id": "nq:test156",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-overlap:v4:nq:test156",
+      "source_id": "nq:test156",
+      "stratum": "A",
+      "family": "a-s2-overlap",
+      "difficulty_band": "k2-s2-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.3333333333333333,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test156",
+      "source_id": "nq:test156",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s3-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        3
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.25,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s3-overlap:v6:nq:test407",
+      "source_id": "nq:test407",
+      "stratum": "U",
+      "family": "a-s3-overlap",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test407",
+      "source_id": "nq:test407",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s2-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.3333333333333333,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:u-s3-disjoint:v1:nq:test161",
+      "source_id": "nq:test161",
+      "stratum": "U",
+      "family": "u-s3-disjoint",
+      "difficulty_band": "k1-s3-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        3
+      ],
+      "backbone_size": 3,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test161",
+      "source_id": "nq:test161",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s3-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        3,
+        3,
+        3
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.5,
+      "planted_exact": false,
+      "cross_path_causes": 3
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:nq:test161",
+      "source_id": "nq:test161",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test208",
+      "source_id": "nq:test208",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k4-s2-overlap",
+      "cause_count": 4,
+      "cause_sizes": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.27777777777777773,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:nq:test208",
+      "source_id": "nq:test208",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k7-s3-overlap",
+      "cause_count": 7,
+      "cause_sizes": [
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.3476190476190476,
+      "planted_exact": false,
+      "cross_path_causes": 6
+    },
+    {
+      "case_id": "uan:a-s2-overlap:v4:nq:test216",
+      "source_id": "nq:test216",
+      "stratum": "U",
+      "family": "a-s2-overlap",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:nq:test216",
+      "source_id": "nq:test216",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s3-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        3
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.25,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test216",
+      "source_id": "nq:test216",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s2-disjoint",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.0,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test145",
+      "source_id": "nq:test145",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s2-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.3333333333333333,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:nq:test188",
+      "source_id": "nq:test188",
+      "stratum": "A",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k2-s3-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        3
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.25,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:nq:test60",
+      "source_id": "nq:test60",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:nq:test60",
+      "source_id": "nq:test60",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k3-s4-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        3,
+        3,
+        4
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.35555555555555557,
+      "planted_exact": false,
+      "cross_path_causes": 3
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:nq:test185",
+      "source_id": "nq:test185",
+      "stratum": "U",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k1-s3-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        3
+      ],
+      "backbone_size": 3,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:nq:test185",
+      "source_id": "nq:test185",
+      "stratum": "A",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k2-s5-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        4,
+        5
+      ],
+      "backbone_size": 3,
+      "mean_pairwise_jaccard": 0.5,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:nq:test138",
+      "source_id": "nq:test138",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:nq:test138",
+      "source_id": "nq:test138",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s2-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test138",
+      "source_id": "nq:test138",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s2-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.3333333333333333,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:nq:test317",
+      "source_id": "nq:test317",
+      "stratum": "U",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k1-s3-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        3
+      ],
+      "backbone_size": 3,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test317",
+      "source_id": "nq:test317",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s2-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test77",
+      "source_id": "nq:test77",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s2-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:nq:test77",
+      "source_id": "nq:test77",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s2-disjoint",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.0,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:nq:test404",
+      "source_id": "nq:test404",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s3-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        2,
+        3
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.27777777777777773,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test404",
+      "source_id": "nq:test404",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s2-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s3-overlap:v6:nq:test327",
+      "source_id": "nq:test327",
+      "stratum": "U",
+      "family": "a-s3-overlap",
+      "difficulty_band": "k1-s4-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        4
+      ],
+      "backbone_size": 4,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test327",
+      "source_id": "nq:test327",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s3-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        2,
+        3
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.27777777777777773,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:nq:test312",
+      "source_id": "nq:test312",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:u-s3-disjoint:v1:nq:test312",
+      "source_id": "nq:test312",
+      "stratum": "A",
+      "family": "u-s3-disjoint",
+      "difficulty_band": "k2-s2-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.3333333333333333,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s3-overlap:v6:nq:test312",
+      "source_id": "nq:test312",
+      "stratum": "N",
+      "family": "a-s3-overlap",
+      "difficulty_band": "k2-s1-disjoint",
+      "cause_count": 2,
+      "cause_sizes": [
+        1,
+        1
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.0,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:nq:test20",
+      "source_id": "nq:test20",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test20",
+      "source_id": "nq:test20",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s2-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.3333333333333333,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test192",
+      "source_id": "nq:test192",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s3-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        3,
+        3
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": 0.5,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:nq:test106",
+      "source_id": "nq:test106",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test106",
+      "source_id": "nq:test106",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k4-s2-overlap",
+      "cause_count": 4,
+      "cause_sizes": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:nq:test106",
+      "source_id": "nq:test106",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k4-s2-overlap",
+      "cause_count": 4,
+      "cause_sizes": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 4
+    },
+    {
+      "case_id": "uan:u-s3-disjoint:v1:nq:test226",
+      "source_id": "nq:test226",
+      "stratum": "U",
+      "family": "u-s3-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test226",
+      "source_id": "nq:test226",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s3-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        3
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.25,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:nq:test226",
+      "source_id": "nq:test226",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k2-s5-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        5
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.16666666666666666,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:nq:test315",
+      "source_id": "nq:test315",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test315",
+      "source_id": "nq:test315",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s2-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.3333333333333333,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:nq:test315",
+      "source_id": "nq:test315",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s2-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:nq:test363",
+      "source_id": "nq:test363",
+      "stratum": "A",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k2-s3-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        3,
+        3
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": 0.5,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test75",
+      "source_id": "nq:test75",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s3-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        3,
+        3,
+        3
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.5,
+      "planted_exact": false,
+      "cross_path_causes": 3
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:nq:test75",
+      "source_id": "nq:test75",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k4-s3-overlap",
+      "cause_count": 4,
+      "cause_sizes": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.19444444444444442,
+      "planted_exact": false,
+      "cross_path_causes": 4
+    },
+    {
+      "case_id": "uan:u-s3-disjoint:v1:nq:test395",
+      "source_id": "nq:test395",
+      "stratum": "U",
+      "family": "u-s3-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test395",
+      "source_id": "nq:test395",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s2-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:nq:test395",
+      "source_id": "nq:test395",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s2-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.3333333333333333,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:nq:test64",
+      "source_id": "nq:test64",
+      "stratum": "U",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k1-s3-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        3
+      ],
+      "backbone_size": 3,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test64",
+      "source_id": "nq:test64",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s3-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        3,
+        3
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": 0.5,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:nq:test64",
+      "source_id": "nq:test64",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k2-s2-disjoint",
+      "cause_count": 2,
+      "cause_sizes": [
+        1,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.0,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s2-overlap:v4:nq:test318",
+      "source_id": "nq:test318",
+      "stratum": "U",
+      "family": "a-s2-overlap",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test318",
+      "source_id": "nq:test318",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k4-s2-overlap",
+      "cause_count": 4,
+      "cause_sizes": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:u-s3-disjoint:v1:nq:test16",
+      "source_id": "nq:test16",
+      "stratum": "U",
+      "family": "u-s3-disjoint",
+      "difficulty_band": "k1-s3-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        3
+      ],
+      "backbone_size": 3,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test16",
+      "source_id": "nq:test16",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s2-disjoint",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.0,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:nq:test159",
+      "source_id": "nq:test159",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s3-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        3
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.25,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test159",
+      "source_id": "nq:test159",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s3-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        3
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.25,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test294",
+      "source_id": "nq:test294",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s2-disjoint",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.0,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test412",
+      "source_id": "nq:test412",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k4-s2-overlap",
+      "cause_count": 4,
+      "cause_sizes": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:nq:test412",
+      "source_id": "nq:test412",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s2-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.3333333333333333,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:nq:test413",
+      "source_id": "nq:test413",
+      "stratum": "U",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k1-s3-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        3
+      ],
+      "backbone_size": 3,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:u-s3-disjoint:v1:nq:test231",
+      "source_id": "nq:test231",
+      "stratum": "U",
+      "family": "u-s3-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test231",
+      "source_id": "nq:test231",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s3-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        3
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.25,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:u-s3-disjoint:v1:nq:test273",
+      "source_id": "nq:test273",
+      "stratum": "U",
+      "family": "u-s3-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test273",
+      "source_id": "nq:test273",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s2-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:nq:test273",
+      "source_id": "nq:test273",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k3-s2-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 3
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:nq:test130",
+      "source_id": "nq:test130",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test130",
+      "source_id": "nq:test130",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k5-s2-overlap",
+      "cause_count": 5,
+      "cause_sizes": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.26666666666666666,
+      "planted_exact": false,
+      "cross_path_causes": 3
+    },
+    {
+      "case_id": "uan:a-s3-overlap:v6:nq:test130",
+      "source_id": "nq:test130",
+      "stratum": "N",
+      "family": "a-s3-overlap",
+      "difficulty_band": "k5-s2-overlap",
+      "cause_count": 5,
+      "cause_sizes": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2333333333333333,
+      "planted_exact": false,
+      "cross_path_causes": 5
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:nq:test243",
+      "source_id": "nq:test243",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test243",
+      "source_id": "nq:test243",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k4-s2-overlap",
+      "cause_count": 4,
+      "cause_sizes": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:nq:test243",
+      "source_id": "nq:test243",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k4-s2-overlap",
+      "cause_count": 4,
+      "cause_sizes": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 4
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:nq:test418",
+      "source_id": "nq:test418",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k5-s4-overlap",
+      "cause_count": 5,
+      "cause_sizes": [
+        3,
+        3,
+        3,
+        3,
+        4
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.37666666666666665,
+      "planted_exact": false,
+      "cross_path_causes": 4
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test452",
+      "source_id": "nq:test452",
+      "stratum": "U",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k1-s4-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        4
+      ],
+      "backbone_size": 4,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:u-s3-disjoint:v1:nq:test417",
+      "source_id": "nq:test417",
+      "stratum": "U",
+      "family": "u-s3-disjoint",
+      "difficulty_band": "k1-s3-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        3
+      ],
+      "backbone_size": 3,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-overlap:v4:nq:test417",
+      "source_id": "nq:test417",
+      "stratum": "A",
+      "family": "a-s2-overlap",
+      "difficulty_band": "k2-s2-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.3333333333333333,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test417",
+      "source_id": "nq:test417",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s2-disjoint",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.0,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:nq:test57",
+      "source_id": "nq:test57",
+      "stratum": "U",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k1-s4-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        4
+      ],
+      "backbone_size": 4,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s3-overlap:v6:nq:test57",
+      "source_id": "nq:test57",
+      "stratum": "A",
+      "family": "a-s3-overlap",
+      "difficulty_band": "k2-s4-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        3,
+        4
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": 0.4,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:nq:test127",
+      "source_id": "nq:test127",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test127",
+      "source_id": "nq:test127",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s3-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        2,
+        3
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.27777777777777773,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:nq:test127",
+      "source_id": "nq:test127",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k5-s3-overlap",
+      "cause_count": 5,
+      "cause_sizes": [
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.24166666666666664,
+      "planted_exact": false,
+      "cross_path_causes": 5
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:nq:test107",
+      "source_id": "nq:test107",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:nq:test107",
+      "source_id": "nq:test107",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s3-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        2,
+        3
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.27777777777777773,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test107",
+      "source_id": "nq:test107",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s2-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:nq:test371",
+      "source_id": "nq:test371",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s1-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        1
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test371",
+      "source_id": "nq:test371",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s2-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        1,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.1111111111111111,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:nq:test157",
+      "source_id": "nq:test157",
+      "stratum": "U",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k1-s3-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        3
+      ],
+      "backbone_size": 3,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test157",
+      "source_id": "nq:test157",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s3-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        3
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.25,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test464",
+      "source_id": "nq:test464",
+      "stratum": "U",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k1-s3-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        3
+      ],
+      "backbone_size": 3,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:nq:test464",
+      "source_id": "nq:test464",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k3-s3-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        3,
+        3,
+        3
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": 0.5,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:nq:test311",
+      "source_id": "nq:test311",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test311",
+      "source_id": "nq:test311",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s2-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.3333333333333333,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:nq:test311",
+      "source_id": "nq:test311",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k6-s4-overlap",
+      "cause_count": 6,
+      "cause_sizes": [
+        3,
+        3,
+        3,
+        3,
+        4,
+        4
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.36666666666666664,
+      "planted_exact": false,
+      "cross_path_causes": 5
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:nq:test400",
+      "source_id": "nq:test400",
+      "stratum": "U",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k1-s4-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        4
+      ],
+      "backbone_size": 4,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test400",
+      "source_id": "nq:test400",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s3-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        3,
+        3
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.3333333333333333,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:nq:test400",
+      "source_id": "nq:test400",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test164",
+      "source_id": "nq:test164",
+      "stratum": "U",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:n-s2-disjoint:v7:nq:test383",
+      "source_id": "nq:test383",
+      "stratum": "U",
+      "family": "n-s2-disjoint",
+      "difficulty_band": "k1-s3-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        3
+      ],
+      "backbone_size": 3,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test383",
+      "source_id": "nq:test383",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s2-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:nq:test383",
+      "source_id": "nq:test383",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k3-s3-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        2,
+        3
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.16666666666666666,
+      "planted_exact": false,
+      "cross_path_causes": 3
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test88",
+      "source_id": "nq:test88",
+      "stratum": "U",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:nq:test88",
+      "source_id": "nq:test88",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k2-s3-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        3
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.25,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:u-s2-disjoint:v0:nq:test375",
+      "source_id": "nq:test375",
+      "stratum": "U",
+      "family": "u-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test375",
+      "source_id": "nq:test375",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s3-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        3,
+        3
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": 0.5,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:nq:test375",
+      "source_id": "nq:test375",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s2-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:nq:test442",
+      "source_id": "nq:test442",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k4-s2-overlap",
+      "cause_count": 4,
+      "cause_sizes": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:nq:test442",
+      "source_id": "nq:test442",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k5-s3-overlap",
+      "cause_count": 5,
+      "cause_sizes": [
+        2,
+        2,
+        3,
+        3,
+        3
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2533333333333333,
+      "planted_exact": false,
+      "cross_path_causes": 5
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test19",
+      "source_id": "nq:test19",
+      "stratum": "U",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k1-s4-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        4
+      ],
+      "backbone_size": 4,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test62",
+      "source_id": "nq:test62",
+      "stratum": "U",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:nq:test62",
+      "source_id": "nq:test62",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s2-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.3333333333333333,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:u-s3-disjoint:v1:nq:test94",
+      "source_id": "nq:test94",
+      "stratum": "U",
+      "family": "u-s3-disjoint",
+      "difficulty_band": "k1-s3-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        3
+      ],
+      "backbone_size": 3,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:nq:test94",
+      "source_id": "nq:test94",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s2-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:nq:test94",
+      "source_id": "nq:test94",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k2-s2-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.3333333333333333,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:u-s3-disjoint:v1:nq:test1",
+      "source_id": "nq:test1",
+      "stratum": "U",
+      "family": "u-s3-disjoint",
+      "difficulty_band": "k1-s3-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        3
+      ],
+      "backbone_size": 3,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": true,
+      "cross_path_causes": 0
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test1",
+      "source_id": "nq:test1",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k2-s3-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        3,
+        3
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": 0.5,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:nq:test1",
+      "source_id": "nq:test1",
+      "stratum": "N",
+      "family": "a-s3-disjoint",
+      "difficulty_band": "k3-s3-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        3,
+        3
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.3333333333333333,
+      "planted_exact": false,
+      "cross_path_causes": 3
+    },
+    {
+      "case_id": "uan:u-s3-disjoint:v1:nq:test337",
+      "source_id": "nq:test337",
+      "stratum": "U",
+      "family": "u-s3-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test337",
+      "source_id": "nq:test337",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s3-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        2,
+        3
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.27777777777777773,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:n-s2-disjoint:v7:nq:test337",
+      "source_id": "nq:test337",
+      "stratum": "N",
+      "family": "n-s2-disjoint",
+      "difficulty_band": "k2-s2-overlap",
+      "cause_count": 2,
+      "cause_sizes": [
+        2,
+        2
+      ],
+      "backbone_size": 1,
+      "mean_pairwise_jaccard": 0.3333333333333333,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:u-s3-disjoint:v1:nq:test347",
+      "source_id": "nq:test347",
+      "stratum": "U",
+      "family": "u-s3-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test347",
+      "source_id": "nq:test347",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s2-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test426",
+      "source_id": "nq:test426",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k4-s2-overlap",
+      "cause_count": 4,
+      "cause_sizes": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:nq:test426",
+      "source_id": "nq:test426",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s2-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:nq:test166",
+      "source_id": "nq:test166",
+      "stratum": "U",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k1-s3-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        3
+      ],
+      "backbone_size": 3,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s3-overlap:v6:nq:test166",
+      "source_id": "nq:test166",
+      "stratum": "N",
+      "family": "a-s3-overlap",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:nq:test165",
+      "source_id": "nq:test165",
+      "stratum": "U",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test165",
+      "source_id": "nq:test165",
+      "stratum": "A",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s3-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        3,
+        3
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.3333333333333333,
+      "planted_exact": false,
+      "cross_path_causes": 2
+    },
+    {
+      "case_id": "uan:u-s3-disjoint:v1:nq:test113",
+      "source_id": "nq:test113",
+      "stratum": "U",
+      "family": "u-s3-disjoint",
+      "difficulty_band": "k1-s2-disjoint",
+      "cause_count": 1,
+      "cause_sizes": [
+        2
+      ],
+      "backbone_size": 2,
+      "mean_pairwise_jaccard": null,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:nq:test113",
+      "source_id": "nq:test113",
+      "stratum": "N",
+      "family": "a-s2-disjoint",
+      "difficulty_band": "k3-s2-overlap",
+      "cause_count": 3,
+      "cause_sizes": [
+        2,
+        2,
+        2
+      ],
+      "backbone_size": 0,
+      "mean_pairwise_jaccard": 0.2222222222222222,
+      "planted_exact": false,
+      "cross_path_causes": 1
+    }
+  ]
+}

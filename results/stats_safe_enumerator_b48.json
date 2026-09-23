@@ -1,0 +1,89 @@
+{
+  "cells": [
+    {
+      "dataset": "hotpotqa",
+      "model": "mistral",
+      "n": 60,
+      "baseline_recall": 0.38333333333333336,
+      "safe_recall": 0.95,
+      "safe_wilson95": [
+        0.8629948352365147,
+        0.9828504978356043
+      ],
+      "paired_gain": 0.5666666666666667,
+      "paired_gain_bootstrap95": [
+        0.43333333333333335,
+        0.6833333333333333
+      ],
+      "mcnemar_n01": 34,
+      "mcnemar_n10": 0,
+      "mcnemar_p": 1.1641532182693481e-10
+    },
+    {
+      "dataset": "hotpotqa",
+      "model": "qwen",
+      "n": 58,
+      "baseline_recall": 0.5517241379310345,
+      "safe_recall": 0.9137931034482759,
+      "safe_wilson95": [
+        0.8135637093712647,
+        0.962614616873809
+      ],
+      "paired_gain": 0.3620689655172414,
+      "paired_gain_bootstrap95": [
+        0.22413793103448276,
+        0.5
+      ],
+      "mcnemar_n01": 22,
+      "mcnemar_n10": 1,
+      "mcnemar_p": 5.7220458984375e-06
+    },
+    {
+      "dataset": "nq",
+      "model": "mistral",
+      "n": 59,
+      "baseline_recall": 0.4915254237288136,
+      "safe_recall": 0.9322033898305084,
+      "safe_wilson95": [
+        0.838244756312555,
+        0.9733213810286956
+      ],
+      "paired_gain": 0.4406779661016949,
+      "paired_gain_bootstrap95": [
+        0.3050847457627119,
+        0.576271186440678
+      ],
+      "mcnemar_n01": 27,
+      "mcnemar_n10": 1,
+      "mcnemar_p": 2.1606683731079102e-07
+    },
+    {
+      "dataset": "nq",
+      "model": "qwen",
+      "n": 45,
+      "baseline_recall": 0.5111111111111111,
+      "safe_recall": 0.9555555555555556,
+      "safe_wilson95": [
+        0.8517248923056439,
+        0.9877258732932802
+      ],
+      "paired_gain": 0.4444444444444444,
+      "paired_gain_bootstrap95": [
+        0.3111111111111111,
+        0.6
+      ],
+      "mcnemar_n01": 20,
+      "mcnemar_n10": 0,
+      "mcnemar_p": 1.9073486328125e-06
+    }
+  ],
+  "pooled": {
+    "n": 222,
+    "detected": 208,
+    "recall": 0.9369369369369369,
+    "wilson95": [
+      0.8969431537978201,
+      0.9620665294243622
+    ]
+  }
+}

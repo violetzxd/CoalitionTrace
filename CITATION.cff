@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use CoalitionTrace, please cite the accompanying manuscript."
+title: "CoalitionTrace: Auditing Minimal-Cause Attribution in RAG"
+type: software
+version: 1.0.0
+date-released: 2026-09-24
+repository-code: "https://github.com/violetzxd/CoalitionTrace"
+url: "https://github.com/violetzxd/CoalitionTrace"
+authors:
+  - given-names: Qing
+    family-names: Lin
+    email: linq@mail.dlut.edu.cn
+    affiliation: Dalian University of Technology
+    orcid: "https://orcid.org/0009-0007-5508-3404"
+  - given-names: Long
+    family-names: Zhang
+    email: zlong@ios.ac.cn
+    affiliation: "Inspur Cloud Information Technology Co., Ltd., Jinan, Shandong, China"
+    orcid: "https://orcid.org/0000-0002-8979-7014"
+  - given-names: Xudong
+    family-names: Zhang
+    email: zhangxd20@ios.ac.cn
+    affiliation: "Institute of Software, Chinese Academy of Sciences, Beijing, China"
+    orcid: "https://orcid.org/0009-0005-0451-7810"

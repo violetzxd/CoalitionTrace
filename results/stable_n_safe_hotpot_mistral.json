@@ -1,0 +1,621 @@
+{
+  "delta_mean_logprob_nats": 0.25,
+  "requires_order_and_replacement_stability": true,
+  "raw_n": 60,
+  "stable_n": 3,
+  "stable_rate": 0.05,
+  "stable_rate_ci95_wilson": [
+    0.01714950216439568,
+    0.1370051647634852
+  ],
+  "method": "SafeEnumerator",
+  "budget": 48,
+  "detected_stable_n": 3,
+  "stable_n_detection_recall": 1.0,
+  "stable_n_detection_ci95_wilson": [
+    0.4385029682449546,
+    1.0
+  ],
+  "cases": [
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5a713a5a5542994082a3e6a9",
+      "raw_violation_edges": 32,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": false,
+      "replacement_variant_n": true,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5a722b8655429971e9dc9329",
+      "raw_violation_edges": 48,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": false,
+      "replacement_variant_n": true,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5a7633ad5542992db9473741",
+      "raw_violation_edges": 16,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": false,
+      "replacement_variant_n": false,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5a77cb335542997042120b3a",
+      "raw_violation_edges": 16,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": false,
+      "replacement_variant_n": true,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5a7a0e1e5542990783324e1a",
+      "raw_violation_edges": 16,
+      "margin_stable_edges": 16,
+      "margin_stable_n": true,
+      "order_variant_n": false,
+      "replacement_variant_n": true,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5a8574945542997b5ce3fffb",
+      "raw_violation_edges": 16,
+      "margin_stable_edges": 16,
+      "margin_stable_n": true,
+      "order_variant_n": true,
+      "replacement_variant_n": false,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5ab56e32554299637185c594",
+      "raw_violation_edges": 16,
+      "margin_stable_edges": 16,
+      "margin_stable_n": true,
+      "order_variant_n": false,
+      "replacement_variant_n": true,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5aba749055429901930fa7d8",
+      "raw_violation_edges": 32,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": false,
+      "replacement_variant_n": true,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5aba7cfe554299232ef4a2fd",
+      "raw_violation_edges": 16,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": false,
+      "replacement_variant_n": false,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5ac0d83a554299294b219038",
+      "raw_violation_edges": 16,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": false,
+      "replacement_variant_n": false,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5ac289ff5542996366519a02",
+      "raw_violation_edges": 16,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": false,
+      "replacement_variant_n": true,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5ae37c765542992f92d822d4",
+      "raw_violation_edges": 16,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": false,
+      "replacement_variant_n": false,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5ae4f2c75542993aec5ec0fb",
+      "raw_violation_edges": 16,
+      "margin_stable_edges": 16,
+      "margin_stable_n": true,
+      "order_variant_n": true,
+      "replacement_variant_n": false,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v2:hotpotqa:5ae53b545542990ba0bbb23c",
+      "raw_violation_edges": 16,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": true,
+      "replacement_variant_n": true,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:hotpotqa:5a78bd9b554299078472774a",
+      "raw_violation_edges": 16,
+      "margin_stable_edges": 16,
+      "margin_stable_n": true,
+      "order_variant_n": false,
+      "replacement_variant_n": true,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:hotpotqa:5a7be2595542997c3ec972ac",
+      "raw_violation_edges": 16,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": true,
+      "replacement_variant_n": true,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:hotpotqa:5a80840f554299485f59863b",
+      "raw_violation_edges": 32,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": true,
+      "replacement_variant_n": false,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:hotpotqa:5ab2c5e255429916697740ba",
+      "raw_violation_edges": 16,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": false,
+      "replacement_variant_n": true,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:hotpotqa:5ab5ed505542997d4ad1f255",
+      "raw_violation_edges": 16,
+      "margin_stable_edges": 16,
+      "margin_stable_n": true,
+      "order_variant_n": false,
+      "replacement_variant_n": false,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:hotpotqa:5ab7e4dc5542995dae37e9df",
+      "raw_violation_edges": 32,
+      "margin_stable_edges": 16,
+      "margin_stable_n": true,
+      "order_variant_n": false,
+      "replacement_variant_n": true,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:hotpotqa:5abc8d75554299700f9d7900",
+      "raw_violation_edges": 32,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": false,
+      "replacement_variant_n": true,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:hotpotqa:5abf63f15542997ec76fd3ea",
+      "raw_violation_edges": 16,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": false,
+      "replacement_variant_n": false,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:hotpotqa:5adf3e355542993a75d26440",
+      "raw_violation_edges": 16,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": false,
+      "replacement_variant_n": true,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s2-disjoint:v3:hotpotqa:5adf65555542992d7e9f9334",
+      "raw_violation_edges": 32,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": false,
+      "replacement_variant_n": false,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s2-overlap:v4:hotpotqa:5abd2eab5542992ac4f38210",
+      "raw_violation_edges": 32,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": true,
+      "replacement_variant_n": false,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s2-overlap:v4:hotpotqa:5ae7ba7a5542993210983f12",
+      "raw_violation_edges": 32,
+      "margin_stable_edges": 32,
+      "margin_stable_n": true,
+      "order_variant_n": false,
+      "replacement_variant_n": false,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5a7320565542991f9a20c61d",
+      "raw_violation_edges": 80,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": true,
+      "replacement_variant_n": true,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5a7a1cd85542990783324e65",
+      "raw_violation_edges": 32,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": false,
+      "replacement_variant_n": true,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5a7b7ff75542995eb53be93d",
+      "raw_violation_edges": 64,
+      "margin_stable_edges": 44,
+      "margin_stable_n": true,
+      "order_variant_n": true,
+      "replacement_variant_n": true,
+      "stable_n": true,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5a7c960655429935c91b5244",
+      "raw_violation_edges": 8,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": true,
+      "replacement_variant_n": true,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5a7d19d85542995ed0d165e8",
+      "raw_violation_edges": 16,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": true,
+      "replacement_variant_n": true,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5a80721b554299485f5985ef",
+      "raw_violation_edges": 8,
+      "margin_stable_edges": 4,
+      "margin_stable_n": true,
+      "order_variant_n": false,
+      "replacement_variant_n": true,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5a80b3a9554299485f5986cc",
+      "raw_violation_edges": 8,
+      "margin_stable_edges": 4,
+      "margin_stable_n": true,
+      "order_variant_n": true,
+      "replacement_variant_n": true,
+      "stable_n": true,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5a87d8215542994775f60800",
+      "raw_violation_edges": 16,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": true,
+      "replacement_variant_n": true,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5a88d745554299206df2b378",
+      "raw_violation_edges": 8,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": false,
+      "replacement_variant_n": true,
+      "stable_n": false,
+      "detected_nonmonotone": false
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5a8cb288554299585d9e3726",
+      "raw_violation_edges": 32,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": true,
+      "replacement_variant_n": true,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5a8d5fc6554299585d9e37c6",
+      "raw_violation_edges": 24,
+      "margin_stable_edges": 8,
+      "margin_stable_n": true,
+      "order_variant_n": false,
+      "replacement_variant_n": true,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5ab69c25554299110f219a39",
+      "raw_violation_edges": 28,
+      "margin_stable_edges": 8,
+      "margin_stable_n": true,
+      "order_variant_n": false,
+      "replacement_variant_n": true,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5ab9b29c554299743d22ebae",
+      "raw_violation_edges": 16,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": true,
+      "replacement_variant_n": true,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5aba5d2e55429901930fa799",
+      "raw_violation_edges": 24,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": false,
+      "replacement_variant_n": true,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5ac298f9554299657fa28fc9",
+      "raw_violation_edges": 16,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": false,
+      "replacement_variant_n": true,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5ac2d1d755429921a00ab053",
+      "raw_violation_edges": 24,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": false,
+      "replacement_variant_n": true,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5ac2ffbd554299677310267b",
+      "raw_violation_edges": 8,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": true,
+      "replacement_variant_n": true,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5ac3e0f7554299194317388b",
+      "raw_violation_edges": 8,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": true,
+      "replacement_variant_n": true,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5add11935542994734353827",
+      "raw_violation_edges": 24,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": false,
+      "replacement_variant_n": true,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5add673e5542992ae4cec54d",
+      "raw_violation_edges": 8,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": false,
+      "replacement_variant_n": true,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5adf37a95542995ec70e8f97",
+      "raw_violation_edges": 4,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": false,
+      "replacement_variant_n": false,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5ae0361155429925eb1afc2c",
+      "raw_violation_edges": 8,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": true,
+      "replacement_variant_n": true,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5ae224da554299234fd043ee",
+      "raw_violation_edges": 24,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": false,
+      "replacement_variant_n": true,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5ae2b770554299495565db0f",
+      "raw_violation_edges": 12,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": true,
+      "replacement_variant_n": true,
+      "stable_n": false,
+      "detected_nonmonotone": false
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5ae2dd2055429928c423950d",
+      "raw_violation_edges": 12,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": false,
+      "replacement_variant_n": false,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5ae2dfd155429928c423951b",
+      "raw_violation_edges": 12,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": false,
+      "replacement_variant_n": true,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5ae33c4d5542992f92d82262",
+      "raw_violation_edges": 8,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": true,
+      "replacement_variant_n": false,
+      "stable_n": false,
+      "detected_nonmonotone": false
+    },
+    {
+      "case_id": "uan:a-s3-disjoint:v5:hotpotqa:5ae6050f55429929b0807a5e",
+      "raw_violation_edges": 28,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": false,
+      "replacement_variant_n": true,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s3-overlap:v6:hotpotqa:5a83880e554299123d8c214e",
+      "raw_violation_edges": 32,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": false,
+      "replacement_variant_n": true,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s3-overlap:v6:hotpotqa:5abd01205542992ac4f3819b",
+      "raw_violation_edges": 16,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": true,
+      "replacement_variant_n": true,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s3-overlap:v6:hotpotqa:5ac2659b55429963665199a1",
+      "raw_violation_edges": 24,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": false,
+      "replacement_variant_n": true,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:a-s3-overlap:v6:hotpotqa:5ae4a3265542995ad6573de5",
+      "raw_violation_edges": 16,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": false,
+      "replacement_variant_n": false,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:n-s2-disjoint:v7:hotpotqa:5a77724455429972597f153e",
+      "raw_violation_edges": 48,
+      "margin_stable_edges": 48,
+      "margin_stable_n": true,
+      "order_variant_n": true,
+      "replacement_variant_n": true,
+      "stable_n": true,
+      "detected_nonmonotone": true
+    },
+    {
+      "case_id": "uan:u-s3-disjoint:v1:hotpotqa:5ab1d7ac554299449642c7e6",
+      "raw_violation_edges": 32,
+      "margin_stable_edges": 0,
+      "margin_stable_n": false,
+      "order_variant_n": false,
+      "replacement_variant_n": false,
+      "stable_n": false,
+      "detected_nonmonotone": true
+    }
+  ]
+}

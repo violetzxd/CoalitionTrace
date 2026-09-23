@@ -1,0 +1,362 @@
+[
+  {
+    "dataset": "hotpotqa",
+    "model": "mistral",
+    "stratum": "A",
+    "n": 54,
+    "method_acem": 1.0,
+    "baseline_acem": 1.0,
+    "acem_difference": 0.0,
+    "acem_difference_ci95": [
+      0.0,
+      0.0
+    ],
+    "cause_f1_difference": 0.0,
+    "cause_f1_difference_ci95": [
+      0.0,
+      0.0
+    ],
+    "call_difference": 0.9814814814814815,
+    "call_difference_ci95": [
+      0.37037037037037035,
+      1.5
+    ],
+    "mcnemar_method_only": 0,
+    "mcnemar_baseline_only": 0,
+    "mcnemar_exact_p": 1.0,
+    "method_better_fraction": 0.0,
+    "baseline_better_fraction": 0.0,
+    "baseline_seed_rule": "0",
+    "mcnemar_holm_family": "A",
+    "mcnemar_holm_family_size": 4,
+    "mcnemar_holm_p": 1.0
+  },
+  {
+    "dataset": "hotpotqa",
+    "model": "mistral",
+    "stratum": "N",
+    "n": 60,
+    "method_acem": 0.23333333333333334,
+    "baseline_acem": 0.5833333333333334,
+    "acem_difference": -0.35,
+    "acem_difference_ci95": [
+      -0.4666666666666667,
+      -0.23333333333333334
+    ],
+    "cause_f1_difference": -0.3202910052910053,
+    "cause_f1_difference_ci95": [
+      -0.4283753306878306,
+      -0.21984093915343916
+    ],
+    "call_difference": -0.6666666666666666,
+    "call_difference_ci95": [
+      -2.2,
+      0.6666666666666666
+    ],
+    "mcnemar_method_only": 0,
+    "mcnemar_baseline_only": 21,
+    "mcnemar_exact_p": 9.5367431640625e-07,
+    "method_better_fraction": 0.0,
+    "baseline_better_fraction": 0.35,
+    "baseline_seed_rule": "0"
+  },
+  {
+    "dataset": "hotpotqa",
+    "model": "mistral",
+    "stratum": "U",
+    "n": 58,
+    "method_acem": 1.0,
+    "baseline_acem": 1.0,
+    "acem_difference": 0.0,
+    "acem_difference_ci95": [
+      0.0,
+      0.0
+    ],
+    "cause_f1_difference": 0.0,
+    "cause_f1_difference_ci95": [
+      0.0,
+      0.0
+    ],
+    "call_difference": -0.3103448275862069,
+    "call_difference_ci95": [
+      -0.4827586206896552,
+      -0.1206896551724138
+    ],
+    "mcnemar_method_only": 0,
+    "mcnemar_baseline_only": 0,
+    "mcnemar_exact_p": 1.0,
+    "method_better_fraction": 0.0,
+    "baseline_better_fraction": 0.0,
+    "baseline_seed_rule": "0"
+  },
+  {
+    "dataset": "hotpotqa",
+    "model": "qwen",
+    "stratum": "A",
+    "n": 58,
+    "method_acem": 1.0,
+    "baseline_acem": 1.0,
+    "acem_difference": 0.0,
+    "acem_difference_ci95": [
+      0.0,
+      0.0
+    ],
+    "cause_f1_difference": 0.0,
+    "cause_f1_difference_ci95": [
+      0.0,
+      0.0
+    ],
+    "call_difference": 0.5344827586206896,
+    "call_difference_ci95": [
+      0.05172413793103448,
+      0.9827586206896551
+    ],
+    "mcnemar_method_only": 0,
+    "mcnemar_baseline_only": 0,
+    "mcnemar_exact_p": 1.0,
+    "method_better_fraction": 0.0,
+    "baseline_better_fraction": 0.0,
+    "baseline_seed_rule": "0",
+    "mcnemar_holm_family": "A",
+    "mcnemar_holm_family_size": 4,
+    "mcnemar_holm_p": 1.0
+  },
+  {
+    "dataset": "hotpotqa",
+    "model": "qwen",
+    "stratum": "N",
+    "n": 58,
+    "method_acem": 0.15517241379310345,
+    "baseline_acem": 0.7068965517241379,
+    "acem_difference": -0.5517241379310345,
+    "acem_difference_ci95": [
+      -0.6724137931034483,
+      -0.41379310344827586
+    ],
+    "cause_f1_difference": -0.42356321839080463,
+    "cause_f1_difference_ci95": [
+      -0.5233990147783251,
+      -0.32659688013136295
+    ],
+    "call_difference": -3.913793103448276,
+    "call_difference_ci95": [
+      -6.0,
+      -2.0172413793103448
+    ],
+    "mcnemar_method_only": 0,
+    "mcnemar_baseline_only": 32,
+    "mcnemar_exact_p": 4.656612873077393e-10,
+    "method_better_fraction": 0.0,
+    "baseline_better_fraction": 0.5517241379310345,
+    "baseline_seed_rule": "0"
+  },
+  {
+    "dataset": "hotpotqa",
+    "model": "qwen",
+    "stratum": "U",
+    "n": 56,
+    "method_acem": 1.0,
+    "baseline_acem": 1.0,
+    "acem_difference": 0.0,
+    "acem_difference_ci95": [
+      0.0,
+      0.0
+    ],
+    "cause_f1_difference": 0.0,
+    "cause_f1_difference_ci95": [
+      0.0,
+      0.0
+    ],
+    "call_difference": -0.5535714285714286,
+    "call_difference_ci95": [
+      -0.8035714285714286,
+      -0.32142857142857145
+    ],
+    "mcnemar_method_only": 0,
+    "mcnemar_baseline_only": 0,
+    "mcnemar_exact_p": 1.0,
+    "method_better_fraction": 0.0,
+    "baseline_better_fraction": 0.0,
+    "baseline_seed_rule": "0"
+  },
+  {
+    "dataset": "nq",
+    "model": "mistral",
+    "stratum": "A",
+    "n": 52,
+    "method_acem": 1.0,
+    "baseline_acem": 1.0,
+    "acem_difference": 0.0,
+    "acem_difference_ci95": [
+      0.0,
+      0.0
+    ],
+    "cause_f1_difference": 0.0,
+    "cause_f1_difference_ci95": [
+      0.0,
+      0.0
+    ],
+    "call_difference": 1.3269230769230769,
+    "call_difference_ci95": [
+      0.9230769230769231,
+      1.7115384615384615
+    ],
+    "mcnemar_method_only": 0,
+    "mcnemar_baseline_only": 0,
+    "mcnemar_exact_p": 1.0,
+    "method_better_fraction": 0.0,
+    "baseline_better_fraction": 0.0,
+    "baseline_seed_rule": "0",
+    "mcnemar_holm_family": "A",
+    "mcnemar_holm_family_size": 4,
+    "mcnemar_holm_p": 1.0
+  },
+  {
+    "dataset": "nq",
+    "model": "mistral",
+    "stratum": "N",
+    "n": 59,
+    "method_acem": 0.1016949152542373,
+    "baseline_acem": 0.5932203389830508,
+    "acem_difference": -0.4915254237288136,
+    "acem_difference_ci95": [
+      -0.6271186440677966,
+      -0.3559322033898305
+    ],
+    "cause_f1_difference": -0.3635996771589992,
+    "cause_f1_difference_ci95": [
+      -0.4602925746569814,
+      -0.2704570217917676
+    ],
+    "call_difference": -2.830508474576271,
+    "call_difference_ci95": [
+      -4.47457627118644,
+      -1.4067796610169492
+    ],
+    "mcnemar_method_only": 0,
+    "mcnemar_baseline_only": 29,
+    "mcnemar_exact_p": 3.725290298461914e-09,
+    "method_better_fraction": 0.0,
+    "baseline_better_fraction": 0.4915254237288136,
+    "baseline_seed_rule": "0"
+  },
+  {
+    "dataset": "nq",
+    "model": "mistral",
+    "stratum": "U",
+    "n": 53,
+    "method_acem": 1.0,
+    "baseline_acem": 1.0,
+    "acem_difference": 0.0,
+    "acem_difference_ci95": [
+      0.0,
+      0.0
+    ],
+    "cause_f1_difference": 0.0,
+    "cause_f1_difference_ci95": [
+      0.0,
+      0.0
+    ],
+    "call_difference": -0.4339622641509434,
+    "call_difference_ci95": [
+      -0.5849056603773585,
+      -0.2830188679245283
+    ],
+    "mcnemar_method_only": 0,
+    "mcnemar_baseline_only": 0,
+    "mcnemar_exact_p": 1.0,
+    "method_better_fraction": 0.0,
+    "baseline_better_fraction": 0.0,
+    "baseline_seed_rule": "0"
+  },
+  {
+    "dataset": "nq",
+    "model": "qwen",
+    "stratum": "A",
+    "n": 49,
+    "method_acem": 1.0,
+    "baseline_acem": 1.0,
+    "acem_difference": 0.0,
+    "acem_difference_ci95": [
+      0.0,
+      0.0
+    ],
+    "cause_f1_difference": 0.0,
+    "cause_f1_difference_ci95": [
+      0.0,
+      0.0
+    ],
+    "call_difference": 0.40816326530612246,
+    "call_difference_ci95": [
+      -0.5102040816326531,
+      1.163265306122449
+    ],
+    "mcnemar_method_only": 0,
+    "mcnemar_baseline_only": 0,
+    "mcnemar_exact_p": 1.0,
+    "method_better_fraction": 0.0,
+    "baseline_better_fraction": 0.0,
+    "baseline_seed_rule": "0",
+    "mcnemar_holm_family": "A",
+    "mcnemar_holm_family_size": 4,
+    "mcnemar_holm_p": 1.0
+  },
+  {
+    "dataset": "nq",
+    "model": "qwen",
+    "stratum": "N",
+    "n": 45,
+    "method_acem": 0.1111111111111111,
+    "baseline_acem": 0.6222222222222222,
+    "acem_difference": -0.5111111111111111,
+    "acem_difference_ci95": [
+      -0.6666666666666666,
+      -0.35555555555555557
+    ],
+    "cause_f1_difference": -0.3507760141093475,
+    "cause_f1_difference_ci95": [
+      -0.4555908289241623,
+      -0.2540202821869489
+    ],
+    "call_difference": -1.8888888888888888,
+    "call_difference_ci95": [
+      -3.1333333333333333,
+      -0.7333333333333333
+    ],
+    "mcnemar_method_only": 0,
+    "mcnemar_baseline_only": 23,
+    "mcnemar_exact_p": 2.384185791015625e-07,
+    "method_better_fraction": 0.0,
+    "baseline_better_fraction": 0.5111111111111111,
+    "baseline_seed_rule": "0"
+  },
+  {
+    "dataset": "nq",
+    "model": "qwen",
+    "stratum": "U",
+    "n": 49,
+    "method_acem": 1.0,
+    "baseline_acem": 1.0,
+    "acem_difference": 0.0,
+    "acem_difference_ci95": [
+      0.0,
+      0.0
+    ],
+    "cause_f1_difference": 0.0,
+    "cause_f1_difference_ci95": [
+      0.0,
+      0.0
+    ],
+    "call_difference": -1.0408163265306123,
+    "call_difference_ci95": [
+      -1.3061224489795917,
+      -0.7959183673469388
+    ],
+    "mcnemar_method_only": 0,
+    "mcnemar_baseline_only": 0,
+    "mcnemar_exact_p": 1.0,
+    "method_better_fraction": 0.0,
+    "baseline_better_fraction": 0.0,
+    "baseline_seed_rule": "0"
+  }
+]
