@@ -6,6 +6,13 @@ import hashlib
 from pathlib import Path
 
 
+EXCLUDED_PARTS = {".git", ".pytest_cache", "__pycache__"}
+EXCLUDED_SUFFIXES = {
+    ".aux", ".bbl", ".blg", ".fdb_latexmk", ".fls", ".log", ".out",
+    ".pyc", ".synctex.gz",
+}
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("root", type=Path)
@@ -13,7 +20,11 @@ def main() -> None:
     args = parser.parse_args()
     output = args.output.resolve()
     rows = []
-    for path in sorted(p for p in args.root.rglob("*") if p.is_file()):
+    for path in sorted(p for p in args.root.rglob("*")
+                       if p.is_file()
+                       and not EXCLUDED_PARTS.intersection(p.parts)
+                       and not any(p.name.endswith(suffix)
+                                   for suffix in EXCLUDED_SUFFIXES)):
         if path.resolve() == output:
             continue
         hasher = hashlib.sha256()

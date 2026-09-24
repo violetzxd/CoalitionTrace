@@ -29,9 +29,12 @@ recall and F1, exact cause-set match (ACEM), detected non-monotonicity, and the
 applicable completeness flags. `results/final_delivery/` contains compact
 aggregates and manifest files used by the paper.
 
-The release contains identifiers and derived measurements, not the raw source
-documents, questions, model outputs, prompts, or model checkpoints. Normalized
-question lists under `data/manifests/` support exclusion and leakage checks.
+The release contains pseudonymous identifiers and derived measurements, not
+raw source documents, questions, model outputs, prompts, or model checkpoints.
+SHA-256 digests of canonicalized questions under `data/manifests/` support
+exact exclusion and leakage checks without republishing question text. These
+digests are equality-checking aids, not anonymization guarantees for a party
+that already possesses a candidate question corpus.
 
 ## Source data and models
 
@@ -64,6 +67,6 @@ rendered prompts are treated as one physical generator call.
 ## Privacy and sensitive information
 
 No credentials, private server paths, or personally identifying participant
-data are intended to be present. The source benchmarks are public research
-datasets; this repository publishes only derived identifiers and measurements.
-
+data are present in the release. The source benchmarks are public research
+datasets; this repository publishes only digests, pseudonymous identifiers,
+and derived measurements.

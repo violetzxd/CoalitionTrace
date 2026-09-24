@@ -36,10 +36,11 @@ no violation is therefore diagnostic evidence, not a monotonicity certificate.
 - `coalitiontrace/`: reusable algorithms, replay accounting, and metrics.
 - `scripts/`: benchmark construction, evaluation, audits, statistics, and plots.
 - `tests/`: unit and exhaustive small-instance checks.
-- `results/`: released row-level metrics and compact final-delivery summaries.
-- `data/manifests/`: question-exclusion and provenance hashes; no third-party
+- `results/`: claim-level summaries plus the row-level metrics required to
+  recompute the reported uncertainty estimates.
+- `data/manifests/`: SHA-256 question-exclusion digests; no third-party
   benchmark text is redistributed.
-- `research/`: frozen protocols, theorem notes, deviations, and result ledger.
+- `research/`: frozen protocols, theorem notes, deviations, and claim ledger.
 - `paper/`: LaTeX source, figures, bibliography, and compiled manuscript.
 
 ## Quick start
@@ -74,13 +75,13 @@ recorded in `REPRODUCIBILITY.md`; the frozen experimental protocol is in
 
 ## Data and provenance
 
-This repository releases derived manifests, identifiers, costs, predictions,
-and evaluation metrics needed to audit the paper's claims. It intentionally
-does not redistribute the raw HotpotQA, Natural Questions, SQuAD, or
-WebQuestions corpora, nor the Qwen or Mistral weights. Obtain those assets from
-their original maintainers under their respective terms, then use the included
-construction scripts and normalized-question exclusion lists. See
-`DATA_CARD.md` for field definitions, scope, and limitations.
+This repository releases derived manifests, pseudonymous identifiers, costs,
+predictions, and evaluation metrics needed to audit the paper's claims. It
+intentionally does not redistribute the raw HotpotQA, Natural Questions,
+SQuAD, or WebQuestions corpora, model prompts/outputs, or Qwen/Mistral weights.
+Obtain those assets from their original maintainers under their respective
+terms, then use the included construction scripts and hashed question-exclusion
+lists. See `DATA_CARD.md` for field definitions, scope, and limitations.
 
 ## Reproducing the paper
 
@@ -88,6 +89,13 @@ The manuscript compiles from `paper/main.tex` with the included ICASSP style,
 bibliography, and PDF figures. The checked-in `paper/main.pdf` is the exact
 public artifact version. Statistical claims should be traced through
 `research/CLAIM_RESULT_MANIFEST.md` and `research/RESULTS_LEDGER.md` before use.
+
+## Licenses
+
+Source code is released under the MIT License (`LICENSE`). Derived manifests
+and numerical result tables are released under CC BY 4.0 (`LICENSE-DATA`).
+Third-party datasets, model weights, ICASSP style files, and cited works remain
+subject to their original terms and are not relicensed here.
 
 ## Responsible use
 
@@ -101,4 +109,3 @@ finite audit as proof of global monotonicity.
 
 Please cite the accompanying manuscript. Machine-readable author metadata is
 provided in `CITATION.cff`.
-

@@ -15,6 +15,10 @@ def _norm(text: str) -> str:
     return " ".join(re.findall(r"[a-z0-9]+", text.casefold()))
 
 
+def _question_digest(text: str) -> str:
+    return hashlib.sha256(_norm(text).encode("utf-8")).hexdigest()
+
+
 def _contains_phrase(text: str, phrase: str) -> bool:
     haystack = _norm(text).split()
     needle = _norm(phrase).split()
@@ -44,7 +48,7 @@ def main() -> None:
                  path.read_text(encoding="utf-8").splitlines() if line]
         cases_by_file[path.name] = cases
         sources = {case.source_id for case in cases}
-        questions = {_norm(case.question) for case in cases}
+        questions = {_question_digest(case.question) for case in cases}
         file_sources[path.name] = sources
         file_questions[path.name] = questions
         if questions & prior:

@@ -23,15 +23,15 @@ several alternative minimal causes. We formalize attribution as enumeration of
 all inclusion-minimal sufficient document sets and prove a boundary for
 grand-coalition leave-one-out (LOO): under monotone replay, LOO recovers the
 unique cause but returns only the intersection of alternatives. We introduce
-fully oracled unique/alternative/non-monotone (U/A/N) strata and audit black-box
+oracled unique/alternative/non-monotone (U/A/N) strata and audit black-box
 procedures on HotpotQA and Natural Questions with two 7B generators. Mask counts
 overstate cost when masks render to identical prompts; correct prompt-level
 caching removes an apparent advantage of a RAG-specific adaptation over
-standard enumeration. An enumerate-first prompt-uniform residual audit preserves
+enumeration. An enumerate-first prompt-uniform residual audit preserves
 perfect U/A recovery and raises source-clustered raw-N violation recall from
 .388 to .952, but a no-collapse stress test falls to .814. We prove uniform
 sampling minimax for an adversarial static hidden-witness subproblem. A frozen
-geometry-aware ordering subsequently fails its prespecified holdout gate. Thus a
+geometry-aware ordering fails its prespecified holdout gate. Thus a
 finite unviolated trace is diagnostic, not a monotonicity certificate.
 \end{abstract}
 
@@ -83,8 +83,9 @@ Property testing can reject functions that are far from monotone
 \cite{goldreich2000}; our trace proposition is narrower and makes no tolerant-
 testing lower-bound claim.
 
-\textbf{Data availability.} Code, benchmark manifests, and replay artifacts are
-publicly available at \url{https://github.com/violetzxd/CoalitionTrace}.
+\textbf{Data availability.} Code, frozen protocols, benchmark manifests, and
+replay-derived results are available at
+\url{https://github.com/violetzxd/CoalitionTrace}.
 
 \section{Problem Setup and Boundaries}
 
@@ -148,63 +149,68 @@ only make the fixed-prefix expression a lower bound, not a global minimax claim.
 
 \section{Methodology}
 
-Figure~\ref{fig:method} summarizes our five-stage procedure. The separation is
-deliberate: cause recovery, violation detection, and certification are different
-objectives. Safety queries never preempt the task-matched cause enumerator. The
-procedure maintains three persistent objects: a prompt-class cache $H$, a set
-$\widehat{\mathcal M}$ of verified minimal causes, and an exclusion frontier
-$F$. Every returned cause is replay-checked for sufficiency and member
-necessity; every safety decision is tied to an explicit comparable pair.
+\textbf{Design objective.} CoalitionTrace separates three questions that a
+single attribution score cannot answer: (i) which minimal causes have been
+recovered, (ii) whether monotonicity has been refuted, and (iii) what the trace
+actually certifies. Figure~\ref{fig:method} shows the resulting composition.
+Cause enumeration receives the task budget first; only its unused
+\emph{physical-call} budget is audited. Thus safety evidence cannot silently
+replace the all-cause objective it is meant to qualify.
 
 \begin{figure*}[t]
 \centering
-\includegraphics[width=.98\textwidth]{fig_method_overview.pdf}
-\caption{CoalitionTrace methodology. Endpoint checks establish that the local
-question is well posed. LOO gives a cheap backbone diagnostic; the exclusion
-frontier searches all causes; residual unseen prompt classes are then audited.
-Only an observed reversal rejects monotonicity---otherwise a non-exhaustive trace
-abstains.}
+\includegraphics[width=.985\textwidth]{fig_method_overview.pdf}
+\caption{CoalitionTrace separates the frozen causal contract, exact request
+cache, protected cause enumeration, residual safety audit, and evidence grade.
+All stages share $H$ and write an auditable ledger. The highlighted properties
+are design invariants, not empirical side effects.}
 \label{fig:method}
 \end{figure*}
 
-\textbf{Stage 1--2: validate, cache, and diagnose.} We first replay $\emptyset$ and $D$;
-cases with $v(\emptyset)=1$ or $v(D)=0$ are out of scope. We then query every
-$D_{-i}$, insert the resulting prompt classes into $H$, and form backbone $B$.
-Under a justified monotonicity assumption,
-$v(B)$ implements the corollary's U/A test; without that assumption it is only a
-diagnostic fast path.
+\textbf{Contract and state.} We freeze $D$, slot-preserving replacements,
+target $y_t$, generator $g$, renderer $r$, scorer, threshold, and total budget;
+a cause is meaningful only under this intervention. The persistent state is the
+exact prompt cache $H$, verified causes $\widehat{\mathcal M}$, and exclusion
+frontier $F$. An evidence ledger stores masks, physical calls, multiplicities,
+values, and the stopping reason.
 
-\textbf{Stage 3: protected all-cause enumeration.} At exclusion $E$, query the
-maximal allowed set $D\setminus E$; prune if it is insufficient, otherwise
-minimize it by deterministic single-document deletions to $C$, verify $C$, add
-it to $\widehat{\mathcal M}$, and branch on $E\cup\{i\}$ for every $i\in C$.
-Duplicate exclusions are removed and every replay first consults $H$. Branching
-preserves a frontier entry disjoint from each undiscovered cause. Hence frontier
-exhaustion is conditionally complete under monotonicity; budget exhaustion
-returns discovered causes but abstains from completeness. This is a standard
-minimal-explanation enumerator \cite{ignatiev2019,marquessilva2021}, not a new generic
-enumeration result.
+\textbf{Phase I: scope validation and cheap ambiguity diagnosis.} We replay
+$\emptyset$ and $D$ first. If $v(\emptyset)=1$ there is no document-level
+necessity; if $v(D)=0$ the target is absent at the observed endpoint. Both are
+out of scope. We then query all $D_{-i}$ and form the LOO backbone
+$B=\{i:v(D_{-i})=0\}$. If monotonicity is justified, one additional query
+$v(B)$ implements the corollary's U/A test: $v(B)=1$ identifies the unique
+minimal cause, whereas $v(B)=0$ exposes alternative paths. Without that
+assumption, $B$ is only a diagnostic initialization.
 
-\textbf{Stage 4--5: residual audit and evidence grading.} The post-hoc wrapper
-runs the enumerator unchanged, then samples previously unseen rendered-prompt
-classes uniformly without replacement until the residual physical-call budget
-is spent. After each replay, its value is propagated to every byte-identical
-mask and compared with the observed subset closure. The audit stops at the first
-pair $L\subset U$ with $v(L)=1,v(U)=0$. The grader then emits one of four states:
-\emph{exact-monotone} (frontier and relevant closure exhausted),
-\emph{conditional-complete} (frontier exhausted under monotonicity),
-\emph{violated} (a concrete reversal exists), or \emph{budget-limited}. The
-record bundles causes, witness, logical masks, unique prompts, tokens, stopping
-reason, and cache multiplicities.
+\textbf{Phase II: protected all-cause search.} Initialize $F=\{\emptyset\}$.
+For $E\in F$, inspect $D\setminus E$. If it is insufficient, monotonicity prunes
+the branch; otherwise deterministic chunk and member deletion yields $C$.
+Accept it only after replay checks $v(C)=1$ and
+$v(C\setminus\{i\})=0$ for all $i\in C$, then branch to $E\cup\{i\}$ for each
+$i\in C$. This hitting-set invariant leaves a frontier node disjoint from every
+undiscovered cause. Exhausting $F$ is conditionally complete under monotonicity;
+budget exhaustion returns verified causes with incomplete status. This is a
+standard enumerator \cite{ignatiev2019,marquessilva2021}; our contribution is
+its protected composition with exact accounting and safety grading.
 
-\textbf{Why the composition helps.} First, recovery is protected: the audit is
-strictly residual, so adding it cannot lower U/A ACEM at the same total budget.
-Second, exact prompt quotienting is cost-faithful and lossless for deterministic
-replay, unlike semantic merging. Third, positive and negative conclusions are
-intentionally asymmetric: one reversal is a sound refutation, whereas a clean
-partial trace triggers abstention rather than a false certificate. Finally, the
-output is auditable end to end---a reviewer can reconstruct each cause, cache
-hit, cost, and safety label from the trace instead of trusting a scalar score.
+\textbf{Phase III: residual audit and evidence grade.} Let
+$B_{\rm residual}=B_{\rm total}-B_{\rm enumeration}$. Only after Phase II stops
+does the audit sample unseen classes in $2^D/{\sim}$ uniformly without
+replacement, propagate values to byte-identical masks, and test observed
+comparable pairs. The first $L\subset U$ with $v(L)=1,v(U)=0$ is a replayable
+refutation. The grade is \emph{exact-monotone} only after required lattice
+exhaustion, \emph{conditional-complete} after frontier exhaustion under
+monotonicity, \emph{violated} with a witness, or \emph{budget-limited}; a clean
+partial trace abstains.
+
+\textbf{Algorithmic advantages.} The composition provides four concrete
+guarantees: (1) residual auditing cannot consume cause-search queries at the
+same total budget; (2) $H$ charges physical calls, not duplicate masks, without
+semantic merging; (3) violations carry explicit witnesses while clean partial
+traces never become global claims; and (4) the ledger reconstructs every cause
+check, cache hit, witness, and cost. The output is evidence plus scope, not only
+a scalar ranking.
 
 \subsection{Exact replay accounting}
 
@@ -276,10 +282,9 @@ member-necessity against the exhaustive table; invalid subsets receive no
 credit. Stochastic baselines use one fixed 10-seed panel.
 
 \begin{table*}[t]
-\caption{A-stratum ACEM / mean unique prompts at budget 48; $n_A$ is in
-parentheses. Repeated and Random average ten seeds per source. StdEnum is the
-task-matched standard enumerator; Adapt is its LOO-fast-path adaptation; Audit
-adds prompt-uniform residual auditing and averages ten seeds.}
+\caption{A-stratum ACEM / mean unique prompts at budget 48 ($n_A$ in
+parentheses). Repeated, Random, and Audit average ten seeds; StdEnum is the
+task-matched enumerator and Adapt adds its LOO fast path.}
 \label{tab:main}
 \centering
 \setlength{\tabcolsep}{2.2pt}
@@ -297,21 +302,18 @@ NQ (52)     & Mistral & .00 (5.9) & .931 (13.4) & .983 (15.8) & 1.00 (12.8) & 1.
 
 \begin{figure*}[t]
 \centering
-\includegraphics[width=.94\textwidth]{fig_audit.pdf}
-\caption{The accounting audit. (a) A fixed 48-mask budget was wasted on
-prompt-equivalent masks; charging unique rendered prompts sharply reduces the
-apparent adaptation gap and rescues random masks. (b) Registry prompt spaces
-collapse to a small fraction of the Boolean lattice, whereas the all-active
-control has no literal prompt equivalence. Q/M denote Qwen/Mistral.}
+\includegraphics[width=.90\textwidth]{fig_audit.pdf}
+\caption{Accounting audit. (a) Unique-prompt charging reduces the apparent
+adaptation gap. (b) Registry prompts collapse strongly; the all-active control
+does not. Q/M denote Qwen/Mistral.}
 \label{fig:audit}
 \end{figure*}
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=.95\columnwidth]{fig_safe_frontier.pdf}
-\caption{Post-hoc residual-audit budget frontier on four registry cells. Lines
-are cell means; bands are cell minima--maxima. Cause enumeration is never
-preempted, while residual budget improves violation recall.}
+\includegraphics[width=.90\columnwidth]{fig_safe_frontier.pdf}
+\caption{Residual-audit budget frontier. Lines are cell means and bands are
+minima--maxima; enumeration is never preempted.}
 \label{fig:safe}
 \end{figure}
 
@@ -338,20 +340,14 @@ Mistral A ACEM is 1.00 for the adaptation, .913/.931 for repeated deletion, and
 .981/.983 for random masks on Hotpot/NQ. The standard enumerator matches 1.00
 while using fewer prompts in every cell. These results reject the preregistered
 method-superiority criterion and show that this A slice is close to saturated.
-Source-level paired bootstraps give Adapt--Repeated gains (95\% intervals) of
-.095 [.060,.136], .096 [.053,.149], .087 [.056,.122], and .069 [.042,.096] in
-Table~\ref{tab:main} order; every point estimate is below the prespecified .10
-margin. Adapt--StdEnum ACEM is exactly zero in every
-cell (Holm-adjusted exact $p=1$). StdEnum saves .41--1.33 prompts on average;
-the paired 95\% interval excludes zero in three cells and is
-$[-.51,1.17]$ in NQ/Qwen. Ten stochastic seeds are averaged within each source.
-The frozen news family replicates A ACEM 1.00 for both enumerators in all four
-cells ($n=38$--53); repeated deletion is .898--.968 and random masks
-.943--.976. NQ/Mistral has 38 rather than 40 sources and is descriptive. In a
-post-hoc $n=10$ audit, only 1.7--2.1\% of 1,024 masks are distinct prompts and
-both enumerators remain at 1.00. The all-active control instead has
-$|\mathcal Q|=256$, but yields only 6/5/3/4 A sources and shifts many candidates
-to N; it is a no-collapse stress test, not an accuracy benchmark.
+Source-level Adapt--Repeated gains are .095, .096, .087, and .069 in
+Table~\ref{tab:main} order; all are below the prespecified .10 margin, and their
+source-paired intervals are reported in the released artifact. Adapt--StdEnum ACEM is zero
+in every cell (Holm-adjusted exact $p=1$), while StdEnum uses fewer prompts.
+The frozen news family again gives both enumerators A ACEM 1.00 ($n=38$--53).
+At $n=10$, only 1.7--2.1\% of 1,024 masks are distinct prompts and both remain
+at 1.00. The all-active control has $|\mathcal Q|=256$ but yields only 6/5/3/4
+A sources; it is a no-collapse stress test, not an accuracy benchmark.
 
 \subsection{Safety-audit and generalization results}
 
@@ -374,16 +370,13 @@ separate news-wording family: N recall is .950 [.929,.968] over 123 clusters
 $|\mathcal{Q}|=256$, falls to .814 [.753,.869] over 75 clusters (142
 model-cases);
 this negative stress result prevents a near-certification interpretation.
-Ablations also show that strategy novelty is limited: deterministic upward,
-downward, and cover audits obtain .797, .667, and .935 on registry N, while a
-randomized cover order gives .948. The robust benefit comes primarily from
-protecting enumeration and spending the residual physical-call budget, not from
-a uniquely superior boundary heuristic.
+Ablations give .797/.667/.935 for deterministic upward/downward/cover audits
+and .948 for randomized cover. Thus the robust benefit is protected enumeration
+plus residual budget, not a uniquely superior boundary heuristic.
 
-Offline replay of 1,000 uniform permutations per N case gives fixed-prefix
-recall .920872 and sequential recall .920959 over 571 model-cases (138 source
-clusters), a difference of .000087 [--.000030,.000495], with no dynamic-only
-detection. This supports the static approximation only on this corpus.
+Across 1,000 offline permutations per N case, fixed-prefix and sequential recall
+are .920872 and .920959 (571 model-cases; 138 clusters), with difference .000087
+[--.000030,.000495] and no dynamic-only detection.
 
 We froze nearest ordering before a two-dataset/two-model holdout. Method-blind
 selection retained 67/64 N cases in MSMARCO but only 15/16 in NQ, below the
@@ -408,8 +401,12 @@ must separate masks, unique prompts, and tokens. Results are local to constructe
 contexts, fixed replacements, exact match, and two 7B models; they do not
 estimate natural U/A/N prevalence. Nevertheless, they support a defensible
 practice: protect all-cause search, audit only with residual budget, and never
-promote an unviolated trace to a certificate. \textbf{AI use.} Codex assisted
-code and editing; authors verified all claims.
+promote an unviolated trace to a certificate.
+
+\section{Acknowledgment}
+OpenAI Codex assisted code implementation, figure production, and language
+editing. The authors designed the study, ran and verified the experiments, and
+take responsibility for the manuscript and its claims.
 
 \clearpage
 \bibliographystyle{IEEEbib}

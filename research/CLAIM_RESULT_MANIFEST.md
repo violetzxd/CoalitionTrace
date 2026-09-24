@@ -14,8 +14,8 @@ rendered prompts unless stated otherwise.
 | Adapt--Repeated paired differences | .095, .096, .087, .069 | `stats_ambi_vs_repeated_final.json` |
 | U/A/N counts | 56/58/58; 49/49/45; 58/54/60; 53/52/59 | `summary_uan_registry_fair.json` |
 | Raw N recall | .552, .511, .383, .492 | `summary_uan_registry_fair.json` |
-| StandardEnum incidental N recall | .448, .356, .267, .441; pooled .378 | `safe_ablation_*.jsonl` |
-| Residual-audit N recall (10-seed mean) | .943, .922, .943, .980; model-case mean .949 | `uniform_*_test.jsonl` |
+| StandardEnum incidental N recall | .448, .356, .267, .441; pooled .378 | `results/safe_ablation_uan_{hotpot,nq}_{qwen,mistral}_test.jsonl` |
+| Residual-audit N recall (10-seed mean) | .943, .922, .943, .980; model-case mean .949 | `results/uniform_uan_{hotpot,nq}_{qwen,mistral}_test.jsonl` |
 | Residual-audit clustered N recall | .952 over 130 clusters (222 model-cases) | `residual_audit_statistics.json` |
 | Residual-audit cluster bootstrap 95% interval | [.930, .972] | `residual_audit_statistics.json` |
 | Residual Audit--Standard paired clustered gain | .563 [.495,.630] | `residual_audit_statistics.json` |

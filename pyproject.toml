@@ -7,15 +7,14 @@ name = "coalitiontrace"
 version = "0.1.0"
 description = "Budgeted minimal poison-coalition attribution for RAG"
 requires-python = ">=3.10"
-dependencies = ["numpy>=1.26", "scipy>=1.11", "scikit-learn>=1.4"]
+dependencies = ["numpy==1.26.4", "scipy==1.13.1", "scikit-learn==1.4.2"]
 
 [project.optional-dependencies]
-dev = ["pytest>=8", "matplotlib>=3.8"]
-gpu = ["torch>=2.5", "transformers>=4.45,<5"]
+dev = ["pytest==7.4.4", "matplotlib==3.8.4"]
+gpu = ["torch==2.7.1", "transformers==4.50.0"]
 
 [tool.setuptools.packages.find]
 include = ["coalitiontrace*"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-

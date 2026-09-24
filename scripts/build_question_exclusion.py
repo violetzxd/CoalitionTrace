@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Build a normalized-question exclusion list from prior case JSONL files."""
+"""Build a privacy- and license-safer hashed question exclusion list."""
 
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import re
 from pathlib import Path
@@ -11,6 +12,11 @@ from pathlib import Path
 
 def _normalize(text: str) -> str:
     return " ".join(re.findall(r"[a-z0-9]+", text.casefold()))
+
+
+def _question_digest(text: str) -> str:
+    """Hash the canonical form so source-dataset questions are not republished."""
+    return hashlib.sha256(_normalize(text).encode("utf-8")).hexdigest()
 
 
 def main() -> None:
@@ -34,11 +40,12 @@ def main() -> None:
                 row = json.loads(line)
                 question = row.get("question")
                 if question:
-                    questions.add(_normalize(str(question)))
+                    questions.add(_question_digest(str(question)))
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text("\n".join(sorted(questions)) + "\n", encoding="utf-8")
     print(json.dumps({"files": len(paths),
-                      "normalized_questions": len(questions)}))
+                      "hashed_questions": len(questions),
+                      "hash": "sha256(normalized_question)"}))
 
 
 if __name__ == "__main__":

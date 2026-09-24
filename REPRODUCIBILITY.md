@@ -45,6 +45,6 @@ Python 3.9 environment is intentionally unsupported; the project declares Python
 3.10 or newer and provides this Python 3.12 environment instead of silently
 running under an incompatible interpreter.
 
-Released result hashes are listed in `results/final_manifest.sha256`; the mapping
-from manuscript claims to source artifacts is recorded in
+Released artifact hashes are listed in the top-level `MANIFEST.sha256`; the
+mapping from manuscript claims to source artifacts is recorded in
 `research/CLAIM_RESULT_MANIFEST.md`.
